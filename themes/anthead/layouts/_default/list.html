@@ -1,0 +1,18 @@
+{{ define "main" }} {{- $title := .Title -}} {{- $pages := .Pages -}} {{-
+$summary := false -}} {{- if .IsHome -}} {{- $title = "Top" -}} {{- $pages
+= where site.RegularPages "Type" "in" site.Params.mainSections -}} {{- $summary
+= true -}} {{- end -}}
+
+<h1>{{ $title }}</h1>
+
+{{ range $pages }}
+<article>
+    <h3>
+        <time class="metadata" datetime="{{ .Date }}">
+            {{- .Date | time.Format (default "2006/01/02" site.Params.DateFormat) -}}
+        </time>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h3>
+    {{- if $summary -}} {{ .Summary }} {{- end -}}
+</article>
+{{ end }} {{ end }}

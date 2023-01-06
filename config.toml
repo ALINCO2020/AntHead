@@ -1,4 +1,5 @@
 baseURL = 'https://alinco2020.github.io/anthead/'
 languageCode = 'ja-jp'
 title = 'AntHead'
-theme = 'holy'
+theme = 'anthead'
+customCSS= ["/css/style.css"]
