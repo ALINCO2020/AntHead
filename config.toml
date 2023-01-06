@@ -1,4 +1,4 @@
-baseURL = 'https://alinco2020.github.io/anthead/'
+baseURL = 'https://alinco2020.github.io/AntHead/'
 languageCode = 'ja-jp'
 title = 'AntHead'
 theme = 'anthead'
