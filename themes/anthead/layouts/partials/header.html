@@ -19,12 +19,7 @@
         </div>
 
         <div class="ml:auto">
-            {{ $currentPage := . }}
-            {{ $active := "" }}
-            {{ range .Site.Menus.main }}
-            {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
-            {{ $active = "active" }}
-            {{ end }}
+            {{ $currentPage := . }} {{ $active := "" }} {{ range .Site.Menus.main }} {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} {{ $active = "active" }} {{ end }}
             <a class="
                 font:semibold
                 font:fade
@@ -35,8 +30,7 @@
                 {{ $active }}
             " href="{{ .URL }}" title="{{ .Title }}">
                 {{- .Name -}}
-            </a>
-            {{ end }}
+            </a> {{ end }}
         </div>
     </div>
 </nav>
