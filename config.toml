@@ -1,4 +1,4 @@
 baseURL = 'https://alinco2020.github.io/anthead/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'ja-jp'
+title = 'AntHead'
 theme = 'holy'
