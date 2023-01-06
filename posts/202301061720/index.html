@@ -11,20 +11,13 @@ Wiki and Zettelkastenによる実験的な知的生産基盤.
 ・リンクで各投稿が結びついてる（まるで脳のシナプスのよう）
 ・引用で知識は完全に他者に任せてる
 ・頭の絵文字で分類してる
-Hugoとは markdownからブログを作れる。テーマも用意されてる。
-Hugo と Github Pages でブログを作る
-バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
-CPUアーキテクチャの種類(x86, x64, arm)
+Hugoに関してはここで
 Markdownの書き方 そのうち慣れると思うけど一応メモ.
 Markdown記法/書き方（見出し・表・リンク・画像・文字色など）
 VSNotesで記事を書いてgithub pagesでサイト化 markdownでメモ帳を書けるVScodeの拡張機能。Hugo用に設定すればそのまま便利に使えそう。
 VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう
 画像サーバー プログラムだけでなく映像のことも書いていきたい。となると画像用の別のサーバーが必要になってくる。
 ブログの画像配信サーバーとして Cloudflare R2 を使う
-Hugoのテーマ自作 検索欄とか目次とかあるだけでいい。
-Hugo のテーマを自作した
-カスタムCSSが上手くいかない。 上手く行った。
-Hugo でカスタム CSS を適用して画像の配置をイジる
 最初はひたすら書いて記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。">
 <meta name=author content>
 <link rel=stylesheet href=/AntHead/css/style.css>
@@ -45,15 +38,13 @@ AntHead
 <div class=ml:auto>
 </div>
 </div>
-</nav>
-<div class="d:flex flex:column@<=sm pt:90 px:24 jc:center gap:44 word-break:break-word">
+</nav><div class="d:flex flex:column@<=sm pt:90 px:24 jc:center gap:44 word-break:break-word">
 <div class="max-w:700 w:full box:content-box">
 <article class="box:border-box pt:32">
 <header class=mb:32>
-<div class="font:40 font:extrabold">Hello World</div>
+<h2 class="font:40 font:extrabold">Hello World</h2>
 <div class="mt:16 f:fade-60">
-<time>Jan 6, 2023</time>
-</div>
+<time>2023/01/06</time> </div>
 </header><div class="_:where(a):hover{text-decoration-color:fade}
 _:where(a){text-decoration:2;underline;fade-10;_text-decoration-color:fade-70@dark}
 _:where(blockquote){bl:5;solid;fade-76/.1;_bl:5;solid;fade-34/.1@dark}
@@ -91,31 +82,22 @@ _:where(video,img){max-width:full}
 _:where(a,mark){text-underline-offset:3}"><h1 id=hugoでサイト作成>Hugoでサイト作成</h1>
 <p>アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。<br>
 これを参考にできたらいいな<br>
-<a href=https://keido.site/notes/>Wiki and Zettelkastenによる実験的な知的生産基盤.</a><br>
+<a href=https://keido.site/notes/ target=_blank>Wiki and Zettelkastenによる実験的な知的生産基盤.</a><br>
 このサイトのいい所<br>
 ・各投稿が短い<br>
 ・リンクで各投稿が結びついてる（まるで脳のシナプスのよう）<br>
 ・引用で知識は完全に他者に任せてる<br>
 ・頭の絵文字で分類してる</p>
-<h1 id=hugoとは>Hugoとは</h1>
-<p>markdownからブログを作れる。テーマも用意されてる。<br>
-<a href=https://sat8bit.github.io/posts/hugo-with-github-pages/>Hugo と Github Pages でブログを作る</a><br>
-バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。<br>
-<a href=https://www.wakuwakubank.com/posts/809-it-cpu-x86-x64-arm/>CPUアーキテクチャの種類(x86, x64, arm)</a></p>
+<p><a href=https://alinco2020.github.io/AntHead/posts/202301062241/>Hugoに関してはここで</a></p>
 <h1 id=markdownの書き方>Markdownの書き方</h1>
 <p>そのうち慣れると思うけど一応メモ.<br>
-<a href=https://notepm.jp/help/how-to-markdown>Markdown記法/書き方（見出し・表・リンク・画像・文字色など）</a></p>
+<a href=https://notepm.jp/help/how-to-markdown target=_blank>Markdown記法/書き方（見出し・表・リンク・画像・文字色など）</a></p>
 <h1 id=vsnotesで記事を書いてgithub-pagesでサイト化>VSNotesで記事を書いてgithub pagesでサイト化</h1>
 <p>markdownでメモ帳を書けるVScodeの拡張機能。Hugo用に設定すればそのまま便利に使えそう。<br>
-<a href=https://www.karelie.net/vscode-notes/>VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう</a></p>
-<h1 id=画像サーバー>画像サーバー</h1>
+<a href=https://www.karelie.net/vscode-notes/ target=_blank>VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう</a></p>
+<h1 id=anchor>画像サーバー</h1>
 <p>プログラムだけでなく映像のことも書いていきたい。となると画像用の別のサーバーが必要になってくる。<br>
-<a href=https://takagi.blog/using-cloudflare-r2-as-a-blog-image-hosting/>ブログの画像配信サーバーとして Cloudflare R2 を使う</a></p>
-<h1 id=hugoのテーマ自作>Hugoのテーマ自作</h1>
-<p>検索欄とか目次とかあるだけでいい。<br>
-<a href=https://m1yam0t0.com/posts/2022/09/renew-hugo-theme/>Hugo のテーマを自作した</a><br>
-<del>カスタムCSSが上手くいかない。</del> 上手く行った。<br>
-<a href=https://mikan.github.io/2017/11/03/centering-figures-in-hugo/>Hugo でカスタム CSS を適用して画像の配置をイジる</a></p>
+<a href=https://takagi.blog/using-cloudflare-r2-as-a-blog-image-hosting/ target=_blank>ブログの画像配信サーバーとして Cloudflare R2 を使う</a></p>
 <p>最初はひたすら書いて記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。</p>
 </div></article>
 <footer class=py:24>
