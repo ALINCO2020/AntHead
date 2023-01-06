@@ -1,2 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AntHead</title><link>https://alinco2020.github.io/anthead/</link><description>Recent content on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 06 Jan 2023 17:20:56 +0900</lastBuildDate><atom:link href="https://alinco2020.github.io/anthead/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://alinco2020.github.io/anthead/posts/hello-world/</link><pubDate>Fri, 06 Jan 2023 17:20:56 +0900</pubDate><guid>https://alinco2020.github.io/anthead/posts/hello-world/</guid><description>Hugoテスト test test test</description></item><item><title/><link>https://alinco2020.github.io/anthead/posts/2023-01-06_16-20_/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/anthead/posts/2023-01-06_16-20_/</guid><description>markdown test</description></item><item><title/><link>https://alinco2020.github.io/anthead/posts/2023-01-06_16-57_/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/anthead/posts/2023-01-06_16-57_/</guid><description>Hugo markdownからブログを作れる. テーマも用意されてる. Hugo と Github Pages でブログを作る バイナリーでインストールしたが、armとamdを間違えた. 両者の違いを理解してなかった. CPUアーキテクチャの種類(x86, x64, arm)
-Markdownの書き方 そのうち慣れると思うけど一応メモ. Markdown記法/書き方（見出し・表・リンク・画像・文字色など）</description></item><item><title/><link>https://alinco2020.github.io/anthead/posts/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/anthead/posts/test/</guid><description>hahaaha</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AntHead</title><link>https://alinco2020.github.io/anthead/</link><description>Recent content on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 06 Jan 2023 17:20:56 +0900</lastBuildDate><atom:link href="https://alinco2020.github.io/anthead/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://alinco2020.github.io/anthead/posts/hello-world/</link><pubDate>Fri, 06 Jan 2023 17:20:56 +0900</pubDate><guid>https://alinco2020.github.io/anthead/posts/hello-world/</guid><description>Hugoでサイト作成 アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。
+これを参考にできたらいいな
+Wiki and Zettelkastenによる実験的な知的生産基盤.
+このサイトのいい所
+・各投稿が短い
+・リンクで各投稿が結びついてる（まるで脳のシナプスのよう）
+・引用で知識は完全に他者に任せてる
+・頭の絵文字で分類してる
+Hugoとは markdownからブログを作れる。テーマも用意されてる。
+Hugo と Github Pages でブログを作る
+バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
+CPUアーキテクチャの種類(x86, x64, arm)
+Markdownの書き方 そのうち慣れると思うけど一応メモ.
+Markdown記法/書き方（見出し・表・リンク・画像・文字色など）
+VSNotesで記事を書いてgithub pagesでサイト化 markdownでメモ帳を書けるVScodeの拡張機能。Hugo用に設定すればそのまま便利に使えそう。
+VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう
+画像サーバー プログラムだけでなく映像のことも書いていきたい。となると画像用の別のサーバーが必要になってくる。
+ブログの画像配信サーバーとして Cloudflare R2 を使う
+Hugoのテーマ自作 検索欄とか目次とかあるだけでいい。
+Hugo のテーマを自作した
+カスタムCSSが上手くいかない。 上手く行った。
+Hugo でカスタム CSS を適用して画像の配置をイジる
+最初はひたすら書いて記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。</description></item></channel></rss>

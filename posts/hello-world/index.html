@@ -3,15 +3,32 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <title>Hello World - AntHead</title>
-<meta name=description content="Hugoテスト test test test">
+<meta name=description content="Hugoでサイト作成 アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。
+これを参考にできたらいいな
+Wiki and Zettelkastenによる実験的な知的生産基盤.
+このサイトのいい所
+・各投稿が短い
+・リンクで各投稿が結びついてる（まるで脳のシナプスのよう）
+・引用で知識は完全に他者に任せてる
+・頭の絵文字で分類してる
+Hugoとは markdownからブログを作れる。テーマも用意されてる。
+Hugo と Github Pages でブログを作る
+バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
+CPUアーキテクチャの種類(x86, x64, arm)
+Markdownの書き方 そのうち慣れると思うけど一応メモ.
+Markdown記法/書き方（見出し・表・リンク・画像・文字色など）
+VSNotesで記事を書いてgithub pagesでサイト化 markdownでメモ帳を書けるVScodeの拡張機能。Hugo用に設定すればそのまま便利に使えそう。
+VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう
+画像サーバー プログラムだけでなく映像のことも書いていきたい。となると画像用の別のサーバーが必要になってくる。
+ブログの画像配信サーバーとして Cloudflare R2 を使う
+Hugoのテーマ自作 検索欄とか目次とかあるだけでいい。
+Hugo のテーマを自作した
+カスタムCSSが上手くいかない。 上手く行った。
+Hugo でカスタム CSS を適用して画像の配置をイジる
+最初はひたすら書いて記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。">
 <meta name=author content>
-<link href=https://unpkg.com/@master/normal.css rel=stylesheet>
-<script src=https://unpkg.com/@master/style@1.5.0></script>
-<script src=https://unpkg.com/@master/styles@1.13.0></script>
-<script src=https://unpkg.com/master-styles-group></script>
-<script src=https://unpkg.com/themes.js></script>
-<script>window.themes=window.themes||new window.Themes</script></head>
-<body class="bg:fade-84@dark font:fade-16@dark">
+<link rel=stylesheet href=/anthead/css/style.css>
+</head><body class="bg:fade-84@dark font:fade-16@dark">
 <nav class="w:full h:90 fixed bg:fade-84/.95@dark bg:white z:1000">
 <div class="h:full
 w:full
@@ -21,7 +38,7 @@ px:32
 d:flex
 align-items:center">
 <div>
-<a href=/ class="mr-3 font:extralight">
+<a href=/anthead class="mr-3 font:extralight">
 AntHead
 </a>
 </div>
@@ -71,12 +88,38 @@ _:where(th,p_code,li_code,a,mark){font:semibold;_font:medium@dark}
 _:where(ul){list-style-type:disc}
 _:where(ul,ol,blockquote){pl:1.5em}
 _:where(video,img){max-width:full}
-_:where(a,mark){text-underline-offset:3}"><h1 id=hugoテスト>Hugoテスト</h1>
-<p>test test test</p>
+_:where(a,mark){text-underline-offset:3}"><h1 id=hugoでサイト作成>Hugoでサイト作成</h1>
+<p>アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。<br>
+これを参考にできたらいいな<br>
+<a href=https://keido.site/notes/>Wiki and Zettelkastenによる実験的な知的生産基盤.</a><br>
+このサイトのいい所<br>
+・各投稿が短い<br>
+・リンクで各投稿が結びついてる（まるで脳のシナプスのよう）<br>
+・引用で知識は完全に他者に任せてる<br>
+・頭の絵文字で分類してる</p>
+<h1 id=hugoとは>Hugoとは</h1>
+<p>markdownからブログを作れる。テーマも用意されてる。<br>
+<a href=https://sat8bit.github.io/posts/hugo-with-github-pages/>Hugo と Github Pages でブログを作る</a><br>
+バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。<br>
+<a href=https://www.wakuwakubank.com/posts/809-it-cpu-x86-x64-arm/>CPUアーキテクチャの種類(x86, x64, arm)</a></p>
+<h1 id=markdownの書き方>Markdownの書き方</h1>
+<p>そのうち慣れると思うけど一応メモ.<br>
+<a href=https://notepm.jp/help/how-to-markdown>Markdown記法/書き方（見出し・表・リンク・画像・文字色など）</a></p>
+<h1 id=vsnotesで記事を書いてgithub-pagesでサイト化>VSNotesで記事を書いてgithub pagesでサイト化</h1>
+<p>markdownでメモ帳を書けるVScodeの拡張機能。Hugo用に設定すればそのまま便利に使えそう。<br>
+<a href=https://www.karelie.net/vscode-notes/>VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう</a></p>
+<h1 id=画像サーバー>画像サーバー</h1>
+<p>プログラムだけでなく映像のことも書いていきたい。となると画像用の別のサーバーが必要になってくる。<br>
+<a href=https://takagi.blog/using-cloudflare-r2-as-a-blog-image-hosting/>ブログの画像配信サーバーとして Cloudflare R2 を使う</a></p>
+<h1 id=hugoのテーマ自作>Hugoのテーマ自作</h1>
+<p>検索欄とか目次とかあるだけでいい。<br>
+<a href=https://m1yam0t0.com/posts/2022/09/renew-hugo-theme/>Hugo のテーマを自作した</a><br>
+<del>カスタムCSSが上手くいかない。</del> 上手く行った。<br>
+<a href=https://mikan.github.io/2017/11/03/centering-figures-in-hugo/>Hugo でカスタム CSS を適用して画像の配置をイジる</a></p>
+<p>最初はひたすら書いて記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。</p>
 </div></article>
 <footer class=py:24>
 <div class="f:fade-30 f:14 mb:8"></div>
-<div class="f:fade-60 f:12">Theme <a class=f:bold href=https://github.com/serkodev/holy _target=_blank>Holy</a></div>
 </footer></div>
 </div>
 </body>
