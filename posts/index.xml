@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/anthead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 06 Jan 2023 17:20:56 +0900</lastBuildDate><atom:link href="https://alinco2020.github.io/anthead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://alinco2020.github.io/anthead/posts/hello-world/</link><pubDate>Fri, 06 Jan 2023 17:20:56 +0900</pubDate><guid>https://alinco2020.github.io/anthead/posts/hello-world/</guid><description>Hugoでサイト作成 アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/AntHead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 06 Jan 2023 17:20:56 +0900</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://alinco2020.github.io/AntHead/posts/2023-01-06-17-20/</link><pubDate>Fri, 06 Jan 2023 17:20:56 +0900</pubDate><guid>https://alinco2020.github.io/AntHead/posts/2023-01-06-17-20/</guid><description>Hugoでサイト作成 アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。
 これを参考にできたらいいな
 Wiki and Zettelkastenによる実験的な知的生産基盤.
 このサイトのいい所
@@ -20,4 +20,4 @@ Hugoのテーマ自作 検索欄とか目次とかあるだけでいい。
 Hugo のテーマを自作した
 カスタムCSSが上手くいかない。 上手く行った。
 Hugo でカスタム CSS を適用して画像の配置をイジる
-最初はひたすら書いて記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。</description></item></channel></rss>
+最初はひたすら書いて記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。</description></item><item><title/><link>https://alinco2020.github.io/AntHead/posts/2023-01-06_22-41/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/2023-01-06_22-41/</guid><description/></item></channel></rss>
