@@ -8,14 +8,11 @@
     <!-- Meta -->
     {{ if eq .Kind "page" }}
     <meta name="description" content="{{ .Summary }}" />
-    <meta name="author" content="{{ .Params.Author | default site.Author.name }}" />
-    {{ else }}
+    <meta name="author" content="{{ .Params.Author | default site.Author.name }}" /> {{ else }}
     <meta name="description" content="{{ site.Params.description }}" />
-    <meta name="author" content="{{ site.Author.name }}" />
-    {{ end }}
-
-    {{- partial "head-extra.html" . -}}
+    <meta name="author" content="{{ site.Author.name }}" /> {{ end }} {{- partial "head-extra.html" . -}}
 
     <link rel="stylesheet" href="{{ "css/style.css" | relURL}}">
+    <link rel="stylesheet" href="{{ "css/syntax.css" | relURL}}">
 
 </head>

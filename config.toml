@@ -3,3 +3,7 @@ languageCode = 'ja-jp'
 title = 'AntHead'
 theme = 'anthead'
 customCSS= ["/css/style.css"]
+
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = false
+pygmentsstyle = "solarized-dark256"
