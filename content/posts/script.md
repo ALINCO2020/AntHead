@@ -14,8 +14,8 @@ tags:
 📝[コマンドID一覧](https://bitbucket.org/justin2taylor/workspace/snippets/aLjjBE)  
 
 # 自作関数
-- 📝[位置にSetValueする関数]({{<ref "posts/202301071101.md">}})
-- 📝[特定のプロパティを返す関数]({{<ref "posts/202301071301.md">}})
+- ⌨️[位置にSetValueする関数]({{<ref "posts/202301071101.md">}})
+- ⌨️[特定のプロパティを返す関数]({{<ref "posts/202301071301.md">}})
 
 # 自作スクリプト配布場所
 🐜[ALINCOLONY](https://www.alinco.shop/plugin-script/)
