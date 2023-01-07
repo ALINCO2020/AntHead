@@ -1,45 +1,50 @@
 :root {
-  --background-color: #1a1d1f;
-  --meta-color: #909090;
-  --border-color: #d0d0d0;
-  --hljs-background-color: #2e3440;
-  --hljs-color: #d8dee9;
+    --background-color: #2C2F31;
+    --meta-color: #909090;
+    --border-color: #d0d0d0;
 }
 
 * {
-  font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 html {
-  max-width: 900px;
-  margin: auto;
+    max-width: 900px;
+    margin: auto;
 }
 
 body {
-  background-color: var(--background-color);
-  margin: auto;
-  padding: 0;
+    background-color: var(--background-color);
+    margin: auto;
+    padding: 0;
 }
 
 code {
-  background-color: var(--hljs-background-color);
-  color: var(--hljs-color);
-  padding: 0 5px;
+    background-color: var(--hljs-background-color);
+    color: var(--hljs-color);
+    padding: 0 5px;
 }
 
 figure {
-  text-align: center;
+    text-align: center;
 }
 
 figure img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 a {
-  color: #3391ff;
+    color: #3391ff;
 }
 
-p, h1, h2, h3, h4, h5, h6, article {
-  color: white;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+article {
+    color: white;
 }
