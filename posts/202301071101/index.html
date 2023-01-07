@@ -5,7 +5,8 @@
 <title>📝位置にSetValueする関数 - AntHead</title>
 <meta name=description content="up: 📝Script  位置にSetValueするのはなかなか面倒くさい。次元分解で条件分岐が必要だったり。なので関数を作った。
 /** * ポジションを設定する関数 ポジションにキーフレームがあればsetValueAtTimeを使って現在の時間にキーフレームを追加する * @param {*} layer レイヤー * @param {*} XYarray 配列[x, y, z] */ function setPosition(layer, XYZarray) { try { var comp = app.project.activeItem; var x = XYZarray[0] var y = XYZarray[1] var z = XYZarray[2] var position = layer.property('ADBE Transform Group').property('ADBE Position') if (!position.dimensionsSeparated) { // 次元分割されていない場合  var numKey = position.numKeys if (numKey == 0) { position.setValue([x, y, z]) } else { position.">
-<meta name=author content> <link rel=stylesheet href=/AntHead/css/style.css>
+<meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
+<link rel=stylesheet href=/AntHead/css/style.css>
 <link rel=stylesheet href=/AntHead/css/syntax.css>
 </head><body class="bg:fade-84@dark font:fade-16@dark">
 <nav class="w:full h:90 fixed bg:fade-84/.95@dark bg:white z:1000">
@@ -17,7 +18,7 @@ px:32
 d:flex
 align-items:center">
 <div>
-<a href=/AntHead class="mr-3 font:extralight">
+<a href=/AntHead/posts/202301061720/ class="mr-3 font:extralight">
 AntHead
 </a>
 </div>

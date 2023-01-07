@@ -19,6 +19,12 @@ body {
     padding: 0;
 }
 
+@media screen and (max-width: 480px) {
+    body {
+        margin: 10px;
+    }
+}
+
 code {
     background-color: var(--hljs-background-color);
     color: var(--hljs-color);
@@ -47,4 +53,8 @@ h5,
 h6,
 article {
     color: white;
+}
+
+code {
+    white-space: pre-wrap;
 }

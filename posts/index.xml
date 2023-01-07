@@ -2,30 +2,31 @@
 よく使うサイト 📝公式ドキュメント
 📝UIビルダー
 📝コマンドID一覧
-自作関数 📝位置にSetValueする関数 📝特定のプロパティを返す関数 自作スクリプト配布場所 🐜ALINCOLONY</description></item><item><title>📝位置にSetValueする関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071101/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071101/</guid><description>up: 📝Script 位置にSetValueするのはなかなか面倒くさい。次元分解で条件分岐が必要だったり。なので関数を作った。
+自作関数 📝位置にSetValueする関数 📝特定のプロパティを返す関数 自作スクリプト配布場所 🐜ALINCOLONY
+Backlinks
+📝🐜What is AntHead?</description></item><item><title>📝位置にSetValueする関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071101/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071101/</guid><description>up: 📝Script 位置にSetValueするのはなかなか面倒くさい。次元分解で条件分岐が必要だったり。なので関数を作った。
 /** * ポジションを設定する関数 ポジションにキーフレームがあればsetValueAtTimeを使って現在の時間にキーフレームを追加する * @param {*} layer レイヤー * @param {*} XYarray 配列[x, y, z] */ function setPosition(layer, XYZarray) { try { var comp = app.project.activeItem; var x = XYZarray[0] var y = XYZarray[1] var z = XYZarray[2] var position = layer.property(&amp;#39;ADBE Transform Group&amp;#39;).property(&amp;#39;ADBE Position&amp;#39;) if (!position.dimensionsSeparated) { // 次元分割されていない場合 var numKey = position.numKeys if (numKey == 0) { position.setValue([x, y, z]) } else { position.</description></item><item><title>📝特定のプロパティを返す関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071301/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071301/</guid><description> up: 📝Script matchNameが一致するプロパティを再帰で全部返す。何かと便利。
-/** * 特定のプロパティを返す * @param {*} rootObj レイヤーでもコンテンツでもOK * @param {*} nestingLevel 0でOK * @param {*} matchName 探したいプロパティのmatchName * @returns */ function returnProp(rootObj, nestingLevel, matchName) { var propTo = []; dumpPropTree(rootObj, nestingLevel, matchName); function dumpPropTree(rootObj, nestingLevel, matchName) { var countProps = rootObj.numProperties; for (var propIndex = 1; propIndex &amp;lt;= countProps; propIndex++) { var prop = rootObj.property(propIndex); if (prop.matchName == matchName) { propTo.push(prop) return; } else { dumpPropTree(prop, nestingLevel + 1, matchName); } } } return propTo; }</description></item><item><title>🐜Hello World</title><link>https://alinco2020.github.io/AntHead/posts/202301061720/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301061720/</guid><description>Hugoでサイト作成 アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。
+/** * 特定のプロパティを返す * @param {*} rootObj レイヤーでもコンテンツでもOK * @param {*} nestingLevel 0でOK * @param {*} matchName 探したいプロパティのmatchName * @returns */ function returnProp(rootObj, nestingLevel, matchName) { var propTo = []; dumpPropTree(rootObj, nestingLevel, matchName); function dumpPropTree(rootObj, nestingLevel, matchName) { var countProps = rootObj.numProperties; for (var propIndex = 1; propIndex &amp;lt;= countProps; propIndex++) { var prop = rootObj.property(propIndex); if (prop.matchName == matchName) { propTo.push(prop) return; } else { dumpPropTree(prop, nestingLevel + 1, matchName); } } } return propTo; }</description></item><item><title>🐜What is AntHead?</title><link>https://alinco2020.github.io/AntHead/posts/202301061720/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301061720/</guid><description>一匹のアリによる知識データベースシステム アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。
 これを参考に
-Wiki and Zettelkastenによる実験的な知的生産基盤.
+📝Wiki and Zettelkastenによる実験的な知的生産基盤.
 このサイトのいい所
 ・各投稿が短い
 ・リンクで各投稿が結びついてる（脳のシナプスのよう）
 ・引用で知識は完全に他者に任せてる
 ・頭の絵文字で分類してる
 ・サイトの構造がいい
-📝Hugoに関してはここで
-このサイトで扱いたいテーマ 🎬映像 技術Tips デザインパターン テーマの深掘り 他の人の作品研究 良かった映像まとめ ⌨️プログラミング AEスクリプト サイト制作 ネットワーク 💹投資 株 為替 仮想通貨 Markdownの書き方 そのうち慣れると思うけど一応メモ.
+このサイトで扱いたいテーマ 🎬映像 技術Tips デザインパターン テーマの深掘り 他の人の作品研究 良かった映像まとめ ⌨️プログラミング 📝AEスクリプト 📝サイト制作 ネットワーク 💹投資 株 為替 仮想通貨 最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。</description></item><item><title>📝サイト制作</title><link>https://alinco2020.github.io/AntHead/posts/202301062241/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241/</guid><description>Hogoを使用してmarkdownで記事を書き、github pagesで公開する。
+Hugoとは markdownから静的サイトを作れるやつ。テーマも用意されてる。
+📝Hugo と Github Pages でブログを作る
+バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
+📝CPUアーキテクチャの種類(x86, x64, arm)
+Markdownの書き方 そのうち慣れると思うけど一応メモ.
 📝Markdown記法/書き方（見出し・表・リンク・画像・文字色など）
 VSNotesで記事を書いてgithub pagesでサイト化 markdownでメモ帳を書けるVScodeの拡張機能。Hugo用に設定すればそのまま便利に使えそう。
 📝VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう
 画像サーバー プログラムだけでなく映像のことも書いていくとなると画像用の別のサーバーが必要になってくる。
 📝ブログの画像配信サーバーとして Cloudflare R2 を使う
-最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。</description></item><item><title>📝サイト制作</title><link>https://alinco2020.github.io/AntHead/posts/202301062241/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241/</guid><description>Hogoを使用してmarkdownで記事を書き、github pagesで公開する。
-Hugoとは markdownから静的サイトを作れるやつ。テーマも用意されてる。
-📝Hugo と Github Pages でブログを作る
-バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
-📝CPUアーキテクチャの種類(x86, x64, arm)
-テーマ自作 無料で公開されてるHolyを改造していく。WordPressのテーマ改造と似てる。
+テーマ自作 無料で公開されてるHolyを改造していく。WordPressのテーマのカスタマイズと似てる。
 検索欄とか目次とかあるだけでいい。極力シンプルに。
 📝Hugo のテーマを自作した
 カスタムCSSが上手くいかない。 上手く行った。
@@ -35,14 +36,5 @@ CSSはこのサイトからざっくりコピペ。自作の流れもこれを�
 リストが記事のdateをもとにソートされ、同じ日の記事は名前でソートされてしまっていたので、ファイル名でソートするようにlist.htmlを書き換えた。ファイル名はHHMMまで書いてるからこれで書き始めた順番通りに並ぶ。
 ファイルパスでソートする方法
 📝Explicitly order pages by file path - tips &amp;amp;amp; tricks - HUGO
-📝Hugo で外部サイトを新しいタブで開きたい。
-📝サイト内リンクを貼ろう
-📝マークダウンでアンカーリンクを使いたい
-📝Hugo で作成した記事内のコードブロックに Syntax Highlight CSS を当てる 📝設定できるシンタックススタイルの一覧
-📝Hugoのコードブロックのシンタックスハイライトをカスタマイズする
-TODO
-・スマホから見たときの左右のマージン追加
-・Syntaxが横にぶち抜くのを修正
-・目次追加
-・検索欄追加
-・タグ付け</description></item></channel></rss>
+refs:
+📝Hugo で外部サイトを新しいタブで開きたい。 📝サイト内リンクを貼ろう 📝マークダウンでアンカーリンクを使いたい 📝Hugo で作成した記事内のコードブロックに Syntax Highlight CSS を当てる 📝設定できるシンタックススタイルの一覧 📝Hugoのコードブロックのシンタックスハイライトをカスタマイズする このサイトに目次は必要か？ 全てリンクで繋いで辿れるようにすれば必要ないかもしれない。一つ一つ辿っていくのも脳の仕組みっぽくて良い。</description></item></channel></rss>

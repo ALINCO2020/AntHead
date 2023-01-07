@@ -8,7 +8,13 @@ Hugoとは markdownから静的サイトを作れるやつ。テーマも用意�
 📝Hugo と Github Pages でブログを作る
 バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
 📝CPUアーキテクチャの種類(x86, x64, arm)
-テーマ自作 無料で公開されてるHolyを改造していく。WordPressのテーマ改造と似てる。
+Markdownの書き方 そのうち慣れると思うけど一応メモ.
+📝Markdown記法/書き方（見出し・表・リンク・画像・文字色など）
+VSNotesで記事を書いてgithub pagesでサイト化 markdownでメモ帳を書けるVScodeの拡張機能。Hugo用に設定すればそのまま便利に使えそう。
+📝VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう
+画像サーバー プログラムだけでなく映像のことも書いていくとなると画像用の別のサーバーが必要になってくる。
+📝ブログの画像配信サーバーとして Cloudflare R2 を使う
+テーマ自作 無料で公開されてるHolyを改造していく。WordPressのテーマのカスタマイズと似てる。
 検索欄とか目次とかあるだけでいい。極力シンプルに。
 📝Hugo のテーマを自作した
 カスタムCSSが上手くいかない。 上手く行った。
@@ -18,18 +24,10 @@ CSSはこのサイトからざっくりコピペ。自作の流れもこれを�
 リストが記事のdateをもとにソートされ、同じ日の記事は名前でソートされてしまっていたので、ファイル名でソートするようにlist.htmlを書き換えた。ファイル名はHHMMまで書いてるからこれで書き始めた順番通りに並ぶ。
 ファイルパスでソートする方法
 📝Explicitly order pages by file path - tips &amp;amp; tricks - HUGO
-📝Hugo で外部サイトを新しいタブで開きたい。
-📝サイト内リンクを貼ろう
-📝マークダウンでアンカーリンクを使いたい
-📝Hugo で作成した記事内のコードブロックに Syntax Highlight CSS を当てる 📝設定できるシンタックススタイルの一覧
-📝Hugoのコードブロックのシンタックスハイライトをカスタマイズする
-TODO
-・スマホから見たときの左右のマージン追加
-・Syntaxが横にぶち抜くのを修正
-・目次追加
-・検索欄追加
-・タグ付け">
-<meta name=author content> <link rel=stylesheet href=/AntHead/css/style.css>
+refs:
+ 📝Hugo で外部サイトを新しいタブで開きたい。 📝サイト内リンクを貼ろう 📝マークダウンでアンカーリンクを使いたい 📝Hugo で作成した記事内のコードブロックに Syntax Highlight CSS を当てる 📝設定できるシンタックススタイルの一覧 📝Hugoのコードブロックのシンタックスハイライトをカスタマイズする  このサイトに目次は必要か？ 全てリンクで繋いで辿れるようにすれば必要ないかもしれない。一つ一つ辿っていくのも脳の仕組みっぽくて良い。">
+<meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
+<link rel=stylesheet href=/AntHead/css/style.css>
 <link rel=stylesheet href=/AntHead/css/syntax.css>
 </head><body class="bg:fade-84@dark font:fade-16@dark">
 <nav class="w:full h:90 fixed bg:fade-84/.95@dark bg:white z:1000">
@@ -41,7 +39,7 @@ px:32
 d:flex
 align-items:center">
 <div>
-<a href=/AntHead class="mr-3 font:extralight">
+<a href=/AntHead/posts/202301061720/ class="mr-3 font:extralight">
 AntHead
 </a>
 </div>
@@ -95,8 +93,17 @@ _:where(a,mark){text-underline-offset:3}"><p>Hogoを使用してmarkdownで記�
 📝<a href=https://sat8bit.github.io/posts/hugo-with-github-pages/ target=_blank>Hugo と Github Pages でブログを作る</a><br>
 バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。<br>
 📝<a href=https://www.wakuwakubank.com/posts/809-it-cpu-x86-x64-arm/ target=_blank>CPUアーキテクチャの種類(x86, x64, arm)</a></p>
+<h1 id=markdownの書き方>Markdownの書き方</h1>
+<p>そのうち慣れると思うけど一応メモ.<br>
+📝<a href=https://notepm.jp/help/how-to-markdown target=_blank>Markdown記法/書き方（見出し・表・リンク・画像・文字色など）</a></p>
+<h1 id=vsnotesで記事を書いてgithub-pagesでサイト化>VSNotesで記事を書いてgithub pagesでサイト化</h1>
+<p>markdownでメモ帳を書けるVScodeの拡張機能。Hugo用に設定すればそのまま便利に使えそう。<br>
+📝<a href=https://www.karelie.net/vscode-notes/ target=_blank>VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう</a></p>
+<h1 id=anchor>画像サーバー</h1>
+<p>プログラムだけでなく映像のことも書いていくとなると画像用の別のサーバーが必要になってくる。<br>
+📝<a href=https://takagi.blog/using-cloudflare-r2-as-a-blog-image-hosting/ target=_blank>ブログの画像配信サーバーとして Cloudflare R2 を使う</a></p>
 <h1 id=テーマ自作>テーマ自作</h1>
-<p>無料で公開されてるHolyを改造していく。WordPressのテーマ改造と似てる。<br>
+<p>無料で公開されてるHolyを改造していく。WordPressのテーマのカスタマイズと似てる。<br>
 検索欄とか目次とかあるだけでいい。極力シンプルに。<br>
 📝<a href=https://m1yam0t0.com/posts/2022/09/renew-hugo-theme/ target=_blank>Hugo のテーマを自作した</a><br>
 <del>カスタムCSSが上手くいかない。</del> 上手く行った。<br>
@@ -107,18 +114,25 @@ TODO　カスタムcssまとめ
 <p>リストが記事のdateをもとにソートされ、同じ日の記事は名前でソートされてしまっていたので、ファイル名でソートするようにlist.htmlを書き換えた。ファイル名はHHMMまで書いてるからこれで書き始めた順番通りに並ぶ。</p>
 <p>ファイルパスでソートする方法<br>
 📝<a href=https://discourse.gohugo.io/t/explicitly-order-pages-by-file-path/18977/1 target=_blank>Explicitly order pages by file path - tips &amp;amp; tricks - HUGO</a></p>
-<p>📝<a href=https://k-kaz-git.github.io/post/hugo-alink/ target=_blank>Hugo で外部サイトを新しいタブで開きたい。</a><br>
-📝<a href=https://hugo.nakaken88.com/use/internal-link/ target=_blank>サイト内リンクを貼ろう</a><br>
-📝<a href=https://www.mitsumatado.com/zen/markdown2/ target=_blank>マークダウンでアンカーリンクを使いたい</a><br>
-📝<a href=https://michimani.net/post/development-hugo-syntax-highlight/ target=_blank>Hugo で作成した記事内のコードブロックに Syntax Highlight CSS を当てる</a>
-📝<a href=https://xyproto.github.io/splash/docs/all.html target=_blank>設定できるシンタックススタイルの一覧</a><br>
-📝<a href=https://frog-song.hatenablog.com/entry/2022/06/04/022547 target=_blank>Hugoのコードブロックのシンタックスハイライトをカスタマイズする</a></p>
-<p>TODO<br>
-・スマホから見たときの左右のマージン追加<br>
-・Syntaxが横にぶち抜くのを修正<br>
-・目次追加<br>
+<p><strong>refs</strong>:</p>
+<ul>
+<li>📝<a href=https://k-kaz-git.github.io/post/hugo-alink/ target=_blank>Hugo で外部サイトを新しいタブで開きたい。</a></li>
+<li>📝<a href=https://hugo.nakaken88.com/use/internal-link/ target=_blank>サイト内リンクを貼ろう</a></li>
+<li>📝<a href=https://www.mitsumatado.com/zen/markdown2/ target=_blank>マークダウンでアンカーリンクを使いたい</a></li>
+<li>📝<a href=https://michimani.net/post/development-hugo-syntax-highlight/ target=_blank>Hugo で作成した記事内のコードブロックに Syntax Highlight CSS を当てる</a></li>
+<li>📝<a href=https://xyproto.github.io/splash/docs/all.html target=_blank>設定できるシンタックススタイルの一覧</a></li>
+<li>📝<a href=https://frog-song.hatenablog.com/entry/2022/06/04/022547 target=_blank>Hugoのコードブロックのシンタックスハイライトをカスタマイズする</a></li>
+</ul>
+<h1 id=このサイトに目次は必要か>このサイトに目次は必要か？</h1>
+<p>全てリンクで繋いで辿れるようにすれば必要ないかもしれない。一つ一つ辿っていくのも脳の仕組みっぽくて良い。</p>
+<p><strong>TODO</strong><br>
+・目次追加（要検討）<br>
 ・検索欄追加<br>
 ・タグ付け</p>
+<p><strong>Backlinks</strong></p>
+<ul>
+<li>📝<a href=https://alinco2020.github.io/AntHead/posts/202301061720/>🐜What is AntHead?</a></li>
+</ul>
 </div></article>
 <footer class=py:24>
 <div class="f:fade-30 f:14 mb:8"></div>
