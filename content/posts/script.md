@@ -19,3 +19,6 @@ tags:
 
 # 自作スクリプト配布場所
 🐜[ALINCOLONY](https://www.alinco.shop/plugin-script/)
+
+**Backlinks**
+- 📝[🐜What is AntHead?]({{<ref "posts/202301061720.md">}})
