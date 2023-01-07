@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AntHead</title><link>https://alinco2020.github.io/AntHead/</link><description>Recent content on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/index.xml" rel="self" type="application/rss+xml"/><item><title>⌨️Script</title><link>https://alinco2020.github.io/AntHead/posts/script/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/script/</guid><description>スクリプトに関する知見はここから全て辿れるようにする。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AntHead</title><link>https://alinco2020.github.io/AntHead/</link><description>Recent content on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/index.xml" rel="self" type="application/rss+xml"/><item><title>⌨️Script</title><link>https://alinco2020.github.io/AntHead/posts/202301071000/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071000/</guid><description>スクリプトに関する知見はここから全て辿れるようにする。
 よく使うサイト 📝公式ドキュメント
 📝UIビルダー
 📝コマンドID一覧
@@ -6,7 +6,10 @@
 Backlinks
 🐜What is AntHead?</description></item><item><title>⌨️位置にSetValueする関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071101/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071101/</guid><description>up: ⌨️Script 位置にSetValueするのはなかなか面倒くさい。次元分解で条件分岐が必要だったり。なので関数を作った。
 /** * ポジションを設定する関数 ポジションにキーフレームがあればsetValueAtTimeを使って現在の時間にキーフレームを追加する * @param {*} layer レイヤー * @param {*} XYarray 配列[x, y, z] */ function setPosition(layer, XYZarray) { try { var comp = app.project.activeItem; var x = XYZarray[0] var y = XYZarray[1] var z = XYZarray[2] var position = layer.property(&amp;#39;ADBE Transform Group&amp;#39;).property(&amp;#39;ADBE Position&amp;#39;) if (!position.dimensionsSeparated) { // 次元分割されていない場合 var numKey = position.numKeys if (numKey == 0) { position.setValue([x, y, z]) } else { position.</description></item><item><title>⌨️特定のプロパティを返す関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071301/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071301/</guid><description> up: ⌨️Script matchNameが一致するプロパティを再帰で全部返す。何かと便利。
-/** * 特定のプロパティを返す * @param {*} rootObj レイヤーでもコンテンツでもOK * @param {*} nestingLevel 0でOK * @param {*} matchName 探したいプロパティのmatchName * @returns */ function returnProp(rootObj, nestingLevel, matchName) { var propTo = []; dumpPropTree(rootObj, nestingLevel, matchName); function dumpPropTree(rootObj, nestingLevel, matchName) { var countProps = rootObj.numProperties; for (var propIndex = 1; propIndex &amp;lt;= countProps; propIndex++) { var prop = rootObj.property(propIndex); if (prop.matchName == matchName) { propTo.push(prop) return; } else { dumpPropTree(prop, nestingLevel + 1, matchName); } } } return propTo; }</description></item><item><title>⌨️サイト制作</title><link>https://alinco2020.github.io/AntHead/posts/202301062241/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241/</guid><description>Hogoを使用してmarkdownで記事を書き、github pagesで公開する。
+/** * 特定のプロパティを返す * @param {*} rootObj レイヤーでもコンテンツでもOK * @param {*} nestingLevel 0でOK * @param {*} matchName 探したいプロパティのmatchName * @returns */ function returnProp(rootObj, nestingLevel, matchName) { var propTo = []; dumpPropTree(rootObj, nestingLevel, matchName); function dumpPropTree(rootObj, nestingLevel, matchName) { var countProps = rootObj.numProperties; for (var propIndex = 1; propIndex &amp;lt;= countProps; propIndex++) { var prop = rootObj.property(propIndex); if (prop.matchName == matchName) { propTo.push(prop) return; } else { dumpPropTree(prop, nestingLevel + 1, matchName); } } } return propTo; }</description></item><item><title>🎬2023年01月よかった映像アーカイブ</title><link>https://alinco2020.github.io/AntHead/posts/202301071651/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071651/</guid><description>up: 🎬よかった映像まとめ 2022 sakuga 備忘録
+複合MAD的なシーン選びが良い</description></item><item><title>🎬よかった映像まとめ</title><link>https://alinco2020.github.io/AntHead/posts/202301071605/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071605/</guid><description>MAD研究フォルダー行きになった動画を一言コメントをつけてリストアップ。月ごとに記事を分ける。
+2023 01 Backlinks
+🐜What is AntHead?</description></item><item><title>⌨️サイト制作</title><link>https://alinco2020.github.io/AntHead/posts/202301062241/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241/</guid><description>Hogoを使用してmarkdownで記事を書き、github pagesで公開する。
 Hugoとは markdownから静的サイトを作れるやつ。テーマも用意されてる。
 📝Hugo と Github Pages でブログを作る
 バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
@@ -15,6 +18,8 @@ Markdownの書き方 そのうち慣れると思うけど一応メモ.
 📝Markdown記法/書き方（見出し・表・リンク・画像・文字色など）
 VSNotesで記事を書いてgithub pagesでサイト化 markdownでメモ帳を書けるVScodeの拡張機能。Hugo用に設定すればそのまま便利に使えそう。
 📝VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう
+スニペットの編集。
+📝VS Codeでメモを取る(VSNotes)
 画像サーバー プログラムだけでなく映像のことも書いていくとなると画像用の別のサーバーが必要になってくる。
 📝ブログの画像配信サーバーとして Cloudflare R2 を使う
 テーマ自作 無料で公開されてるHolyを改造していく。WordPressのテーマのカスタマイズと似てる。
@@ -37,7 +42,7 @@ refs:
 ・引用で知識は完全に他者に任せてる
 ・頭の絵文字で分類してる
 ・サイトの構造がいい
-このサイトで扱いたいテーマ 🎬映像 技術Tips デザインパターン テーマの深掘り 他の人の作品研究 良かった映像まとめ ⌨️プログラミング AEスクリプト サイト制作 ネットワーク 💹投資 株 為替 仮想通貨 最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。
+このサイトで扱いたいテーマ 🎬映像 技術Tips デザインパターン テーマの深掘り 他の人の作品研究 よかった映像まとめ ⌨️プログラミング AEスクリプト サイト制作 ネットワーク 💹投資 株 為替 仮想通貨 最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。
 絵文字の使い分け 🐜 このサイト特有の記事につける
 🎬 映像関連
 ⌨️ プログラム関連
