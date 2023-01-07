@@ -2,7 +2,7 @@
 よく使うサイト 📝公式ドキュメント
 📝UIビルダー
 📝コマンドID一覧
-自作関数 📝位置にSetValueする関数 📝特定のプロパティを返す関数 自作スクリプト配布場所 🐜ALINCOLONY
+自作関数 ⌨️位置にSetValueする関数 ⌨️特定のプロパティを返す関数 自作スクリプト配布場所 🐜ALINCOLONY
 Backlinks
 🐜What is AntHead?</description></item><item><title>⌨️位置にSetValueする関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071101/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071101/</guid><description>up: ⌨️Script 位置にSetValueするのはなかなか面倒くさい。次元分解で条件分岐が必要だったり。なので関数を作った。
 /** * ポジションを設定する関数 ポジションにキーフレームがあればsetValueAtTimeを使って現在の時間にキーフレームを追加する * @param {*} layer レイヤー * @param {*} XYarray 配列[x, y, z] */ function setPosition(layer, XYZarray) { try { var comp = app.project.activeItem; var x = XYZarray[0] var y = XYZarray[1] var z = XYZarray[2] var position = layer.property(&amp;#39;ADBE Transform Group&amp;#39;).property(&amp;#39;ADBE Position&amp;#39;) if (!position.dimensionsSeparated) { // 次元分割されていない場合 var numKey = position.numKeys if (numKey == 0) { position.setValue([x, y, z]) } else { position.</description></item><item><title>⌨️特定のプロパティを返す関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071301/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071301/</guid><description> up: ⌨️Script matchNameが一致するプロパティを再帰で全部返す。何かと便利。
@@ -15,8 +15,12 @@ Backlinks
 ・引用で知識は完全に他者に任せてる
 ・頭の絵文字で分類してる
 ・サイトの構造がいい
-このサイトで扱いたいテーマ 🎬映像 技術Tips デザインパターン テーマの深掘り 他の人の作品研究 良かった映像まとめ ⌨️プログラミング ⌨️AEスクリプト ⌨️サイト制作 ネットワーク 💹投資 株 為替 仮想通貨 最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。
-絵文字の使い分け 🐜 このサイト特有の記事につける 🎬 映像関連 ⌨️ プログラム関連 💹 投資関連 📝 外部リンク 他者の知識</description></item><item><title>📝サイト制作</title><link>https://alinco2020.github.io/AntHead/posts/202301062241/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241/</guid><description>Hogoを使用してmarkdownで記事を書き、github pagesで公開する。
+このサイトで扱いたいテーマ 🎬映像 技術Tips デザインパターン テーマの深掘り 他の人の作品研究 良かった映像まとめ ⌨️プログラミング AEスクリプト サイト制作 ネットワーク 💹投資 株 為替 仮想通貨 最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。
+絵文字の使い分け 🐜 このサイト特有の記事につける
+🎬 映像関連
+⌨️ プログラム関連
+💹 投資関連
+📝 外部リンク 他者の知識</description></item><item><title>📝サイト制作</title><link>https://alinco2020.github.io/AntHead/posts/202301062241/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241/</guid><description>Hogoを使用してmarkdownで記事を書き、github pagesで公開する。
 Hugoとは markdownから静的サイトを作れるやつ。テーマも用意されてる。
 📝Hugo と Github Pages でブログを作る
 バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
