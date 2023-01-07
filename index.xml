@@ -13,8 +13,8 @@ VSNotesで記事を書いてgithub pagesでサイト化 markdownでメモ帳を�
 📒VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう
 画像サーバー プログラムだけでなく映像のことも書いていくとなると画像用の別のサーバーが必要になってくる。
 📒ブログの画像配信サーバーとして Cloudflare R2 を使う
-最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。</description></item><item><title>📒Hugoテーマ anthead</title><link>https://alinco2020.github.io/AntHead/posts/202301062241/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241/</guid><description>テーマを自作する。無料で公開されてるテーマのHolyを改造していく。WordPressのテーマ改造と作業の流れが似てる。
-Hugoとは markdownからブログを作れる。テーマも用意されてる。
+最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。</description></item><item><title>📒Hugoテーマ「anthead」</title><link>https://alinco2020.github.io/AntHead/posts/202301062241/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241/</guid><description>テーマを自作する。無料で公開されてるテーマのHolyを改造していく。WordPressのテーマ改造と作業の流れが似てる。
+Hugoとは markdownから静的サイトを作れるやつ。テーマも用意されてる。
 📒Hugo と Github Pages でブログを作る
 バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
 📒CPUアーキテクチャの種類(x86, x64, arm)
