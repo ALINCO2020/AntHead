@@ -6,8 +6,26 @@
 Backlinks
 🐜What is AntHead?</description></item><item><title>⌨️位置にSetValueする関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071101/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071101/</guid><description>up: ⌨️Script 位置にSetValueするのはなかなか面倒くさい。次元分解で条件分岐が必要だったり。なので関数を作った。
 /** * ポジションを設定する関数 ポジションにキーフレームがあればsetValueAtTimeを使って現在の時間にキーフレームを追加する * @param {*} layer レイヤー * @param {*} XYarray 配列[x, y, z] */ function setPosition(layer, XYZarray) { try { var comp = app.project.activeItem; var x = XYZarray[0] var y = XYZarray[1] var z = XYZarray[2] var position = layer.property(&amp;#39;ADBE Transform Group&amp;#39;).property(&amp;#39;ADBE Position&amp;#39;) if (!position.dimensionsSeparated) { // 次元分割されていない場合 var numKey = position.numKeys if (numKey == 0) { position.setValue([x, y, z]) } else { position.</description></item><item><title>⌨️特定のプロパティを返す関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071301/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071301/</guid><description> up: ⌨️Script matchNameが一致するプロパティを再帰で全部返す。何かと便利。
-/** * 特定のプロパティを返す * @param {*} rootObj レイヤーでもコンテンツでもOK * @param {*} nestingLevel 0でOK * @param {*} matchName 探したいプロパティのmatchName * @returns */ function returnProp(rootObj, nestingLevel, matchName) { var propTo = []; dumpPropTree(rootObj, nestingLevel, matchName); function dumpPropTree(rootObj, nestingLevel, matchName) { var countProps = rootObj.numProperties; for (var propIndex = 1; propIndex &amp;lt;= countProps; propIndex++) { var prop = rootObj.property(propIndex); if (prop.matchName == matchName) { propTo.push(prop) return; } else { dumpPropTree(prop, nestingLevel + 1, matchName); } } } return propTo; }</description></item><item><title>🎬2023年01月よかった映像アーカイブ</title><link>https://alinco2020.github.io/AntHead/posts/202301071651/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071651/</guid><description>up: 🎬よかった映像まとめ 2022 sakuga 備忘録
-複合MAD的なシーン選びが良い</description></item><item><title>🎬よかった映像まとめ</title><link>https://alinco2020.github.io/AntHead/posts/202301071605/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071605/</guid><description>MAD研究フォルダー行きになった動画を一言コメントをつけてリストアップ。月ごとに記事を分ける。
+/** * 特定のプロパティを返す * @param {*} rootObj レイヤーでもコンテンツでもOK * @param {*} nestingLevel 0でOK * @param {*} matchName 探したいプロパティのmatchName * @returns */ function returnProp(rootObj, nestingLevel, matchName) { var propTo = []; dumpPropTree(rootObj, nestingLevel, matchName); function dumpPropTree(rootObj, nestingLevel, matchName) { var countProps = rootObj.numProperties; for (var propIndex = 1; propIndex &amp;lt;= countProps; propIndex++) { var prop = rootObj.property(propIndex); if (prop.matchName == matchName) { propTo.push(prop) return; } else { dumpPropTree(prop, nestingLevel + 1, matchName); } } } return propTo; }</description></item><item><title>🎬2023年01月よかった映像</title><link>https://alinco2020.github.io/AntHead/posts/202301071651/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071651/</guid><description>up: 🎬よかった映像まとめ 2022 sakuga 備忘録
+複合MAD的なシーン選びが良い
+2022 works by @chiu_hans (2btwq8RCjIMpS9t2)
+冒頭のVScodeの画面が浮いてるところ好き。透明感ある3DCGにUIが乗るとMicrosoftのPVを連想する。
+Forgotten &amp;#43;UI by @tet144 (qedm-6GHKGd2bt6p)
+UIの細かさが良い
+I created a site where you can~ by @slimesunday (4QXS2FITCc0Yjo-3)
+面白い
+新年いいね by @Y_gzm17_W (g6fl8MNHLJ0t2ylf)
+イーズがいい
+海に落ちたピアノ by @mae_1031_ (FleOEJJaMAARScf)
+ドット絵すき。海とピアノと月光の取り合わせが素敵。
+voltaさんのAVE.3という楽曲を~ by @noixy_y (x6eNvNSJbvaAcQla)
+0:18辺りの背景のくすんだ虹色すき
+beanlette daybook☼ by @majorbean_ (Iv45WoxC37tg3pty)
+UIがぶち壊れるの反射的にいいね押してしまう
+coastal breeze ୭ ₒᵒ ᴏ ｡॰ₒ~ by @majorbean_ (EQJdTVamqwF8T_Kv)
+横に光がギュイーンってなるの良すぎ
+REEL 2022 by @Lazy_Mori (D3mOB4UN6anjcXA-)
+0:07辺りのワイヤーフレームと下絵のカットでいいね押した気がする。たぶん。</description></item><item><title>🎬よかった映像まとめ</title><link>https://alinco2020.github.io/AntHead/posts/202301071605/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071605/</guid><description>MAD研究フォルダー行きになった動画を一言コメントをつけてリストアップ。基本YouTubeとTwitter。
 2023 01 Backlinks
 🐜What is AntHead?</description></item><item><title>⌨️サイト制作</title><link>https://alinco2020.github.io/AntHead/posts/202301062241/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241/</guid><description>Hogoを使用してmarkdownで記事を書き、github pagesで公開する。
 Hugoとは markdownから静的サイトを作れるやつ。テーマも用意されてる。
@@ -47,4 +65,4 @@ refs:
 🎬 映像関連
 ⌨️ プログラム関連
 💹 投資関連
-📝 外部リンク 他者の知識</description></item></channel></rss>
+📝 外部リンク, 他者の知識</description></item></channel></rss>

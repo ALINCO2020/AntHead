@@ -58,3 +58,7 @@ article {
 code {
     white-space: pre-wrap;
 }
+
+.menu a {
+    margin: 4px;
+}
