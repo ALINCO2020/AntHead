@@ -2,8 +2,8 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>📝特定のプロパティを返す関数 - AntHead</title>
-<meta name=description content=" up: 📝Script  matchNameが一致するプロパティを再帰で全部返す。何かと便利。
+<title>⌨️特定のプロパティを返す関数 - AntHead</title>
+<meta name=description content=" up: ⌨️Script  matchNameが一致するプロパティを再帰で全部返す。何かと便利。
 /** * 特定のプロパティを返す * @param {*} rootObj レイヤーでもコンテンツでもOK * @param {*} nestingLevel 0でOK * @param {*} matchName 探したいプロパティのmatchName * @returns */ function returnProp(rootObj, nestingLevel, matchName) { var propTo = []; dumpPropTree(rootObj, nestingLevel, matchName); function dumpPropTree(rootObj, nestingLevel, matchName) { var countProps = rootObj.numProperties; for (var propIndex = 1; propIndex <= countProps; propIndex++) { var prop = rootObj.property(propIndex); if (prop.matchName == matchName) { propTo.push(prop) return; } else { dumpPropTree(prop, nestingLevel + 1, matchName); } } } return propTo; } ">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
@@ -29,7 +29,7 @@ AntHead
 <div class="max-w:700 w:full box:content-box">
 <article class="box:border-box pt:32">
 <header class=mb:32>
-<h2 class="font:40 font:extrabold">📝特定のプロパティを返す関数</h2>
+<h2 class="font:40 font:extrabold">⌨️特定のプロパティを返す関数</h2>
 <div class="mt:16 f:fade-60">
 <time>2023/01/07</time> </div>
 </header><div class="_:where(a):hover{text-decoration-color:fade}
@@ -67,7 +67,7 @@ _:where(ul){list-style-type:disc}
 _:where(ul,ol,blockquote){pl:1.5em}
 _:where(video,img){max-width:full}
 _:where(a,mark){text-underline-offset:3}"><ul>
-<li>up: 📝<a href=https://alinco2020.github.io/AntHead/posts/script/>Script</a></li>
+<li>up: ⌨️<a href=https://alinco2020.github.io/AntHead/posts/script/>Script</a></li>
 </ul>
 <p>matchNameが一致するプロパティを再帰で全部返す。何かと便利。</p>
 <div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#4e4e4e>/**
