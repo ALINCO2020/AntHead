@@ -1,5 +1,5 @@
 ---
-title: 📝Script
+title: ⌨️Script
 date: 2023-01-07
 tags:
   - scirpt
@@ -21,4 +21,4 @@ tags:
 🐜[ALINCOLONY](https://www.alinco.shop/plugin-script/)
 
 **Backlinks**
-- 📝[🐜What is AntHead?]({{<ref "posts/202301061720.md">}})
+- [🐜What is AntHead?]({{<ref "posts/202301061720.md">}})
