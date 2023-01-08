@@ -12,7 +12,7 @@ Hugoとは markdownから静的サイトを作れるやつ。テーマも用意�
 バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
 📝CPUアーキテクチャの種類(x86, x64, arm)
 Markdownの書き方 そのうち慣れると思うけど一応メモ.
-📝Markdown記法/書き方（見出し・表・リンク・画像・文字色など）
+📝Markdown記法 チートシート
 VSNotesで記事を書いてgithub pagesでサイト化 markdownでメモ帳を書けるVScodeの拡張機能。Hugo用に設定すればそのまま便利に使えそう。
 📝VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう
 スニペットの編集。
