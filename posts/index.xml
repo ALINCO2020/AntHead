@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/AntHead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>⌨️Script</title><link>https://alinco2020.github.io/AntHead/posts/202301071000/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071000/</guid><description>スクリプトに関する知見はここから全て辿れるようにする。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/AntHead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>🎬できない映像表現</title><link>https://alinco2020.github.io/AntHead/posts/202301080858/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080858/</guid><description>出来ないことをわかるようにして1つずつ潰していく。なるべく詳細に。
+モーショングラフィックス グラデーションのかかったシェイプ 視線誘導（一つの円を目で追わせる、みたいな） 長く連続させるカット シームレストランジション デザイン 3DCG 人物モデリング モーション クロスシミュレーション セルルック 漫画キャラモーション 手描き アニメーション Backlinks
+🐜What is AntHead?</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911/</guid><description>デザインに関する投稿はここにまとめる。
+Backlinks
+🐜What is AntHead?</description></item><item><title>⌨️Script</title><link>https://alinco2020.github.io/AntHead/posts/202301071000/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071000/</guid><description>スクリプトに関する知見はここから全て辿れるようにする。
 よく使うサイト 📝公式ドキュメント
 📝UIビルダー
 📝コマンドID一覧
@@ -77,7 +81,7 @@ refs:
 ・引用で知識は完全に他者に任せてる
 ・頭の絵文字で分類してる
 ・サイトの構造がいい
-このサイトで扱いたいテーマ 🎬映像 技術Tips デザインパターン テーマの深掘り 他の人の作品研究 よかった映像まとめ ⌨️プログラミング AEスクリプト サイト制作 ネットワーク 💹投資 株 為替 仮想通貨 最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。
+このサイトで扱いたいテーマ 🎬映像 技術Tips デザイン研究 テーマの深掘り 他の人の作品研究 よかった映像まとめ できない映像表現 ⌨️プログラミング AEスクリプト サイト制作 ネットワーク 💹投資 株 為替 仮想通貨 最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。
 絵文字の使い分け 🐜 個人的な内容
 🎬 映像関連
 ⌨️ プログラム関連
