@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>program on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/program/</link><description>Recent content in program on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/program/index.xml" rel="self" type="application/rss+xml"/><item><title>⌨️Script</title><link>https://alinco2020.github.io/AntHead/posts/202301071000/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071000/</guid><description>スクリプトに関する知見はここから全て辿れるようにする。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>program on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/program/</link><description>Recent content in program on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/program/index.xml" rel="self" type="application/rss+xml"/><item><title>HLS(HTTPライブストリーム)</title><link>https://alinco2020.github.io/AntHead/posts/202301091321/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091321/</guid><description/></item><item><title>⌨️Script</title><link>https://alinco2020.github.io/AntHead/posts/202301071000/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071000/</guid><description>スクリプトに関する知見はここから全て辿れるようにする。
 よく使うサイト 📝公式ドキュメント
 📝UIビルダー
 📝コマンドID一覧
@@ -17,6 +17,7 @@ VSNotesで記事を書いてgithub pagesでサイト化 markdownでメモ帳を�
 📝VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう
 スニペットの編集。
 📝VS Codeでメモを取る(VSNotes)
+📝VSCode &amp;#43; VSNote &amp;#43; Hugoでより快適にmarkdownを書くためのテンプレート設定
 画像サーバー プログラムだけでなく映像のことも書いていくとなると画像用の別のサーバーが必要になってくる。
 📝ブログの画像配信サーバーとして Cloudflare R2 を使う
 📝Cloudflare R2の画像をCache APIでキャッシュして返すメモ
@@ -29,6 +30,4 @@ CSSはこのサイトからざっくりコピペ。自作の流れもこれを�
 📝Hugo のテーマを自作した
 リストが記事のdateをもとにソートされ、同じ日の記事は名前でソートされてしまっていたので、ファイル名でソートするようにlist.htmlを書き換えた。ファイル名はHHMMまで書いてるからこれで書き始めた順番通りに並ぶ。
 ファイルパスでソートする方法
-📝Explicitly order pages by file path - tips &amp;amp;amp; tricks - HUGO
-refs:
-📝Hugo で外部サイトを新しいタブで開きたい。 📝サイト内リンクを貼ろう 📝マークダウンでアンカーリンクを使いたい 📝Hugo で作成した記事内のコードブロックに Syntax Highlight CSS を当てる 📝設定できるシンタックススタイルの一覧 📝Hugoのコードブロックのシンタックスハイライトをカスタマイズする このサイトに目次は必要か？ 全てリンクで繋いで辿れるようにすれば必要ないかもしれない。一つ一つ辿っていくのも脳の仕組みっぽくて良い。</description></item></channel></rss>
+📝Explicitly order pages by file path - tips &amp;amp;amp; tricks - HUGO</description></item></channel></rss>

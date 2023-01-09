@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AntHead</title><link>https://alinco2020.github.io/AntHead/</link><description>Recent content on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/index.xml" rel="self" type="application/rss+xml"/><item><title>🎬できない映像表現</title><link>https://alinco2020.github.io/AntHead/posts/202301080858/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080858/</guid><description>出来ないことをわかるようにして1つずつ潰していく。なるべく詳細に。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AntHead</title><link>https://alinco2020.github.io/AntHead/</link><description>Recent content on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/index.xml" rel="self" type="application/rss+xml"/><item><title>HLS(HTTPライブストリーム)</title><link>https://alinco2020.github.io/AntHead/posts/202301091321/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091321/</guid><description/></item><item><title>🎬できない映像表現</title><link>https://alinco2020.github.io/AntHead/posts/202301080858/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080858/</guid><description>出来ないことをわかるようにして1つずつ潰していく。なるべく詳細に。
 モーショングラフィックス グラデーションのかかったシェイプ 視線誘導（一つの円を目で追わせる、みたいな） 長く連続させるカット シームレストランジション デザイン 3DCG 人物モデリング モーション クロスシミュレーション セルルック 漫画キャラモーション 手描き アニメーション Backlinks
 🐜What is AntHead?</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911/</guid><description>デザインに関する投稿はここにまとめる。
 デザインの構成要素 Line（線）
@@ -71,6 +71,7 @@ VSNotesで記事を書いてgithub pagesでサイト化 markdownでメモ帳を�
 📝VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう
 スニペットの編集。
 📝VS Codeでメモを取る(VSNotes)
+📝VSCode &amp;#43; VSNote &amp;#43; Hugoでより快適にmarkdownを書くためのテンプレート設定
 画像サーバー プログラムだけでなく映像のことも書いていくとなると画像用の別のサーバーが必要になってくる。
 📝ブログの画像配信サーバーとして Cloudflare R2 を使う
 📝Cloudflare R2の画像をCache APIでキャッシュして返すメモ
@@ -83,9 +84,7 @@ CSSはこのサイトからざっくりコピペ。自作の流れもこれを�
 📝Hugo のテーマを自作した
 リストが記事のdateをもとにソートされ、同じ日の記事は名前でソートされてしまっていたので、ファイル名でソートするようにlist.htmlを書き換えた。ファイル名はHHMMまで書いてるからこれで書き始めた順番通りに並ぶ。
 ファイルパスでソートする方法
-📝Explicitly order pages by file path - tips &amp;amp;amp; tricks - HUGO
-refs:
-📝Hugo で外部サイトを新しいタブで開きたい。 📝サイト内リンクを貼ろう 📝マークダウンでアンカーリンクを使いたい 📝Hugo で作成した記事内のコードブロックに Syntax Highlight CSS を当てる 📝設定できるシンタックススタイルの一覧 📝Hugoのコードブロックのシンタックスハイライトをカスタマイズする このサイトに目次は必要か？ 全てリンクで繋いで辿れるようにすれば必要ないかもしれない。一つ一つ辿っていくのも脳の仕組みっぽくて良い。</description></item><item><title>🐜What is AntHead?</title><link>https://alinco2020.github.io/AntHead/posts/202301061720/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301061720/</guid><description>一匹のアリによる知識データベースシステム アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。
+📝Explicitly order pages by file path - tips &amp;amp;amp; tricks - HUGO</description></item><item><title>🐜What is AntHead?</title><link>https://alinco2020.github.io/AntHead/posts/202301061720/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301061720/</guid><description>一匹のアリによる知識データベースシステム アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。
 これを参考に
 📝Wiki and Zettelkastenによる実験的な知的生産基盤.
 このサイトのいい所
