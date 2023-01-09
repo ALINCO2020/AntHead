@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>program on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/program/</link><description>Recent content in program on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/program/index.xml" rel="self" type="application/rss+xml"/><item><title>HLS(HTTPライブストリーム)</title><link>https://alinco2020.github.io/AntHead/posts/202301091321/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091321/</guid><description/></item><item><title>⌨️Script</title><link>https://alinco2020.github.io/AntHead/posts/202301071000/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071000/</guid><description>スクリプトに関する知見はここから全て辿れるようにする。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>program on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/program/</link><description>Recent content in program on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/program/index.xml" rel="self" type="application/rss+xml"/><item><title>⌨️Webプログラミング</title><link>https://alinco2020.github.io/AntHead/posts/202301091331/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091331/</guid><description>Web系の投稿はここから辿れるようにする。
+⌨️サイト制作 📝HLS(HTTPライブストリーム) Backlinks
+🐜What is AntHead?</description></item><item><title>📝HLS(HTTPライブストリーム)</title><link>https://alinco2020.github.io/AntHead/posts/202301091321/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091321/</guid><description>HLSとは 動画ストリーミングプロトコル。Appleが開発。
+メリットは2つ
+・実装が簡単(HTTPプロトコルなので全てのサーバーで実装可能)
+・画質を上げ下げ可能
+仕組み ・H.264かH.265で再エンコ
+・数秒のセグメント(.ts)に分割
+・インデックスファイル(.m3u8)を作ってセグメントの順番を記録
+・画質ごとにセグメントを作成（480p 720p 1080pなど）
+ネットワークの速度に合わせて動画品質を調整できる（アダプティブビットレートストリーミング）
+UDPプロトコルのほうが速いけどHLSはTCPプロトコルを使う
+📝HTTPライブストリーミングとは？| HLSストリーミング
+Backlinks
+⌨️Webプログラミング</description></item><item><title>⌨️Script</title><link>https://alinco2020.github.io/AntHead/posts/202301071000/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071000/</guid><description>スクリプトに関する知見はここから全て辿れるようにする。
 よく使うサイト 📝公式ドキュメント
 📝UIビルダー
 📝コマンドID一覧
