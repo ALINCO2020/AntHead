@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/AntHead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>🎬できない映像表現</title><link>https://alinco2020.github.io/AntHead/posts/202301080858/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080858/</guid><description>出来ないことをわかるようにして1つずつ潰していく。なるべく詳細に。
 モーショングラフィックス グラデーションのかかったシェイプ 視線誘導（一つの円を目で追わせる、みたいな） 長く連続させるカット シームレストランジション デザイン 3DCG 人物モデリング モーション クロスシミュレーション セルルック 漫画キャラモーション 手描き アニメーション Backlinks
 🐜What is AntHead?</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911/</guid><description>デザインに関する投稿はここにまとめる。
-デザインの種類 グラフィックデザイン Webデザイン タイポグラフィー ポスターデザイン スポーツグラフィックデザイン コラージュ UI UXデザイン デザインの構成要素 Line（線）
+デザインの構成要素 Line（線）
 2つ以上の繋がった点のことで、太さ、長さ、方向を持っている。区切り、強調、つながりなど、何かと使える基本要素。「とりあえず線でも入れて区切っとけ」というのは本質的ではない。 Color（色）
 色相、彩度、明度を合わせて色の三属性と呼ぶ。色を計画的に使うことによって、印象をコントロールできる。 Shape（形状）
 線や塗りで形成された領域。三角形、四角形、円などの幾何学図形と、不整形の有機的図形がある。 Texture（質感）
@@ -10,7 +10,7 @@ Space（空間）には、2D Space（二次元空間）と3D Space（三次元�
 「幅」「奥行き」「高さ」を持っている三次元のオブジェクト。人工のGeometric form（幾何学的フォーム）と自然界で見られるOrganic Form（有機的フォーム）がある。 Typography（タイポグラフィー）
 活版印刷により発達した文字の体裁を整える技術。効果的に使う事で可読性を高めたり、デザイン性を増したりできる。 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」
 線、色、シェイプは当然のように使うけど他はあまり意識したことないかも。
-refs:
+ざっと分類 モーショングラフィックス グラフィックデザイン Webデザイン タイポグラフィー ポスターデザイン スポーツグラフィックデザイン コラージュ UI UXデザイン refs:
 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」 📝初心者でも分かりやすい、グラフィックデザインの理論と原則 Backlinks
 🐜What is AntHead?</description></item><item><title>⌨️Script</title><link>https://alinco2020.github.io/AntHead/posts/202301071000/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071000/</guid><description>スクリプトに関する知見はここから全て辿れるようにする。
 よく使うサイト 📝公式ドキュメント
@@ -20,7 +20,7 @@ refs:
 Backlinks
 🐜What is AntHead?</description></item><item><title>⌨️位置にSetValueする関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071101/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071101/</guid><description>up: ⌨️Script 位置にSetValueするのはなかなか面倒くさい。次元分解で条件分岐が必要だったり。なので関数を作った。
 /** * ポジションを設定する関数 ポジションにキーフレームがあればsetValueAtTimeを使って現在の時間にキーフレームを追加する * @param {*} layer レイヤー * @param {*} XYarray 配列[x, y, z] */ function setPosition(layer, XYZarray) { try { var comp = app.project.activeItem; var x = XYZarray[0] var y = XYZarray[1] var z = XYZarray[2] var position = layer.property(&amp;#39;ADBE Transform Group&amp;#39;).property(&amp;#39;ADBE Position&amp;#39;) if (!position.dimensionsSeparated) { // 次元分割されていない場合 var numKey = position.numKeys if (numKey == 0) { position.setValue([x, y, z]) } else { position.</description></item><item><title>⌨️特定のプロパティを返す関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071301/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071301/</guid><description> up: ⌨️Script matchNameが一致するプロパティを再帰で全部返す。何かと便利。
-/** * 特定のプロパティを返す * @param {*} rootObj レイヤーでもコンテンツでもOK * @param {*} nestingLevel 0でOK * @param {*} matchName 探したいプロパティのmatchName * @returns */ function returnProp(rootObj, nestingLevel, matchName) { var propTo = []; dumpPropTree(rootObj, nestingLevel, matchName); function dumpPropTree(rootObj, nestingLevel, matchName) { var countProps = rootObj.numProperties; for (var propIndex = 1; propIndex &amp;lt;= countProps; propIndex++) { var prop = rootObj.property(propIndex); if (prop.matchName == matchName) { propTo.push(prop) return; } else { dumpPropTree(prop, nestingLevel + 1, matchName); } } } return propTo; }</description></item><item><title>🎬2023年01月よかった映像</title><link>https://alinco2020.github.io/AntHead/posts/202301071651/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071651/</guid><description>up: 🎬よかった映像まとめ 💗2022 sakuga 備忘録
+/** * 特定のプロパティを返す * @param {*} rootObj レイヤーでもコンテンツでもOK * @param {*} nestingLevel 0でOK * @param {*} matchName 探したいプロパティのmatchName * @returns */ function returnProp(rootObj, nestingLevel, matchName) { var propTo = []; dumpPropTree(rootObj, nestingLevel, matchName); function dumpPropTree(rootObj, nestingLevel, matchName) { var countProps = rootObj.numProperties; for (var propIndex = 1; propIndex &amp;lt;= countProps; propIndex++) { var prop = rootObj.property(propIndex); if (prop.matchName == matchName) { propTo.push(prop) return; } else { dumpPropTree(prop, nestingLevel + 1, matchName); } } } return propTo; }</description></item><item><title>🎬2023年01月よかった映像</title><link>https://alinco2020.github.io/AntHead/posts/202301071651/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071651/</guid><description>up: 🎬よかった映像まとめ 💓2022 sakuga 備忘録
 複合MAD的なシーン選びが良い
 💙2022 works by @chiu_hans (2btwq8RCjIMpS9t2)
 冒頭のVScodeの画面が浮いてるところ好き。透明感ある3DCGにUIが乗るとMicrosoftのPVを連想する。
@@ -71,6 +71,7 @@ VSNotesで記事を書いてgithub pagesでサイト化 markdownでメモ帳を�
 📝VS Codeでメモを取る(VSNotes)
 画像サーバー プログラムだけでなく映像のことも書いていくとなると画像用の別のサーバーが必要になってくる。
 📝ブログの画像配信サーバーとして Cloudflare R2 を使う
+📝Cloudflare R2の画像をCache APIでキャッシュして返すメモ
 テーマ自作 無料で公開されてるHolyを改造していく。WordPressのテーマのカスタマイズと似てる。
 検索欄とか目次とかあるだけでいい。極力シンプルに。
 📝Hugo のテーマを自作した
