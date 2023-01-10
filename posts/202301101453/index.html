@@ -2,20 +2,13 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>📝HLS(HTTPライブストリーム) - AntHead</title>
-<meta name=description content="HLSとは 動画ストリーミングプロトコル。Appleが開発。
-メリットは2つ
-・実装が簡単(HTTPプロトコルなので全てのサーバーで実装可能)
-・画質を上げ下げ可能
-仕組み ・H.264かH.265で再エンコ
-・数秒のセグメント(.ts)に分割
-・インデックスファイル(.m3u8)を作ってセグメントの順番を記録
-・画質ごとにセグメントを作成（480p 720p 1080pなど）
-ネットワークの速度に合わせて動画品質を調整できる（アダプティブビットレートストリーミング）
-UDPプロトコルのほうが速いけどHLSはTCPプロトコルを使う
+<title>📝DASH(Dynamic Adaptive Streaming over HTTP) - AntHead</title>
+<meta name=description content="DASHとは 動画ストリーミングプロトコル。正式名称はMPEG-DASH。ISO国際標準規格。📝HLSと似てる。
+仕組み  動画ファイルを2～4秒のセグメント(.mp4)に分割してインデックスファイル(.mpd)を作成 任意のコーデック(なんでもOK)でエンコード クライアントのデバイスにセグメントを送る。📝CDNが役立つ ユーザー側でデコードして再生  HTTPで実行され、トランスポートプロトコルとしてTCPを使用。
+MPDマニフェスト インデックスファイルのこと。形式はXML。
 refs:
- 📝HTTPライブストリーミングとは？| HLSストリーミング  Backlinks
- ⌨️Webプログラミング 📝動画配信技術 📝DASH(Dynamic Adaptive Streaming over HTTP)  ">
+ 📝MPEG-DASHとは？| HLSとDASH 📝[MPEG-DASH] MPDのファイル構造  Backlinks
+ ⌨️Webプログラミング 📝動画配信技術 📝HLS(HTTPライブストリーム)  ">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
 <link rel=stylesheet href=/AntHead/css/syntax.css>
@@ -41,9 +34,9 @@ AntHead
 <div class="max-w:700 w:full box:content-box">
 <article class="box:border-box pt:32">
 <header class=mb:32>
-<h2 class="font:40 font:extrabold">📝HLS(HTTPライブストリーム)</h2>
+<h2 class="font:40 font:extrabold">📝DASH(Dynamic Adaptive Streaming over HTTP)</h2>
 <div class="mt:16 f:fade-60">
-<time>2023/01/09</time> </div>
+<time>2023/01/10</time> </div>
 </header><div class="_:where(a):hover{text-decoration-color:fade}
 _:where(a){text-decoration:2;underline;fade-10;_text-decoration-color:fade-70@dark}
 _:where(blockquote){bl:5;solid;fade-76/.1;_bl:5;solid;fade-34/.1@dark}
@@ -78,27 +71,28 @@ _:where(th,p_code,li_code,a,mark){font:semibold;_font:medium@dark}
 _:where(ul){list-style-type:disc}
 _:where(ul,ol,blockquote){pl:1.5em}
 _:where(video,img){max-width:full}
-_:where(a,mark){text-underline-offset:3}"><h1 id=hlsとは>HLSとは</h1>
-<p>動画ストリーミングプロトコル。Appleが開発。<br>
-メリットは2つ<br>
-・実装が簡単(HTTPプロトコルなので全てのサーバーで実装可能)<br>
-・画質を上げ下げ可能</p>
+_:where(a,mark){text-underline-offset:3}"><h1 id=dashとは>DASHとは</h1>
+<p>動画ストリーミングプロトコル。正式名称はMPEG-DASH。ISO国際標準規格。📝<a href=https://alinco2020.github.io/AntHead/posts/202301091321/>HLS</a>と似てる。</p>
 <h1 id=仕組み>仕組み</h1>
-<p>・H.264かH.265で再エンコ<br>
-・数秒のセグメント(.ts)に分割<br>
-・インデックスファイル(.m3u8)を作ってセグメントの順番を記録<br>
-・画質ごとにセグメントを作成（480p 720p 1080pなど）</p>
-<p>ネットワークの速度に合わせて動画品質を調整できる（アダプティブビットレートストリーミング）<br>
-UDPプロトコルのほうが速いけどHLSはTCPプロトコルを使う</p>
+<ul>
+<li>動画ファイルを2～4秒のセグメント(.mp4)に分割してインデックスファイル(.mpd)を作成</li>
+<li>任意のコーデック(なんでもOK)でエンコード</li>
+<li>クライアントのデバイスにセグメントを送る。📝<a href=https://alinco2020.github.io/AntHead/posts/202301101506/>CDN</a>が役立つ</li>
+<li>ユーザー側でデコードして再生</li>
+</ul>
+<p>HTTPで実行され、トランスポートプロトコルとしてTCPを使用。</p>
+<h1 id=mpdマニフェスト>MPDマニフェスト</h1>
+<p>インデックスファイルのこと。形式はXML。</p>
 <p><strong>refs:</strong></p>
 <ul>
-<li><a href=https://www.cloudflare.com/ja-jp/learning/video/what-is-http-live-streaming/ target=_blank>📝HTTPライブストリーミングとは？| HLSストリーミング</a></li>
+<li><a href=https://www.cloudflare.com/ja-jp/learning/video/what-is-mpeg-dash/ target=_blank>📝MPEG-DASHとは？| HLSとDASH</a></li>
+<li><a href=https://qiita.com/yun_bow/items/780e49531174272e7c44 target=_blank>📝[MPEG-DASH] MPDのファイル構造</a></li>
 </ul>
 <p><strong>Backlinks</strong></p>
 <ul>
 <li><a href=https://alinco2020.github.io/AntHead/posts/202301091331/>⌨️Webプログラミング</a></li>
 <li><a href=https://alinco2020.github.io/AntHead/posts/202301101432/>📝動画配信技術</a></li>
-<li><a href=https://alinco2020.github.io/AntHead/posts/202301101453/>📝DASH(Dynamic Adaptive Streaming over HTTP)</a></li>
+<li><a href=https://alinco2020.github.io/AntHead/posts/202301091321/>📝HLS(HTTPライブストリーム)</a></li>
 </ul>
 </div></article>
 <footer class=py:24>

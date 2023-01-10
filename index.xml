@@ -1,8 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AntHead</title><link>https://alinco2020.github.io/AntHead/</link><description>Recent content on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/index.xml" rel="self" type="application/rss+xml"/><item><title>📝DRM(Digital Rights Management)</title><link>https://alinco2020.github.io/AntHead/posts/202301101337/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101337/</guid><description>DRMとは 暗号化してコンテンツを保護する仕組みの総称。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AntHead</title><link>https://alinco2020.github.io/AntHead/</link><description>Recent content on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/index.xml" rel="self" type="application/rss+xml"/><item><title>📝CDN(Content Delivery Network)</title><link>https://alinco2020.github.io/AntHead/posts/202301101506/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101506/</guid><description>CDNとは 物理的にバラバラの位置に配置したサーバーのこと。ユーザーの所在地に近いところから配信できるから高速。
+refs:
+📝CDNとは何か？| CDNの仕組みは？ Backlinks
+⌨️Webプログラミング</description></item><item><title>📝DASH(Dynamic Adaptive Streaming over HTTP)</title><link>https://alinco2020.github.io/AntHead/posts/202301101453/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101453/</guid><description>DASHとは 動画ストリーミングプロトコル。正式名称はMPEG-DASH。ISO国際標準規格。📝HLSと似てる。
+仕組み 動画ファイルを2～4秒のセグメント(.mp4)に分割してインデックスファイル(.mpd)を作成 任意のコーデック(なんでもOK)でエンコード クライアントのデバイスにセグメントを送る。📝CDNが役立つ ユーザー側でデコードして再生 HTTPで実行され、トランスポートプロトコルとしてTCPを使用。
+MPDマニフェスト インデックスファイルのこと。形式はXML。
+refs:
+📝MPEG-DASHとは？| HLSとDASH 📝[MPEG-DASH] MPDのファイル構造 Backlinks
+⌨️Webプログラミング 📝動画配信技術 📝HLS(HTTPライブストリーム)</description></item><item><title>📝DRM(Digital Rights Management)</title><link>https://alinco2020.github.io/AntHead/posts/202301101337/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101337/</guid><description>DRMとは 暗号化してコンテンツを保護する仕組みの総称。
 仕組み ライセンスサーバーから発行された鍵で動画ファイルを暗号化 ユーザーがライセンスサーバーに認証をリクエスト 認証が通ると鍵情報を含むライセンス情報がユーザーに返ってきて動画を再生できる 📝動画配信におけるコンテンツ保護の重要性とそれを実現する仕組みを自分なりにまとめてみた
 Backlinks
+📝動画配信技術 ⌨️Webプログラミング</description></item><item><title>📝動画配信技術</title><link>https://alinco2020.github.io/AntHead/posts/202301101432/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101432/</guid><description>動画配信技術についてまとめる。暗号化など。
+ABR(Adaptive bit Rate)とは ストリーミングを安定させる技術のこと。ネットワークの状態によって動画品質を変化させる。
+ABR対応ストリーミングプロトコル 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) HDS(HTTP動的ストリーミング) refs:
+📝アダプティブビットレートストリーミングとは？ 📝web上での動画配信をダウンロードさせないために最近は Backlinks
 ⌨️Webプログラミング</description></item><item><title>⌨️Extendscriptでリストのsumとmaxを求める</title><link>https://alinco2020.github.io/AntHead/posts/202301092218/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301092218/</guid><description>up: ⌨️Script reduceは使えないから愚直にfor文回せ。以上。</description></item><item><title>⌨️Webプログラミング</title><link>https://alinco2020.github.io/AntHead/posts/202301091331/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091331/</guid><description>Web系の投稿はここから辿れるようにする。
-⌨️サイト制作 📝HLS(HTTPライブストリーム) 📝DRM(Digital Rights Management) Backlinks
+⌨️サイト制作 📝動画配信技術 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) 📝DRM(Digital Rights Management) 📝CDN(Content Delivery Network) Backlinks
 🐜What is AntHead?</description></item><item><title>📝HLS(HTTPライブストリーム)</title><link>https://alinco2020.github.io/AntHead/posts/202301091321/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091321/</guid><description>HLSとは 動画ストリーミングプロトコル。Appleが開発。
 メリットは2つ
 ・実装が簡単(HTTPプロトコルなので全てのサーバーで実装可能)
@@ -13,9 +25,9 @@ Backlinks
 ・画質ごとにセグメントを作成（480p 720p 1080pなど）
 ネットワークの速度に合わせて動画品質を調整できる（アダプティブビットレートストリーミング）
 UDPプロトコルのほうが速いけどHLSはTCPプロトコルを使う
-📝HTTPライブストリーミングとは？| HLSストリーミング
-Backlinks
-⌨️Webプログラミング</description></item><item><title>🎬できない映像表現</title><link>https://alinco2020.github.io/AntHead/posts/202301080858/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080858/</guid><description>出来ないことをわかるようにして1つずつ潰していく。なるべく詳細に。
+refs:
+📝HTTPライブストリーミングとは？| HLSストリーミング Backlinks
+⌨️Webプログラミング 📝動画配信技術 📝DASH(Dynamic Adaptive Streaming over HTTP)</description></item><item><title>🎬できない映像表現</title><link>https://alinco2020.github.io/AntHead/posts/202301080858/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080858/</guid><description>出来ないことをわかるようにして1つずつ潰していく。なるべく詳細に。
 モーショングラフィックス グラデーションのかかったシェイプ 視線誘導（一つの円を目で追わせる、みたいな） 長く連続させるカット シームレストランジション デザイン 3DCG 人物モデリング モーション クロスシミュレーション セルルック 漫画キャラモーション 手描き アニメーション Backlinks
 🐜What is AntHead?</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911/</guid><description>デザインに関する投稿はここにまとめる。
 デザインの構成要素 Line（線）

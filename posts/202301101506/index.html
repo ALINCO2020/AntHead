@@ -2,20 +2,11 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>📝HLS(HTTPライブストリーム) - AntHead</title>
-<meta name=description content="HLSとは 動画ストリーミングプロトコル。Appleが開発。
-メリットは2つ
-・実装が簡単(HTTPプロトコルなので全てのサーバーで実装可能)
-・画質を上げ下げ可能
-仕組み ・H.264かH.265で再エンコ
-・数秒のセグメント(.ts)に分割
-・インデックスファイル(.m3u8)を作ってセグメントの順番を記録
-・画質ごとにセグメントを作成（480p 720p 1080pなど）
-ネットワークの速度に合わせて動画品質を調整できる（アダプティブビットレートストリーミング）
-UDPプロトコルのほうが速いけどHLSはTCPプロトコルを使う
+<title>📝CDN(Content Delivery Network) - AntHead</title>
+<meta name=description content="CDNとは 物理的にバラバラの位置に配置したサーバーのこと。ユーザーの所在地に近いところから配信できるから高速。
 refs:
- 📝HTTPライブストリーミングとは？| HLSストリーミング  Backlinks
- ⌨️Webプログラミング 📝動画配信技術 📝DASH(Dynamic Adaptive Streaming over HTTP)  ">
+ 📝CDNとは何か？| CDNの仕組みは？  Backlinks
+ ⌨️Webプログラミング  ">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
 <link rel=stylesheet href=/AntHead/css/syntax.css>
@@ -41,9 +32,9 @@ AntHead
 <div class="max-w:700 w:full box:content-box">
 <article class="box:border-box pt:32">
 <header class=mb:32>
-<h2 class="font:40 font:extrabold">📝HLS(HTTPライブストリーム)</h2>
+<h2 class="font:40 font:extrabold">📝CDN(Content Delivery Network)</h2>
 <div class="mt:16 f:fade-60">
-<time>2023/01/09</time> </div>
+<time>2023/01/10</time> </div>
 </header><div class="_:where(a):hover{text-decoration-color:fade}
 _:where(a){text-decoration:2;underline;fade-10;_text-decoration-color:fade-70@dark}
 _:where(blockquote){bl:5;solid;fade-76/.1;_bl:5;solid;fade-34/.1@dark}
@@ -78,27 +69,15 @@ _:where(th,p_code,li_code,a,mark){font:semibold;_font:medium@dark}
 _:where(ul){list-style-type:disc}
 _:where(ul,ol,blockquote){pl:1.5em}
 _:where(video,img){max-width:full}
-_:where(a,mark){text-underline-offset:3}"><h1 id=hlsとは>HLSとは</h1>
-<p>動画ストリーミングプロトコル。Appleが開発。<br>
-メリットは2つ<br>
-・実装が簡単(HTTPプロトコルなので全てのサーバーで実装可能)<br>
-・画質を上げ下げ可能</p>
-<h1 id=仕組み>仕組み</h1>
-<p>・H.264かH.265で再エンコ<br>
-・数秒のセグメント(.ts)に分割<br>
-・インデックスファイル(.m3u8)を作ってセグメントの順番を記録<br>
-・画質ごとにセグメントを作成（480p 720p 1080pなど）</p>
-<p>ネットワークの速度に合わせて動画品質を調整できる（アダプティブビットレートストリーミング）<br>
-UDPプロトコルのほうが速いけどHLSはTCPプロトコルを使う</p>
+_:where(a,mark){text-underline-offset:3}"><h1 id=cdnとは>CDNとは</h1>
+<p>物理的にバラバラの位置に配置したサーバーのこと。ユーザーの所在地に近いところから配信できるから高速。</p>
 <p><strong>refs:</strong></p>
 <ul>
-<li><a href=https://www.cloudflare.com/ja-jp/learning/video/what-is-http-live-streaming/ target=_blank>📝HTTPライブストリーミングとは？| HLSストリーミング</a></li>
+<li><a href=https://www.cloudflare.com/ja-jp/learning/cdn/what-is-a-cdn/ target=_blank>📝CDNとは何か？| CDNの仕組みは？</a></li>
 </ul>
 <p><strong>Backlinks</strong></p>
 <ul>
 <li><a href=https://alinco2020.github.io/AntHead/posts/202301091331/>⌨️Webプログラミング</a></li>
-<li><a href=https://alinco2020.github.io/AntHead/posts/202301101432/>📝動画配信技術</a></li>
-<li><a href=https://alinco2020.github.io/AntHead/posts/202301101453/>📝DASH(Dynamic Adaptive Streaming over HTTP)</a></li>
 </ul>
 </div></article>
 <footer class=py:24>
