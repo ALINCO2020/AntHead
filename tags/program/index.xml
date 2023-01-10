@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>program on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/program/</link><description>Recent content in program on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/program/index.xml" rel="self" type="application/rss+xml"/><item><title>📝CDN(Content Delivery Network)</title><link>https://alinco2020.github.io/AntHead/posts/202301101506/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101506/</guid><description>CDNとは 物理的にバラバラの位置に配置したサーバーのこと。ユーザーの所在地に近いところから配信できるから高速。
 refs:
 📝CDNとは何か？| CDNの仕組みは？ Backlinks
-⌨️Webプログラミング</description></item><item><title>📝DASH(Dynamic Adaptive Streaming over HTTP)</title><link>https://alinco2020.github.io/AntHead/posts/202301101453/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101453/</guid><description>DASHとは 動画ストリーミングプロトコル。正式名称はMPEG-DASH。ISO国際標準規格。📝HLSと似てる。
-仕組み 動画ファイルを2～4秒のセグメント(.mp4)に分割してインデックスファイル(.mpd)を作成 任意のコーデック(なんでもOK)でエンコード クライアントのデバイスにセグメントを送る。📝CDNが役立つ ユーザー側でデコードして再生 HTTPで実行され、トランスポートプロトコルとしてTCPを使用。
+⌨️Webプログラミング 📝DASH(Dynamic Adaptive Streaming over HTTP)</description></item><item><title>📝DASH(Dynamic Adaptive Streaming over HTTP)</title><link>https://alinco2020.github.io/AntHead/posts/202301101453/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101453/</guid><description>DASHとは 動画ストリーミングプロトコル。正式名称はMPEG-DASH。ISO国際標準規格。HLSと似てる。
+仕組み 動画ファイルを2～4秒のセグメント(.mp4)に分割してインデックスファイル(.mpd)を作成 任意のコーデック(なんでもOK)でエンコード クライアントのデバイスにセグメントを送る。CDNが役立つ ユーザー側でデコードして再生 HTTPで実行され、トランスポートプロトコルとしてTCPを使用。
 MPDマニフェスト インデックスファイルのこと。形式はXML。
 refs:
 📝MPEG-DASHとは？| HLSとDASH 📝[MPEG-DASH] MPDのファイル構造 Backlinks
 ⌨️Webプログラミング 📝動画配信技術 📝HLS(HTTPライブストリーム)</description></item><item><title>📝DRM(Digital Rights Management)</title><link>https://alinco2020.github.io/AntHead/posts/202301101337/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101337/</guid><description>DRMとは 暗号化してコンテンツを保護する仕組みの総称。
-仕組み ライセンスサーバーから発行された鍵で動画ファイルを暗号化 ユーザーがライセンスサーバーに認証をリクエスト 認証が通ると鍵情報を含むライセンス情報がユーザーに返ってきて動画を再生できる 📝動画配信におけるコンテンツ保護の重要性とそれを実現する仕組みを自分なりにまとめてみた
-Backlinks
+仕組み ライセンスサーバーから発行された鍵で動画ファイルを暗号化 ユーザーがライセンスサーバーに認証をリクエスト 認証が通ると鍵情報を含むライセンス情報がユーザーに返ってきて動画を再生できる TODO 動画ファイルの暗号化技術について調べる
+refs:
+📝動画配信におけるコンテンツ保護の重要性とそれを実現する仕組みを自分なりにまとめてみた](https://dev.classmethod.jp/articles/hls-aes-with-aws-elemental-medialive/) Backlinks
 📝動画配信技術 ⌨️Webプログラミング</description></item><item><title>📝動画配信技術</title><link>https://alinco2020.github.io/AntHead/posts/202301101432/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101432/</guid><description>動画配信技術についてまとめる。暗号化など。
 ABR(Adaptive bit Rate)とは ストリーミングを安定させる技術のこと。ネットワークの状態によって動画品質を変化させる。
 ABR対応ストリーミングプロトコル 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) HDS(HTTP動的ストリーミング) refs:
