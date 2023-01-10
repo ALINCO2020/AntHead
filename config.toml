@@ -7,3 +7,8 @@ customCSS= ["/css/style.css"]
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = false
 pygmentsstyle = "solarized-dark256"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
