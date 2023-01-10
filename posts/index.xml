@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/AntHead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>EME(Encrypt Media Extensions)</title><link>https://alinco2020.github.io/AntHead/posts/202301101623/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101623/</guid><description>EMEとは 暗号化されたコンテンツを制御するAPI。ライセンスサーバーとやり取りする。
-バージョンがいっぱいあって仕様も結構変わるらしい。
-refs:
-📝Backgrounder on Encrypted Media Extensions (EME) - W3C 📝HTML5 &amp;#43; JavaScriptでDRMつきMPEG-DASHを再生させる Backlinks
-⌨️Webプログラミング 📝動画配信技術</description></item><item><title>📝CDM(Content Decryption Module)</title><link>https://alinco2020.github.io/AntHead/posts/202301101608/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101608/</guid><description>CDMとは コンテンツを復号化するモジュール（そのまんま）
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/AntHead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>📝CDM(Content Decryption Module)</title><link>https://alinco2020.github.io/AntHead/posts/202301101608-cdm/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101608-cdm/</guid><description>CDMとは コンテンツを復号化するモジュール（そのまんま）
 ライセンスサーバーと直接やり取りし、鍵を取得する。
 refs:
 📝[MPEG-DASH] DRMシステムの概要と種類 Backlinks
-⌨️Webプログラミング 📝動画配信技術</description></item><item><title>📝CDN(Content Delivery Network)</title><link>https://alinco2020.github.io/AntHead/posts/202301101506/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101506/</guid><description>CDNとは 物理的にバラバラの位置に配置したサーバーのこと。ユーザーの所在地に近いところから配信できるから高速。
+⌨️Webプログラミング 📝動画配信技術</description></item><item><title>📝CDN(Content Delivery Network)</title><link>https://alinco2020.github.io/AntHead/posts/202301101506-cdn/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101506-cdn/</guid><description>CDNとは 物理的にバラバラの位置に配置したサーバーのこと。ユーザーの所在地に近いところから配信できるから高速。
 refs:
 📝CDNとは何か？| CDNの仕組みは？ Backlinks
-⌨️Webプログラミング 📝DASH(Dynamic Adaptive Streaming over HTTP)</description></item><item><title>📝DASH(Dynamic Adaptive Streaming over HTTP)</title><link>https://alinco2020.github.io/AntHead/posts/202301101453/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101453/</guid><description>DASHとは 動画ストリーミングプロトコル。正式名称はMPEG-DASH。ISO国際標準規格。HLSと似てる。
+⌨️Webプログラミング 📝DASH(Dynamic Adaptive Streaming over HTTP)</description></item><item><title>📝DASH(Dynamic Adaptive Streaming over HTTP)</title><link>https://alinco2020.github.io/AntHead/posts/202301101453-dash/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101453-dash/</guid><description>DASHとは 動画ストリーミングプロトコル。正式名称はMPEG-DASH。ISO国際標準規格。HLSと似てる。
 仕組み 動画ファイルを2～4秒のセグメント(.mp4)に分割してインデックスファイル(.mpd)を作成 任意のコーデック(なんでもOK)でエンコード クライアントのデバイスにセグメントを送る。CDNが役立つ ユーザー側でデコードして再生 HTTPで実行され、トランスポートプロトコルとしてTCPを使用。
 MPDマニフェスト インデックスファイルのこと。形式はXML。
 refs:
 📝MPEG-DASHとは？| HLSとDASH 📝[MPEG-DASH] MPDのファイル構造 Backlinks
-⌨️Webプログラミング 📝動画配信技術 📝HLS(HTTPライブストリーム)</description></item><item><title>📝DRM(Digital Rights Management)</title><link>https://alinco2020.github.io/AntHead/posts/202301101337/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101337/</guid><description>DRMとは 暗号化してコンテンツを保護する仕組みの総称。
+⌨️Webプログラミング 📝動画配信技術 📝HLS(HTTPライブストリーム)</description></item><item><title>📝DRM(Digital Rights Management)</title><link>https://alinco2020.github.io/AntHead/posts/202301101337-drm/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101337-drm/</guid><description>DRMとは 暗号化してコンテンツを保護する仕組みの総称。
 仕組み ライセンスサーバーから発行された鍵で動画ファイルを暗号化 ユーザーがライセンスサーバーに認証をリクエスト 認証が通ると鍵情報を含むライセンス情報がユーザーに返ってきて動画を再生できる TODO 動画ファイルの暗号化技術について調べる
 refs:
 📝動画配信におけるコンテンツ保護の重要性とそれを実現する仕組みを自分なりにまとめてみた Backlinks
-⌨️Webプログラミング 📝動画配信技術</description></item><item><title>📝動画配信技術</title><link>https://alinco2020.github.io/AntHead/posts/202301101432/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101432/</guid><description>動画配信技術についてまとめる。
+⌨️Webプログラミング 📝動画配信技術</description></item><item><title>📝EME(Encrypt Media Extensions)</title><link>https://alinco2020.github.io/AntHead/posts/202301101623-eme/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101623-eme/</guid><description>EMEとは 暗号化されたコンテンツを制御するAPI。ライセンスサーバーとやり取りする。
+バージョンがいっぱいあって仕様も結構変わるらしい。
+refs:
+📝Backgrounder on Encrypted Media Extensions (EME) - W3C 📝HTML5 &amp;#43; JavaScriptでDRMつきMPEG-DASHを再生させる Backlinks
+⌨️Webプログラミング 📝動画配信技術</description></item><item><title>📝動画配信技術</title><link>https://alinco2020.github.io/AntHead/posts/202301101432-streaming/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101432-streaming/</guid><description>動画配信技術についてまとめる。
 ABR(Adaptive bit Rate)とは ストリーミングを安定させる技術のこと。ネットワークの状態によって動画品質を変化させる。
 ABR対応ストリーミングプロトコル 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) HDS(HTTP動的ストリーミング) 暗号化 暗号化されたコンテンツのことをDRMコンテンツとか言ったりする。
 HTML単体ではDRMコンテンツを再生できないため、CDMを使って復号化する。CDMはDRMによって中身が違う。
 中身が違うCDMを全部同じように使うためのAPIがEME。これのおかげでどんなDRMでも復号化できる。仮想通貨のccxtみたいなイメージ。
 refs:
 📝アダプティブビットレートストリーミングとは？ 📝web上での動画配信をダウンロードさせないために最近は 📝HTML5 &amp;#43; JavaScriptでDRMつきMPEG-DASHを再生させる Backlinks
-⌨️Webプログラミング</description></item><item><title>⌨️Extendscriptでリストのsumとmaxを求める</title><link>https://alinco2020.github.io/AntHead/posts/202301092218/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301092218/</guid><description>up: ⌨️Script reduceは使えないから愚直にfor文回せ。以上。</description></item><item><title>⌨️Webプログラミング</title><link>https://alinco2020.github.io/AntHead/posts/202301091331/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091331/</guid><description>Web系の投稿はここから辿れるようにする。
+⌨️Webプログラミング</description></item><item><title>⌨️Extendscriptでリストのsumとmaxを求める</title><link>https://alinco2020.github.io/AntHead/posts/202301092218-sum-max/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301092218-sum-max/</guid><description>up: ⌨️Script reduceは使えないから愚直にfor文回せ。以上。</description></item><item><title>⌨️Webプログラミング</title><link>https://alinco2020.github.io/AntHead/posts/202301091331-web/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091331-web/</guid><description>Web系の投稿はここから辿れるようにする。
 ⌨️サイト制作 📝動画配信技術 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) 📝DRM(Digital Rights Management) 📝CDM(Content Decryption Module) 📝CDN(Content Delivery Network) Backlinks
-🐜What is AntHead?</description></item><item><title>📝HLS(HTTPライブストリーム)</title><link>https://alinco2020.github.io/AntHead/posts/202301091321/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091321/</guid><description>HLSとは 動画ストリーミングプロトコル。Appleが開発。
+🐜What is AntHead?</description></item><item><title>📝HLS(HTTPライブストリーム)</title><link>https://alinco2020.github.io/AntHead/posts/202301091321-hls/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091321-hls/</guid><description>HLSとは 動画ストリーミングプロトコル。Appleが開発。
 メリットは2つ
 ・実装が簡単(HTTPプロトコルなので全てのサーバーで実装可能)
 ・画質を上げ下げ可能
@@ -39,9 +39,9 @@ refs:
 UDPプロトコルのほうが速いけどHLSはTCPプロトコルを使う
 refs:
 📝HTTPライブストリーミングとは？| HLSストリーミング Backlinks
-⌨️Webプログラミング 📝動画配信技術 📝DASH(Dynamic Adaptive Streaming over HTTP)</description></item><item><title>🎬できない映像表現</title><link>https://alinco2020.github.io/AntHead/posts/202301080858/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080858/</guid><description>出来ないことをわかるようにして1つずつ潰していく。なるべく詳細に。
+⌨️Webプログラミング 📝動画配信技術 📝DASH(Dynamic Adaptive Streaming over HTTP)</description></item><item><title>🎬できない映像表現</title><link>https://alinco2020.github.io/AntHead/posts/202301080858-cant-movie-xp/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080858-cant-movie-xp/</guid><description>出来ないことをわかるようにして1つずつ潰していく。なるべく詳細に。
 モーショングラフィックス グラデーションのかかったシェイプ 視線誘導（一つの円を目で追わせる、みたいな） 長く連続させるカット シームレストランジション デザイン 3DCG 人物モデリング モーション クロスシミュレーション セルルック 漫画キャラモーション 手描き アニメーション Backlinks
-🐜What is AntHead?</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911/</guid><description>デザインに関する投稿はここにまとめる。
+🐜What is AntHead?</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911-design/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911-design/</guid><description>デザインに関する投稿はここにまとめる。
 デザインの構成要素 Line（線）
 2つ以上の繋がった点のことで、太さ、長さ、方向を持っている。区切り、強調、つながりなど、何かと使える基本要素。「とりあえず線でも入れて区切っとけ」というのは本質的ではない。 Color（色）
 色相、彩度、明度を合わせて色の三属性と呼ぶ。色を計画的に使うことによって、印象をコントロールできる。 Shape（形状）
@@ -53,15 +53,15 @@ Space（空間）には、2D Space（二次元空間）と3D Space（三次元�
 線、色、シェイプは当然のように使うけど他はあまり意識したことないかも。
 ざっと分類 モーショングラフィックス グラフィックデザイン Webデザイン タイポグラフィー ポスターデザイン スポーツグラフィックデザイン コラージュ UI UXデザイン refs:
 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」 📝初心者でも分かりやすい、グラフィックデザインの理論と原則 Backlinks
-🐜What is AntHead?</description></item><item><title>⌨️Script</title><link>https://alinco2020.github.io/AntHead/posts/202301071000/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071000/</guid><description>スクリプトに関する知見はここから全て辿れるようにする。
+🐜What is AntHead?</description></item><item><title>⌨️Script</title><link>https://alinco2020.github.io/AntHead/posts/202301071000-script/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071000-script/</guid><description>スクリプトに関する知見はここから全て辿れるようにする。
 よく使うサイト 📝公式ドキュメント
 📝UIビルダー
 📝コマンドID一覧
 自作関数 ⌨️位置にSetValueする関数 ⌨️特定のプロパティを返す関数 メモ ⌨️Extendscriptでリストのsumとmaxを求める 自作スクリプト配布場所 🐜ALINCOLONY
 Backlinks
-🐜What is AntHead?</description></item><item><title>⌨️位置にSetValueする関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071101/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071101/</guid><description>up: ⌨️Script 位置にSetValueするのはなかなか面倒くさい。次元分解で条件分岐が必要だったり。なので関数を作った。
-/** * ポジションを設定する関数 * @param {*} layer レイヤー * @param {*} XYarray 配列[x, y, z] * @param {boolean} isSetValueAtTime setValueAtTimeを使うかどうか * @param {*} time setValueAtTimeを使う場合の時間 */ function setPosition(layer, XYZarray, isSetValueAtTime, time) { try { var x = XYZarray[0] var y = XYZarray[1] var z = XYZarray[2] var position = layer.property(&amp;#39;ADBE Transform Group&amp;#39;).property(&amp;#39;ADBE Position&amp;#39;) // setValueを使う場合 if (!isSetValueAtTime) { // 次元分割されていない場合 if (!position.dimensionsSeparated) { position.</description></item><item><title>⌨️特定のプロパティを返す関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071301/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071301/</guid><description> up: ⌨️Script matchNameが一致するプロパティを再帰で全部返す。何かと便利。
-/** * 特定のプロパティを返す * @param {*} rootObj レイヤーでもコンテンツでもOK * @param {*} nestingLevel 0でOK * @param {*} matchName 探したいプロパティのmatchName * @returns */ function returnProp(rootObj, nestingLevel, matchName) { var propTo = []; dumpPropTree(rootObj, nestingLevel, matchName); function dumpPropTree(rootObj, nestingLevel, matchName) { var countProps = rootObj.numProperties; for (var propIndex = 1; propIndex &amp;lt;= countProps; propIndex++) { var prop = rootObj.property(propIndex); if (prop.matchName == matchName) { propTo.push(prop) return; } else { dumpPropTree(prop, nestingLevel + 1, matchName); } } } return propTo; }</description></item><item><title>🎬2023年01月よかった映像</title><link>https://alinco2020.github.io/AntHead/posts/202301071651/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071651/</guid><description>up: 🎬よかった映像まとめ 💗2022 sakuga 備忘録
+🐜What is AntHead?</description></item><item><title>⌨️位置にSetValueする関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071101-position-setvalue/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071101-position-setvalue/</guid><description>up: ⌨️Script 位置にSetValueするのはなかなか面倒くさい。次元分解で条件分岐が必要だったり。なので関数を作った。
+/** * ポジションを設定する関数 * @param {*} layer レイヤー * @param {*} XYarray 配列[x, y, z] * @param {boolean} isSetValueAtTime setValueAtTimeを使うかどうか * @param {*} time setValueAtTimeを使う場合の時間 */ function setPosition(layer, XYZarray, isSetValueAtTime, time) { try { var x = XYZarray[0] var y = XYZarray[1] var z = XYZarray[2] var position = layer.property(&amp;#39;ADBE Transform Group&amp;#39;).property(&amp;#39;ADBE Position&amp;#39;) // setValueを使う場合 if (!isSetValueAtTime) { // 次元分割されていない場合 if (!position.dimensionsSeparated) { position.</description></item><item><title>⌨️特定のプロパティを返す関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071301-return-prop/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071301-return-prop/</guid><description> up: ⌨️Script matchNameが一致するプロパティを再帰で全部返す。何かと便利。
+/** * 特定のプロパティを返す * @param {*} rootObj レイヤーでもコンテンツでもOK * @param {*} nestingLevel 0でOK * @param {*} matchName 探したいプロパティのmatchName * @returns */ function returnProp(rootObj, nestingLevel, matchName) { var propTo = []; dumpPropTree(rootObj, nestingLevel, matchName); function dumpPropTree(rootObj, nestingLevel, matchName) { var countProps = rootObj.numProperties; for (var propIndex = 1; propIndex &amp;lt;= countProps; propIndex++) { var prop = rootObj.property(propIndex); if (prop.matchName == matchName) { propTo.push(prop) return; } else { dumpPropTree(prop, nestingLevel + 1, matchName); } } } return propTo; }</description></item><item><title>🎬2023年01月よかった映像</title><link>https://alinco2020.github.io/AntHead/posts/202301071651-good-movies-2023-01/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071651-good-movies-2023-01/</guid><description>up: 🎬よかった映像まとめ 💗2022 sakuga 備忘録
 複合MAD的なシーン選びが良い
 💙2022 works by @chiu_hans (2btwq8RCjIMpS9t2)
 冒頭のVScodeの画面が浮いてるところ好き。透明感ある3DCGにUIが乗るとMicrosoftのPVを連想する。
@@ -82,9 +82,9 @@ UIがぶち壊れるの反射的にいいね押してしまう
 💙REEL 2022 by @Lazy_Mori (D3mOB4UN6anjcXA-)
 0:07辺りのワイヤーフレームと下絵のカットでいいね押した気がする。たぶん。
 💗Moodmaker
-道路が回転して斜めの赤になるところが良い</description></item><item><title>🎬よかった映像まとめ</title><link>https://alinco2020.github.io/AntHead/posts/202301071605/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071605/</guid><description>MAD研究フォルダー行きになった動画を一言コメントをつけてリストアップ。基本YouTubeとTwitter。
+道路が回転して斜めの赤になるところが良い</description></item><item><title>🎬よかった映像まとめ</title><link>https://alinco2020.github.io/AntHead/posts/202301071605-good-movies/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071605-good-movies/</guid><description>MAD研究フォルダー行きになった動画を一言コメントをつけてリストアップ。基本YouTubeとTwitter。
 2023 01 Backlinks
-🐜What is AntHead?</description></item><item><title>🐜好きな歌詞 フレーズ</title><link>https://alinco2020.github.io/AntHead/posts/202301072320/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301072320/</guid><description>動画にポエミーなタイトルを付けたいときに役立つかもしれない。上に新しく追加していく。
+🐜What is AntHead?</description></item><item><title>🐜好きな歌詞 フレーズ</title><link>https://alinco2020.github.io/AntHead/posts/202301072320-favorite-phrase/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301072320-favorite-phrase/</guid><description>動画にポエミーなタイトルを付けたいときに役立つかもしれない。上に新しく追加していく。
 今この僕があの日の答えだ
 未来になれなかったあの夜に / amazarashi
 僕らが世界を汚す
@@ -103,7 +103,7 @@ UIがぶち壊れるの反射的にいいね押してしまう
 どれほど愛し合っていても違う夕焼けを見るだろう
 stars / 時速36km
 Backlinks
-🐜What is AntHead?</description></item><item><title>⌨️サイト制作</title><link>https://alinco2020.github.io/AntHead/posts/202301062241/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241/</guid><description>Hogoを使用してmarkdownで記事を書き、github pagesで公開する。
+🐜What is AntHead?</description></item><item><title>⌨️サイト制作</title><link>https://alinco2020.github.io/AntHead/posts/202301062241-hugo/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241-hugo/</guid><description>Hogoを使用してmarkdownで記事を書き、github pagesで公開する。
 Hugoとは markdownから静的サイトを作れるやつ。テーマも用意されてる。
 📝Hugo と Github Pages でブログを作る
 バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
@@ -127,7 +127,7 @@ CSSはこのサイトからざっくりコピペ。自作の流れもこれを�
 📝Hugo のテーマを自作した
 リストが記事のdateをもとにソートされ、同じ日の記事は名前でソートされてしまっていたので、ファイル名でソートするようにlist.htmlを書き換えた。ファイル名はHHMMまで書いてるからこれで書き始めた順番通りに並ぶ。
 ファイルパスでソートする方法
-📝Explicitly order pages by file path - tips &amp;amp;amp; tricks - HUGO</description></item><item><title>🐜What is AntHead?</title><link>https://alinco2020.github.io/AntHead/posts/202301061720/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301061720/</guid><description>ルート記事。全てここから辿れる。
+📝Explicitly order pages by file path - tips &amp;amp;amp; tricks - HUGO</description></item><item><title>🐜What is AntHead?</title><link>https://alinco2020.github.io/AntHead/posts/202301061720-anthead/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301061720-anthead/</guid><description>ルート記事。全てここから辿れる。
 一匹のアリによる知識データベースシステム アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。
 これを参考に
 📝Wiki and Zettelkastenによる実験的な知的生産基盤.
@@ -137,7 +137,7 @@ CSSはこのサイトからざっくりコピペ。自作の流れもこれを�
 ・引用で知識は完全に他者に任せてる
 ・頭の絵文字で分類してる
 ・サイトの構造がいい
-このサイトで扱いたいテーマ 🎬映像 技術Tips デザイン研究 テーマの深掘り 他の人の作品研究 よかった映像まとめ できない映像表現 ⌨️プログラミング AEスクリプト Webプログラミング ネットワーク 💹投資 株 為替 仮想通貨 🐜個人的な内容 最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。
+このサイトで扱いたいテーマ 🎬映像 技術Tips デザイン研究 テーマの深掘り 他の人の作品研究 よかった映像まとめ できない映像表現 ⌨️プログラミング AEスクリプト Webプログラミング ネットワーク 💹投資 株 為替 仮想通貨 🐜個人的な内容 好きな歌詞 フレーズ 最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。
 絵文字の使い分け 絵文字も含まれたリンクは内部リンク。絵文字が外に出てるのは外部リンク。
 🐜 個人的な内容
 🎬 映像関連
