@@ -3,10 +3,13 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <title>📝動画配信技術 - AntHead</title>
-<meta name=description content="動画配信技術についてまとめる。暗号化など。
+<meta name=description content="動画配信技術についてまとめる。
 ABR(Adaptive bit Rate)とは ストリーミングを安定させる技術のこと。ネットワークの状態によって動画品質を変化させる。
-ABR対応ストリーミングプロトコル  📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) HDS(HTTP動的ストリーミング)  refs:
- 📝アダプティブビットレートストリーミングとは？ 📝web上での動画配信をダウンロードさせないために最近は  Backlinks
+ABR対応ストリーミングプロトコル  📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) HDS(HTTP動的ストリーミング)  暗号化 暗号化されたコンテンツのことをDRMコンテンツとか言ったりする。
+HTML単体ではDRMコンテンツを再生できないため、CDMを使って復号化する。CDMはDRMによって中身が違う。
+中身が違うCDMを全部同じように使うためのAPIがEME。これのおかげでどんなDRMでも復号化できる。仮想通貨のccxtみたいなイメージ。
+refs:
+ 📝アダプティブビットレートストリーミングとは？ 📝web上での動画配信をダウンロードさせないために最近は 📝HTML5 + JavaScriptでDRMつきMPEG-DASHを再生させる  Backlinks
  ⌨️Webプログラミング  ">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
@@ -70,7 +73,7 @@ _:where(th,p_code,li_code,a,mark){font:semibold;_font:medium@dark}
 _:where(ul){list-style-type:disc}
 _:where(ul,ol,blockquote){pl:1.5em}
 _:where(video,img){max-width:full}
-_:where(a,mark){text-underline-offset:3}"><p>動画配信技術についてまとめる。暗号化など。</p>
+_:where(a,mark){text-underline-offset:3}"><p>動画配信技術についてまとめる。</p>
 <h1 id=abradaptive-bit-rateとは>ABR(Adaptive bit Rate)とは</h1>
 <p>ストリーミングを安定させる技術のこと。ネットワークの状態によって動画品質を変化させる。</p>
 <h1 id=abr対応ストリーミングプロトコル>ABR対応ストリーミングプロトコル</h1>
@@ -79,10 +82,15 @@ _:where(a,mark){text-underline-offset:3}"><p>動画配信技術についてま�
 <li><a href=https://alinco2020.github.io/AntHead/posts/202301101453/>📝DASH(Dynamic Adaptive Streaming over HTTP)</a></li>
 <li>HDS(HTTP動的ストリーミング)</li>
 </ul>
+<h1 id=暗号化>暗号化</h1>
+<p>暗号化されたコンテンツのことを<a href=https://alinco2020.github.io/AntHead/posts/202301101337/>DRM</a>コンテンツとか言ったりする。<br>
+HTML単体ではDRMコンテンツを再生できないため、<a href=https://alinco2020.github.io/AntHead/posts/202301101608/>CDM</a>を使って復号化する。CDMはDRMによって中身が違う。<br>
+中身が違うCDMを全部同じように使うためのAPIが<a href=https://alinco2020.github.io/AntHead/posts/202301101623/>EME</a>。これのおかげでどんなDRMでも復号化できる。仮想通貨のccxtみたいなイメージ。</p>
 <p><strong>refs:</strong></p>
 <ul>
 <li>📝<a href=https://www.cloudflare.com/ja-jp/learning/video/what-is-adaptive-bitrate-streaming/ target=_blank>アダプティブビットレートストリーミングとは？</a></li>
 <li>📝<a href=https://teratail.com/questions/60913 target=_blank>web上での動画配信をダウンロードさせないために最近は</a></li>
+<li>📝<a href=https://www.slideshare.net/Gaprot/html5-javascriptdrmmpegdash target=_blank>HTML5 + JavaScriptでDRMつきMPEG-DASHを再生させる</a></li>
 </ul>
 <p><strong>Backlinks</strong></p>
 <ul>

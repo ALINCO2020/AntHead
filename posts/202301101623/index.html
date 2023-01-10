@@ -2,11 +2,11 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>📝DRM(Digital Rights Management) - AntHead</title>
-<meta name=description content="DRMとは 暗号化してコンテンツを保護する仕組みの総称。
-仕組み  ライセンスサーバーから発行された鍵で動画ファイルを暗号化 ユーザーがライセンスサーバーに認証をリクエスト 認証が通ると鍵情報を含むライセンス情報がユーザーに返ってきて動画を再生できる  TODO 動画ファイルの暗号化技術について調べる
+<title>EME(Encrypt Media Extensions) - AntHead</title>
+<meta name=description content="EMEとは 暗号化されたコンテンツを制御するAPI。ライセンスサーバーとやり取りする。
+バージョンがいっぱいあって仕様も結構変わるらしい。
 refs:
- 📝動画配信におけるコンテンツ保護の重要性とそれを実現する仕組みを自分なりにまとめてみた  Backlinks
+ 📝Backgrounder on Encrypted Media Extensions (EME) - W3C 📝HTML5 + JavaScriptでDRMつきMPEG-DASHを再生させる  Backlinks
  ⌨️Webプログラミング 📝動画配信技術  ">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
@@ -33,7 +33,7 @@ AntHead
 <div class="max-w:700 w:full box:content-box">
 <article class="box:border-box pt:32">
 <header class=mb:32>
-<h2 class="font:40 font:extrabold">📝DRM(Digital Rights Management)</h2>
+<h2 class="font:40 font:extrabold">EME(Encrypt Media Extensions)</h2>
 <div class="mt:16 f:fade-60">
 <time>2023/01/10</time> </div>
 </header><div class="_:where(a):hover{text-decoration-color:fade}
@@ -70,20 +70,13 @@ _:where(th,p_code,li_code,a,mark){font:semibold;_font:medium@dark}
 _:where(ul){list-style-type:disc}
 _:where(ul,ol,blockquote){pl:1.5em}
 _:where(video,img){max-width:full}
-_:where(a,mark){text-underline-offset:3}"><h1 id=drmとは>DRMとは</h1>
-<p>暗号化してコンテンツを保護する仕組みの総称。</p>
-<h1 id=仕組み>仕組み</h1>
-<ul>
-<li>ライセンスサーバーから発行された鍵で動画ファイルを暗号化</li>
-<li>ユーザーがライセンスサーバーに認証をリクエスト</li>
-<li>認証が通ると鍵情報を含むライセンス情報がユーザーに返ってきて動画を再生できる</li>
-</ul>
-<p><img src=https://d1tlzifd8jdoy4.cloudfront.net/wp-content/uploads/2020/06/v4.png alt></p>
-<p><strong>TODO</strong>
-動画ファイルの暗号化技術について調べる</p>
+_:where(a,mark){text-underline-offset:3}"><h1 id=emeとは>EMEとは</h1>
+<p>暗号化されたコンテンツを制御するAPI。ライセンスサーバーとやり取りする。<br>
+バージョンがいっぱいあって仕様も結構変わるらしい。</p>
 <p><strong>refs:</strong></p>
 <ul>
-<li>📝<a href=https://dev.classmethod.jp/articles/hls-aes-with-aws-elemental-medialive/ target=_blank>動画配信におけるコンテンツ保護の重要性とそれを実現する仕組みを自分なりにまとめてみた</a></li>
+<li>📝<a href=https://www.w3.org/2017/07/EME-backgrounder.html.ja target=_blank>Backgrounder on Encrypted Media Extensions (EME) - W3C</a></li>
+<li>📝<a href=https://www.slideshare.net/Gaprot/html5-javascriptdrmmpegdash target=_blank>HTML5 + JavaScriptでDRMつきMPEG-DASHを再生させる</a></li>
 </ul>
 <p><strong>Backlinks</strong></p>
 <ul>

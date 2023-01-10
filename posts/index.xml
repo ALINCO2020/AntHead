@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/AntHead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>📝CDN(Content Delivery Network)</title><link>https://alinco2020.github.io/AntHead/posts/202301101506/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101506/</guid><description>CDNとは 物理的にバラバラの位置に配置したサーバーのこと。ユーザーの所在地に近いところから配信できるから高速。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/AntHead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>EME(Encrypt Media Extensions)</title><link>https://alinco2020.github.io/AntHead/posts/202301101623/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101623/</guid><description>EMEとは 暗号化されたコンテンツを制御するAPI。ライセンスサーバーとやり取りする。
+バージョンがいっぱいあって仕様も結構変わるらしい。
+refs:
+📝Backgrounder on Encrypted Media Extensions (EME) - W3C 📝HTML5 &amp;#43; JavaScriptでDRMつきMPEG-DASHを再生させる Backlinks
+⌨️Webプログラミング 📝動画配信技術</description></item><item><title>📝CDM(Content Decryption Module)</title><link>https://alinco2020.github.io/AntHead/posts/202301101608/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101608/</guid><description>CDMとは コンテンツを復号化するモジュール（そのまんま）
+ライセンスサーバーと直接やり取りし、鍵を取得する。
+refs:
+📝[MPEG-DASH] DRMシステムの概要と種類 Backlinks
+⌨️Webプログラミング 📝動画配信技術</description></item><item><title>📝CDN(Content Delivery Network)</title><link>https://alinco2020.github.io/AntHead/posts/202301101506/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101506/</guid><description>CDNとは 物理的にバラバラの位置に配置したサーバーのこと。ユーザーの所在地に近いところから配信できるから高速。
 refs:
 📝CDNとは何か？| CDNの仕組みは？ Backlinks
 ⌨️Webプログラミング 📝DASH(Dynamic Adaptive Streaming over HTTP)</description></item><item><title>📝DASH(Dynamic Adaptive Streaming over HTTP)</title><link>https://alinco2020.github.io/AntHead/posts/202301101453/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101453/</guid><description>DASHとは 動画ストリーミングプロトコル。正式名称はMPEG-DASH。ISO国際標準規格。HLSと似てる。
@@ -9,13 +17,16 @@ refs:
 ⌨️Webプログラミング 📝動画配信技術 📝HLS(HTTPライブストリーム)</description></item><item><title>📝DRM(Digital Rights Management)</title><link>https://alinco2020.github.io/AntHead/posts/202301101337/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101337/</guid><description>DRMとは 暗号化してコンテンツを保護する仕組みの総称。
 仕組み ライセンスサーバーから発行された鍵で動画ファイルを暗号化 ユーザーがライセンスサーバーに認証をリクエスト 認証が通ると鍵情報を含むライセンス情報がユーザーに返ってきて動画を再生できる TODO 動画ファイルの暗号化技術について調べる
 refs:
-📝動画配信におけるコンテンツ保護の重要性とそれを実現する仕組みを自分なりにまとめてみた](https://dev.classmethod.jp/articles/hls-aes-with-aws-elemental-medialive/) Backlinks
-📝動画配信技術 ⌨️Webプログラミング</description></item><item><title>📝動画配信技術</title><link>https://alinco2020.github.io/AntHead/posts/202301101432/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101432/</guid><description>動画配信技術についてまとめる。暗号化など。
+📝動画配信におけるコンテンツ保護の重要性とそれを実現する仕組みを自分なりにまとめてみた Backlinks
+⌨️Webプログラミング 📝動画配信技術</description></item><item><title>📝動画配信技術</title><link>https://alinco2020.github.io/AntHead/posts/202301101432/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101432/</guid><description>動画配信技術についてまとめる。
 ABR(Adaptive bit Rate)とは ストリーミングを安定させる技術のこと。ネットワークの状態によって動画品質を変化させる。
-ABR対応ストリーミングプロトコル 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) HDS(HTTP動的ストリーミング) refs:
-📝アダプティブビットレートストリーミングとは？ 📝web上での動画配信をダウンロードさせないために最近は Backlinks
+ABR対応ストリーミングプロトコル 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) HDS(HTTP動的ストリーミング) 暗号化 暗号化されたコンテンツのことをDRMコンテンツとか言ったりする。
+HTML単体ではDRMコンテンツを再生できないため、CDMを使って復号化する。CDMはDRMによって中身が違う。
+中身が違うCDMを全部同じように使うためのAPIがEME。これのおかげでどんなDRMでも復号化できる。仮想通貨のccxtみたいなイメージ。
+refs:
+📝アダプティブビットレートストリーミングとは？ 📝web上での動画配信をダウンロードさせないために最近は 📝HTML5 &amp;#43; JavaScriptでDRMつきMPEG-DASHを再生させる Backlinks
 ⌨️Webプログラミング</description></item><item><title>⌨️Extendscriptでリストのsumとmaxを求める</title><link>https://alinco2020.github.io/AntHead/posts/202301092218/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301092218/</guid><description>up: ⌨️Script reduceは使えないから愚直にfor文回せ。以上。</description></item><item><title>⌨️Webプログラミング</title><link>https://alinco2020.github.io/AntHead/posts/202301091331/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091331/</guid><description>Web系の投稿はここから辿れるようにする。
-⌨️サイト制作 📝動画配信技術 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) 📝DRM(Digital Rights Management) 📝CDN(Content Delivery Network) Backlinks
+⌨️サイト制作 📝動画配信技術 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) 📝DRM(Digital Rights Management) 📝CDM(Content Decryption Module) 📝CDN(Content Delivery Network) Backlinks
 🐜What is AntHead?</description></item><item><title>📝HLS(HTTPライブストリーム)</title><link>https://alinco2020.github.io/AntHead/posts/202301091321/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091321/</guid><description>HLSとは 動画ストリーミングプロトコル。Appleが開発。
 メリットは2つ
 ・実装が簡単(HTTPプロトコルなので全てのサーバーで実装可能)
@@ -116,7 +127,8 @@ CSSはこのサイトからざっくりコピペ。自作の流れもこれを�
 📝Hugo のテーマを自作した
 リストが記事のdateをもとにソートされ、同じ日の記事は名前でソートされてしまっていたので、ファイル名でソートするようにlist.htmlを書き換えた。ファイル名はHHMMまで書いてるからこれで書き始めた順番通りに並ぶ。
 ファイルパスでソートする方法
-📝Explicitly order pages by file path - tips &amp;amp;amp; tricks - HUGO</description></item><item><title>🐜What is AntHead?</title><link>https://alinco2020.github.io/AntHead/posts/202301061720/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301061720/</guid><description>一匹のアリによる知識データベースシステム アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。
+📝Explicitly order pages by file path - tips &amp;amp;amp; tricks - HUGO</description></item><item><title>🐜What is AntHead?</title><link>https://alinco2020.github.io/AntHead/posts/202301061720/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301061720/</guid><description>ルート記事。全てここから辿れる。
+一匹のアリによる知識データベースシステム アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。
 これを参考に
 📝Wiki and Zettelkastenによる実験的な知的生産基盤.
 このサイトのいい所
