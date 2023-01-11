@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/AntHead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>📝CDM(Content Decryption Module)</title><link>https://alinco2020.github.io/AntHead/posts/202301101608-cdm/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101608-cdm/</guid><description>CDMとは コンテンツを復号化するモジュール（そのまんま）
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/AntHead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 11 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>💹仮想通貨</title><link>https://alinco2020.github.io/AntHead/posts/202301112137-crypto/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301112137-crypto/</guid><description>仮想通貨の投稿はここから辿れるようにする。
+📝MMbot Backlinks
+🐜What is AntHead?</description></item><item><title>📝MMbot</title><link>https://alinco2020.github.io/AntHead/posts/202301112140-mmbot/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301112140-mmbot/</guid><description>MMbotとは 📝mmbot
+これ見れば大体わかるけど自分もまとめる。
+📝Python3 MarketMaker(MM)BOTのサンプルロジックとソースコード
+とりあえず聖典。
+売り指値と買い指値をbest付近に両方出して両方約定させて小さな差額を得る。スプレッドを取るとか言ったりする。
+magito氏の記事ではより正しいスプレッドを計算する工夫がされてる。
+📝仮想通貨高頻度botを大解説！新作botを実況してみた！【高頻度bot実況#1】
+どうやら上下予測もして上がると予想したら売り指値を遠くに出したり、そもそも指値を出さないようにしたりするらしい。かしこい。
+📝高頻度しかやらない話
+高頻度＝mmbotではないらしい。超短期のほうが予測が楽みたいな話はわりとみんな言ってる。注文系の処理以外はwebsocketを使うらしい。（注文系はREST API）1時間300回約定とか無理じゃね……。
+📝mmbot神教材まとめ
+pybottersがwebsocket使うのに便利らしい。
+refs:
+📝mmbot 📝Python3 MarketMaker(MM)BOTのサンプルロジックとソースコード 📝高頻度しかやらない話 📝仮想通貨高頻度botを大解説！新作botを実況してみた！【高頻度bot実況#1】 📝mmbot神教材まとめ Backlinks
+💹仮想通貨</description></item><item><title>📝WebSocket</title><link>https://alinco2020.github.io/AntHead/posts/202301112156-websocket/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301112156-websocket/</guid><description>WebSocketとは 双方向に通信する通信プロトコル。速い。
+keywords
+非同期処理 async wait Backlinks
+⌨️Webプログラミング 💹仮想通貨</description></item><item><title>📝CDM(Content Decryption Module)</title><link>https://alinco2020.github.io/AntHead/posts/202301101608-cdm/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101608-cdm/</guid><description>CDMとは コンテンツを復号化するモジュール（そのまんま）
 ライセンスサーバーと直接やり取りし、鍵を取得する。
 refs:
 📝[MPEG-DASH] DRMシステムの概要と種類 Backlinks
@@ -26,7 +45,7 @@ HTML単体ではDRMコンテンツを再生できないため、CDMを使って�
 refs:
 📝アダプティブビットレートストリーミングとは？ 📝web上での動画配信をダウンロードさせないために最近は 📝HTML5 &amp;#43; JavaScriptでDRMつきMPEG-DASHを再生させる Backlinks
 ⌨️Webプログラミング</description></item><item><title>⌨️Extendscriptでリストのsumとmaxを求める</title><link>https://alinco2020.github.io/AntHead/posts/202301092218-sum-max/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301092218-sum-max/</guid><description>up: ⌨️Script reduceは使えないから愚直にfor文回せ。以上。</description></item><item><title>⌨️Webプログラミング</title><link>https://alinco2020.github.io/AntHead/posts/202301091331-web/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091331-web/</guid><description>Web系の投稿はここから辿れるようにする。
-⌨️サイト制作 📝動画配信技術 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) 📝DRM(Digital Rights Management) 📝CDM(Content Decryption Module) 📝CDN(Content Delivery Network) Backlinks
+⌨️サイト制作 📝動画配信技術 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) 📝DRM(Digital Rights Management) 📝CDM(Content Decryption Module) 📝CDN(Content Delivery Network) 📝Websocket Backlinks
 🐜What is AntHead?</description></item><item><title>📝HLS(HTTPライブストリーム)</title><link>https://alinco2020.github.io/AntHead/posts/202301091321-hls/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091321-hls/</guid><description>HLSとは 動画ストリーミングプロトコル。Appleが開発。
 メリットは2つ
 ・実装が簡単(HTTPプロトコルなので全てのサーバーで実装可能)

@@ -26,7 +26,7 @@ HTML単体ではDRMコンテンツを再生できないため、CDMを使って�
 refs:
 📝アダプティブビットレートストリーミングとは？ 📝web上での動画配信をダウンロードさせないために最近は 📝HTML5 &amp;#43; JavaScriptでDRMつきMPEG-DASHを再生させる Backlinks
 ⌨️Webプログラミング</description></item><item><title>⌨️Webプログラミング</title><link>https://alinco2020.github.io/AntHead/posts/202301091331-web/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091331-web/</guid><description>Web系の投稿はここから辿れるようにする。
-⌨️サイト制作 📝動画配信技術 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) 📝DRM(Digital Rights Management) 📝CDM(Content Decryption Module) 📝CDN(Content Delivery Network) Backlinks
+⌨️サイト制作 📝動画配信技術 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) 📝DRM(Digital Rights Management) 📝CDM(Content Decryption Module) 📝CDN(Content Delivery Network) 📝Websocket Backlinks
 🐜What is AntHead?</description></item><item><title>📝HLS(HTTPライブストリーム)</title><link>https://alinco2020.github.io/AntHead/posts/202301091321-hls/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091321-hls/</guid><description>HLSとは 動画ストリーミングプロトコル。Appleが開発。
 メリットは2つ
 ・実装が簡単(HTTPプロトコルなので全てのサーバーで実装可能)
