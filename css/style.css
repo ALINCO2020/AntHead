@@ -55,6 +55,10 @@ article {
     color: white;
 }
 
+article {
+    line-height: 1.6;
+}
+
 blockquote{
     position:relative;
     border-left:6px solid #6e6e6e;
