@@ -12,3 +12,6 @@ pygmentsstyle = "solarized-dark256"
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
+
+[taxonomies]
+    tag = "tags"

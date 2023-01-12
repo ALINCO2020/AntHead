@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ if eq .Title "Tags"}}
+    <h1>Tags</h1>
+    <ul style="list-style-type: none;">
+        {{ range .Site.Taxonomies.tags.ByCount }}
+        <li><a href="{{ "/AntHead/tags/" | relURL }}{{ .Name | urlize }}">{{ .Name }}({{ .Count }})</a></li>
+        {{ end }}
+    </ul>
+{{ end }}
+{{ end }}
