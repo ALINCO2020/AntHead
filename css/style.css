@@ -99,6 +99,8 @@ ul {
 }
 
 .flex img {
-	width: calc(33.3% - 4px);
+	width: auto;
+    max-width: 100%;
     height: auto;
+    max-height: 400px;
 }
