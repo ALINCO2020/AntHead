@@ -15,3 +15,6 @@ pygmentsstyle = "solarized-dark256"
 
 [taxonomies]
     tag = "tags"
+
+[markup.goldmark.parser.attribute]
+    block = true

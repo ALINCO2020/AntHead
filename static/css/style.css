@@ -92,3 +92,13 @@ img {
 ul {
     padding-left: 20px;
 }
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex img {
+	width: calc(33.3% - 4px);
+    height: auto;
+}
