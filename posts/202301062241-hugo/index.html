@@ -125,6 +125,11 @@ TODO　カスタムcssまとめ
 <h2 id=タグ一覧と各タグのページを作成>タグ一覧と各タグのページを作成</h2>
 <p>layouts/_default/terms.htmlがタグ一覧ページに、layouts/taxonomy/tag.htmlが各タグのページになる。<br>
 📝<a href=https://www.jakewiesler.com/blog/hugo-taxonomies target=_blank>Add Tags to Your Hugo Blog Using Taxonomies</a></p>
+<h2 id=relurlの挙動>relURLの挙動</h2>
+<div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#0087ff>a</span> href=<span style=color:#00afaf>&#34;{{ &#34;</span>tags/&#34; | relURL }}{{ .Name | urlize }}&#34;&gt;
+</code></pre></div><p>terms.htmlから抜粋。各タグページへのリンク。tags/の部分を/tags/にしたらバグるから注意。</p>
+<h2 id=classを指定>classを指定</h2>
+<p>📝<a href=https://text.baldanders.info/remark/2021/03/add-attribute-in-hugo-markdown/ target=_blank>Hugo Markdown でブロック要素にクラス属性を付与する</a></p>
 <p><strong>refs</strong>:</p>
 <ul>
 <li>📝<a href=https://k-kaz-git.github.io/post/hugo-alink/ target=_blank>Hugo で外部サイトを新しいタブで開きたい。</a></li>
