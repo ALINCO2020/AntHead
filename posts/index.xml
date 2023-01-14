@@ -74,7 +74,7 @@ UDPプロトコルのほうが速いけどHLSはTCPプロトコルを使う
 refs:
 📝HTTPライブストリーミングとは？| HLSストリーミング Backlinks
 ⌨️Webプログラミング 📝動画配信技術 📝DASH(Dynamic Adaptive Streaming over HTTP)</description></item><item><title>🎬できない映像表現</title><link>https://alinco2020.github.io/AntHead/posts/202301080858-cant-movie-xp/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080858-cant-movie-xp/</guid><description>出来ないことをわかるようにして1つずつ潰していく。なるべく詳細に。
-モーショングラフィックス グラデーションのかかったシェイプ 視線誘導（一つの円を目で追わせる、みたいな） 長く連続させるカット シームレストランジション デザイン 3DCG 人物モデリング モーション クロスシミュレーション セルルック 漫画キャラモーション 手描き アニメーション Backlinks
+モーショングラフィックス グラデーションのかかったシェイプ 視線誘導（一つの円を目で追わせる、みたいな） 長く連続させるカット シームレストランジション デザイン 全て 3DCG モデリング アクション カメラワーク クロスシミュレーション セルルック 漫画キャラモーション 手描き アニメーション Backlinks
 🐜What is AntHead?</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911-design/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911-design/</guid><description>デザインに関する投稿はここにまとめる。
 ざっと分類 モーショングラフィックス グラフィックデザイン Webデザイン 📝タイポグラフィー ポスターデザイン レイアウトデザイン スポーツグラフィックデザイン コラージュ UI UXデザイン デザインの構成要素 Line（線）
 2つ以上の繋がった点のことで、太さ、長さ、方向を持っている。区切り、強調、つながりなど、何かと使える基本要素。「とりあえず線でも入れて区切っとけ」というのは本質的ではない。 Color（色）
@@ -93,7 +93,7 @@ refs:
 📝コマンドID一覧
 自作関数 ⌨️位置にSetValueする関数 ⌨️特定のプロパティを返す関数 メモ 📝Extendscriptでリストのsumとmaxを求める 自作スクリプト配布場所 🐜ALINCOLONY
 Backlinks
-🐜What is AntHead?</description></item><item><title>⌨️位置にSetValueする関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071101-position-setvalue/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071101-position-setvalue/</guid><description>up: ⌨️Script 位置にSetValueするのはなかなか面倒くさい。次元分解で条件分岐が必要だったり。なので関数を作った。
+🐜What is AntHead?</description></item><item><title>⌨️位置にSetValueする関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071101-position-setvalue/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071101-position-setvalue/</guid><description>up: ⌨️Script 位置にSetValueするのがなかなか面倒くさいので関数を作った。
 /** * ポジションを設定する関数 * @param {*} layer レイヤー * @param {*} XYarray 配列[x, y, z] * @param {boolean} isSetValueAtTime setValueAtTimeを使うかどうか * @param {*} time setValueAtTimeを使う場合の時間 */ function setPosition(layer, XYZarray, isSetValueAtTime, time) { try { var x = XYZarray[0] var y = XYZarray[1] var z = XYZarray[2] var position = layer.property(&amp;#39;ADBE Transform Group&amp;#39;).property(&amp;#39;ADBE Position&amp;#39;) // setValueを使う場合 if (!isSetValueAtTime) { // 次元分割されていない場合 if (!position.dimensionsSeparated) { position.</description></item><item><title>⌨️特定のプロパティを返す関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071301-return-prop/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071301-return-prop/</guid><description> up: ⌨️Script matchNameが一致するプロパティを再帰で全部返す。何かと便利。
 /** * 特定のプロパティを返す * @param {*} rootObj レイヤーでもコンテンツでもOK * @param {*} nestingLevel 0でOK * @param {*} matchName 探したいプロパティのmatchName * @returns */ function returnProp(rootObj, nestingLevel, matchName) { var propTo = []; dumpPropTree(rootObj, nestingLevel, matchName); function dumpPropTree(rootObj, nestingLevel, matchName) { var countProps = rootObj.numProperties; for (var propIndex = 1; propIndex &amp;lt;= countProps; propIndex++) { var prop = rootObj.property(propIndex); if (prop.matchName == matchName) { propTo.push(prop) return; } else { dumpPropTree(prop, nestingLevel + 1, matchName); } } } return propTo; }</description></item><item><title>🎬2023年01月よかった映像</title><link>https://alinco2020.github.io/AntHead/posts/202301071651-good-movies-2023-01/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071651-good-movies-2023-01/</guid><description>up: 🎬よかった映像まとめ 💗2022 sakuga 備忘録
 複合MAD的なシーン選びが良い
@@ -116,7 +116,7 @@ UIがぶち壊れるの反射的にいいね押してしまう
 💙REEL 2022 by @Lazy_Mori (D3mOB4UN6anjcXA-)
 0:07辺りのワイヤーフレームと下絵のカットでいいね押した気がする。たぶん。
 💗Moodmaker
-道路が回転して斜めの赤になるところが良い</description></item><item><title>🎬よかった映像まとめ</title><link>https://alinco2020.github.io/AntHead/posts/202301071605-good-movies/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071605-good-movies/</guid><description>MAD研究フォルダー行きになった動画を一言コメントをつけてリストアップ。基本YouTubeとTwitter。
+道路が回転して斜めの赤になるところが良い</description></item><item><title>🎬よかった映像まとめ</title><link>https://alinco2020.github.io/AntHead/posts/202301071605-good-movies/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071605-good-movies/</guid><description>MAD研究フォルダー行きになった動画をリストアップ。基本YouTubeとTwitter。
 2023 01 Backlinks
 🐜What is AntHead?</description></item><item><title>🐜好きな歌詞 フレーズ</title><link>https://alinco2020.github.io/AntHead/posts/202301072320-favorite-phrase/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301072320-favorite-phrase/</guid><description>動画にポエミーなタイトルを付けたいときに役立つかもしれない。上に新しく追加していく。
 今この僕があの日の答えだ
@@ -162,7 +162,7 @@ CSSはこのサイトからざっくりコピペ。自作の流れもこれを�
 リストが記事のdateをもとにソートされ、同じ日の記事は名前でソートされてしまっていたので、ファイル名でソートするようにlist.htmlを書き換えた。ファイル名はHHMMまで書いてるからこれで書き始めた順番通りに並ぶ。
 ファイルパスでソートする方法
 📝Explicitly order pages by file path - tips &amp;amp;amp; tricks - HUGO</description></item><item><title>🐜What is AntHead?</title><link>https://alinco2020.github.io/AntHead/posts/202301061720-anthead/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301061720-anthead/</guid><description>ルート記事。全てここから辿れる。
-一匹のアリによる知識データベースシステム アリの第二の脳を目指す。つまり外部記憶装置。知識の整理と格納、知見化が目的。
+AntHeadとは アリの第二の脳を目指す、つまり外部記憶装置。知識の整理と格納、知見化が目的。
 これを参考に
 📝Wiki and Zettelkastenによる実験的な知的生産基盤.
 このサイトのいい所
