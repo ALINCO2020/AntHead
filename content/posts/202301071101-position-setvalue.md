@@ -8,7 +8,7 @@ tags:
 
 - up: [⌨️Script]({{<ref "posts/202301071000-script.md">}})
 
-位置にSetValueするのはなかなか面倒くさい。次元分解で条件分岐が必要だったり。なので関数を作った。
+位置にSetValueするのがなかなか面倒くさいので関数を作った。
 
 ```javascript
 /**
