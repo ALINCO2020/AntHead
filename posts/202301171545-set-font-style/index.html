@@ -2,11 +2,9 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>📝CEP作る - AntHead</title>
-<meta name=description content="up: ⌨️Script  CEP作るぞ～～～ ↓公式チュートリアル 📝Getting Started with CEP Extensions
-フォルダ構成 manifest.xml 以外はわりと自由にしていいらしい。CSInterface.js が jsx と js の橋渡し役。
-ファイル読み込み js 内だと上手くいかないから jsx の方で読み込んでる。勉強不足。（動けばいいんだよ）
-今のところエクセル読み込んで table で表示するだけしか作ってないから書くこと無いや。CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。MultiEaseのCEP版作りたいけどなぁ俺もなぁ。">
+<title>📝スクリプトからフォントを設定 - AntHead</title>
+<meta name=description content="up: ⌨️Script  一見奇妙な処理。
+var sourceText = selectedLayer.text.sourceText // 一旦 sourcceText の値を別の変数に格納 var textDocument = sourceText.value // フォントを変更して textDocument.font = 'Arial' // 再び setValue sourceText.setValue(textDocument) フォントが対応してない場合は書き変わらないっぽい。英字フォントで日本語とか。">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
 <link rel=stylesheet href=/AntHead/css/syntax.css>
@@ -33,9 +31,9 @@ AntHead
 <div class="max-w:700 w:full box:content-box">
 <article class="box:border-box pt:32">
 <header class=mb:32>
-<h2 class="font:40 font:extrabold">📝CEP作る</h2>
+<h2 class="font:40 font:extrabold">📝スクリプトからフォントを設定</h2>
 <div class="mt:16 f:fade-60">
-<time>2023/01/16</time> </div>
+<time>2023/01/17</time> </div>
 </header><div class="_:where(a):hover{text-decoration-color:fade}
 _:where(a){text-decoration:2;underline;fade-10;_text-decoration-color:fade-70@dark}
 _:where(blockquote){bl:5;solid;fade-76/.1;_bl:5;solid;fade-34/.1@dark}
@@ -73,14 +71,15 @@ _:where(video,img){max-width:full}
 _:where(a,mark){text-underline-offset:3}"><ul>
 <li>up: <a href=https://alinco2020.github.io/AntHead/posts/202301071000-script/>⌨️Script</a></li>
 </ul>
-<p>CEP作るぞ～～～ ↓公式チュートリアル <br>
-📝<a href=https://github.com/Adobe-CEP/Getting-Started-guides target=_blank>Getting Started with CEP Extensions</a></p>
-<h1 id=フォルダ構成>フォルダ構成</h1>
-<p><img src=https://raw.githubusercontent.com/Adobe-CEP/Getting-Started-guides/master/.meta/readme-assets/extension-structure.png alt></p>
-<p>manifest.xml 以外はわりと自由にしていいらしい。CSInterface.js が jsx と js の橋渡し役。</p>
-<h1 id=ファイル読み込み>ファイル読み込み</h1>
-<p>js 内だと上手くいかないから jsx の方で読み込んでる。勉強不足。<del>（動けばいいんだよ）</del></p>
-<p>今のところエクセル読み込んで table で表示するだけしか作ってないから書くこと無いや。CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。MultiEaseのCEP版作りたいけどなぁ俺もなぁ。</p>
+<p>一見奇妙な処理。</p>
+<div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#0087ff>var</span> sourceText = selectedLayer.text.sourceText
+<span style=color:#4e4e4e>// 一旦 sourcceText の値を別の変数に格納
+</span><span style=color:#4e4e4e></span><span style=color:#0087ff>var</span> textDocument = sourceText.value
+<span style=color:#4e4e4e>// フォントを変更して
+</span><span style=color:#4e4e4e></span>textDocument.font = <span style=color:#00afaf>&#39;Arial&#39;</span>
+<span style=color:#4e4e4e>// 再び setValue
+</span><span style=color:#4e4e4e></span>sourceText.setValue(textDocument)
+</code></pre></div><p>フォントが対応してない場合は書き変わらないっぽい。英字フォントで日本語とか。</p>
 </div></article>
 <footer class=py:24>
 <div class="f:fade-30 f:14 mb:8"></div>

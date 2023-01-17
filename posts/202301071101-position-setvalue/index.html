@@ -3,7 +3,7 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <title>⌨️位置にSetValueする関数 - AntHead</title>
-<meta name=description content="up: ⌨️Script  位置にSetValueするのがなかなか面倒くさいので関数を作った。
+<meta name=description content="up: ⌨️Script  位置にSetValueするのがなかなか面倒くさいので関数を作った。けどあんまり使ってない。
 /** * ポジションを設定する関数 * @param {*} layer レイヤー * @param {*} XYarray 配列[x, y, z] * @param {boolean} isSetValueAtTime setValueAtTimeを使うかどうか * @param {*} time setValueAtTimeを使う場合の時間 */ function setPosition(layer, XYZarray, isSetValueAtTime, time) { try { var x = XYZarray[0] var y = XYZarray[1] var z = XYZarray[2] var position = layer.property('ADBE Transform Group').property('ADBE Position') // setValueを使う場合  if (!isSetValueAtTime) { // 次元分割されていない場合  if (!position.dimensionsSeparated) { position.">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
@@ -71,7 +71,7 @@ _:where(video,img){max-width:full}
 _:where(a,mark){text-underline-offset:3}"><ul>
 <li>up: <a href=https://alinco2020.github.io/AntHead/posts/202301071000-script/>⌨️Script</a></li>
 </ul>
-<p>位置にSetValueするのがなかなか面倒くさいので関数を作った。</p>
+<p>位置にSetValueするのがなかなか面倒くさいので関数を作った。けどあんまり使ってない。</p>
 <div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#4e4e4e>/**
 </span><span style=color:#4e4e4e>* ポジションを設定する関数
 </span><span style=color:#4e4e4e>* @param {*} layer レイヤー

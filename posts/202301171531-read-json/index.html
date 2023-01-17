@@ -3,7 +3,8 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <title>⌨️jsonを読み込む関数 - AntHead</title>
-<meta name=description content=" up: ⌨️Script  function readJson(fileName) { var file = new File(dataPath + &#34;/&#34; + fileName + &#34;.txt&#34;); var currentLine; var jsonStuff = []; file.open(&#34;r&#34;); while (!file.eof) { currentLine = file.readln(); jsonStuff.push(currentLine); } file.close(); jsonStuff = jsonStuff.join(&#34;&#34;); var parsedJson = JSON.parse(jsonStuff); return parsedJson; } ">
+<meta name=description content=" up: ⌨️Script  頻繁に使う。
+function readJson(fileName) { var file = new File(dataPath + &#34;/&#34; + fileName + &#34;.txt&#34;); var currentLine; var jsonStuff = []; file.open(&#34;r&#34;); while (!file.eof) { currentLine = file.readln(); jsonStuff.push(currentLine); } file.close(); jsonStuff = jsonStuff.join(&#34;&#34;); var parsedJson = JSON.parse(jsonStuff); return parsedJson; } ">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
 <link rel=stylesheet href=/AntHead/css/syntax.css>
@@ -70,6 +71,7 @@ _:where(video,img){max-width:full}
 _:where(a,mark){text-underline-offset:3}"><ul>
 <li>up: <a href=https://alinco2020.github.io/AntHead/posts/202301071000-script/>⌨️Script</a></li>
 </ul>
+<p>頻繁に使う。</p>
 <div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#0087ff>function</span> readJson(fileName) {
   <span style=color:#0087ff>var</span> file = <span style=color:#5f8700>new</span> File(dataPath + <span style=color:#00afaf>&#34;/&#34;</span> + fileName + <span style=color:#00afaf>&#34;.txt&#34;</span>);
   <span style=color:#0087ff>var</span> currentLine;
