@@ -2,10 +2,8 @@
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>🎬よかった映像まとめ - AntHead</title>
-<meta name=description content="MAD研究フォルダー行きになった動画をリストアップ。基本YouTubeとTwitter。
- 2023  01    Backlinks
- 🐜What is AntHead?  ">
+<title>📝Python の例外処理で何行目がエラーを吐いたか出力させる - AntHead</title>
+<meta name=description content="import os, sys try: hogehoge() except Exception as e: exc_type, exc_obj, exc_tb = sys.exc_info() fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1] print(e, fname, exc_tb.tb_lineno) ">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
 <link rel=stylesheet href=/AntHead/css/syntax.css>
@@ -32,9 +30,9 @@ AntHead
 <div class="max-w:700 w:full box:content-box">
 <article class="box:border-box pt:32">
 <header class=mb:32>
-<h2 class="font:40 font:extrabold">🎬よかった映像まとめ</h2>
+<h2 class="font:40 font:extrabold">📝Python の例外処理で何行目がエラーを吐いたか出力させる</h2>
 <div class="mt:16 f:fade-60">
-<time>2023/01/07</time> </div>
+<time>2023/01/17</time> </div>
 </header><div class="_:where(a):hover{text-decoration-color:fade}
 _:where(a){text-decoration:2;underline;fade-10;_text-decoration-color:fade-70@dark}
 _:where(blockquote){bl:5;solid;fade-76/.1;_bl:5;solid;fade-34/.1@dark}
@@ -69,24 +67,18 @@ _:where(th,p_code,li_code,a,mark){font:semibold;_font:medium@dark}
 _:where(ul){list-style-type:disc}
 _:where(ul,ol,blockquote){pl:1.5em}
 _:where(video,img){max-width:full}
-_:where(a,mark){text-underline-offset:3}"><p>MAD研究フォルダー行きになった動画をリストアップ。基本YouTubeとTwitter。</p>
-<ul>
-<li>2023
-<ul>
-<li><a href=https://alinco2020.github.io/AntHead/posts/202301071651-good-movies-2023-01/>01</a></li>
-</ul>
-</li>
-</ul>
-<p><strong>Backlinks</strong></p>
-<ul>
-<li><a href=https://alinco2020.github.io/AntHead/posts/202301061720-anthead/>🐜What is AntHead?</a></li>
-</ul>
-</div></article>
+_:where(a,mark){text-underline-offset:3}"><div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#d75f00>import</span> os, sys
+<span style=color:#5f8700>try</span>:
+  hogehoge()
+<span style=color:#5f8700>except</span> <span style=color:#af8700>Exception</span> <span style=color:#5f8700>as</span> e:
+  exc_type, exc_obj, exc_tb = sys.exc_info()
+  fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[<span style=color:#00afaf>1</span>]
+  <span style=color:#0087ff>print</span>(e, fname, exc_tb.tb_lineno)
+</code></pre></div></div></article>
 <footer>
 <p><strong>Tags</strong></p>
 <ul>
-<li><a href=https://alinco2020.github.io/AntHead/tags/movie/>movie</a></li>
-<li><a href=https://alinco2020.github.io/AntHead/tags/mad/>mad</a></li>
+<li><a href=https://alinco2020.github.io/AntHead/tags/program/>program</a></li>
 </ul>
 </footer></div>
 </div>

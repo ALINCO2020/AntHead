@@ -3,13 +3,9 @@ function readJson(fileName) { var file = new File(dataPath + &amp;#34;/&amp;#34;
 📝AEColorPicker
 cppだぁ～……。何やってるか全然わからん。</description></item><item><title>📝DLL</title><link>https://alinco2020.github.io/AntHead/posts/202301171909-dll/</link><pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301171909-dll/</guid><description>DLLとは DLL：Dynamic Link Library（ダイナミック・リンク・ライブラリ）の略 中身はバイナリ windows で使う C++で作る Backlinks
 📝ExternalObject is 何</description></item><item><title>📝ExternalObject is 何</title><link>https://alinco2020.github.io/AntHead/posts/202301171900-external-object/</link><pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301171900-external-object/</guid><description>up: ⌨️Script .dll を実行するとき使うやつ。以下の関数を実装する必要あり。
-ESInitialize()
-ESGetVersion()
-ESFreeMem()
-ESTerminate()
-参考 : AfterEffects CS6でスクリプトから自作のDLLを参照する方法があるかどうか
+ESInitialize() ESGetVersion() ESFreeMem() ESTerminate() 参考 : AfterEffects CS6でスクリプトから自作のDLLを参照する方法があるかどうか
 これも ExternalObject 使ってる。.aex も中身は .dll みたいなものだったりする？
-📝AEデフォルトのカラーピッカーを使う方法</description></item><item><title>📝そのレイヤー何レイヤー？</title><link>https://alinco2020.github.io/AntHead/posts/202301171555-what-layer/</link><pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301171555-what-layer/</guid><description>up: ⌨️Script layer.matchName で判断。テキストレイヤーだったら&amp;quot;ADBE Text Layer&amp;quot;
+📝AEデフォルトのカラーピッカーを使う方法</description></item><item><title>📝Python の例外処理で何行目がエラーを吐いたか出力させる</title><link>https://alinco2020.github.io/AntHead/posts/202301171939-python-exception-line/</link><pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301171939-python-exception-line/</guid><description>import os, sys try: hogehoge() except Exception as e: exc_type, exc_obj, exc_tb = sys.exc_info() fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1] print(e, fname, exc_tb.tb_lineno)</description></item><item><title>📝そのレイヤー何レイヤー？</title><link>https://alinco2020.github.io/AntHead/posts/202301171555-what-layer/</link><pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301171555-what-layer/</guid><description>up: ⌨️Script layer.matchName で判断。テキストレイヤーだったら&amp;quot;ADBE Text Layer&amp;quot;
 matchName一覧はここから</description></item><item><title>📝スクリプトから powershell を実行</title><link>https://alinco2020.github.io/AntHead/posts/202301171536-script-powershell/</link><pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301171536-script-powershell/</guid><description> up: ⌨️Script 直接 powershell.exe は実行できないから cmd.exe から起動する。インストール済みフォント一覧を取得するときに使った。
 system.callSystem(&amp;#34;cmd.exe /c powershell.exe -c \&amp;#34; your code \&amp;#34;;&amp;#34;);</description></item><item><title>📝スクリプトからフォントを設定</title><link>https://alinco2020.github.io/AntHead/posts/202301171545-set-font-style/</link><pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301171545-set-font-style/</guid><description>up: ⌨️Script 一見奇妙な処理。
 var sourceText = selectedLayer.text.sourceText // 一旦 sourcceText の値を別の変数に格納 var textDocument = sourceText.value // フォントを変更して textDocument.font = &amp;#39;Arial&amp;#39; // 再び setValue sourceText.setValue(textDocument) フォントが対応してない場合は書き変わらないっぽい。英字フォントで日本語とか。</description></item><item><title>📝設定ファイルの保存先</title><link>https://alinco2020.github.io/AntHead/posts/202301171602-setting-file/</link><pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301171602-setting-file/</guid><description> up: ⌨️Script C:\Users\XXX\AppData\Roaming\Aescripts に保存されてることが多い。下記は設定ファイルの保存先のフォルダが無かったら作成するコード。
@@ -95,14 +91,7 @@ refs:
 ⌨️Webプログラミング 📝動画配信技術 📝DASH(Dynamic Adaptive Streaming over HTTP)</description></item><item><title>🎬できない映像表現</title><link>https://alinco2020.github.io/AntHead/posts/202301080858-cant-movie-xp/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080858-cant-movie-xp/</guid><description>出来ないことをわかるようにして1つずつ潰していく。なるべく詳細に。
 モーショングラフィックス グラデーションのかかったシェイプ 視線誘導（一つの円を目で追わせる、みたいな） 長く連続させるカット シームレストランジション デザイン 全て 3DCG モデリング アクション カメラワーク クロスシミュレーション セルルック 漫画キャラモーション 手描き アニメーション Backlinks
 🐜What is AntHead?</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911-design/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911-design/</guid><description>デザインに関する投稿はここにまとめる。
-ざっと分類 モーショングラフィックス グラフィックデザイン Webデザイン 📝タイポグラフィー ポスターデザイン レイアウトデザイン スポーツグラフィックデザイン コラージュ UI UXデザイン デザインの構成要素 Line（線）
-2つ以上の繋がった点のことで、太さ、長さ、方向を持っている。区切り、強調、つながりなど、何かと使える基本要素。「とりあえず線でも入れて区切っとけ」というのは本質的ではない。 Color（色）
-色相、彩度、明度を合わせて色の三属性と呼ぶ。色を計画的に使うことによって、印象をコントロールできる。 Shape（形状）
-線や塗りで形成された領域。三角形、四角形、円などの幾何学図形と、不整形の有機的図形がある。 Texture（質感）
-材質がもつ、視覚的・触覚的な質感。触ることができるTactile texture（触覚的テクスチャー）と、2次元のVisual texture（視覚的テクスチャー）がある。動きで伝わる質感も存在する。（落下と同時にシェイプがつぶれるエフェクトからは柔らかさを感じる、など） Space（空間）
-Space（空間）には、2D Space（二次元空間）と3D Space（三次元空間）が存在する。シェイプなどの認識される部分をポジティブスペース、それ以外の領域をネガティブスペースという。 一般的に、スペース（空き）というと、ネガティブスペースのことを指すことが多い。 Form（外形、三次元の形）
-「幅」「奥行き」「高さ」を持っている三次元のオブジェクト。人工のGeometric form（幾何学的フォーム）と自然界で見られるOrganic Form（有機的フォーム）がある。 Typography（タイポグラフィー）
-活版印刷により発達した文字の体裁を整える技術。効果的に使う事で可読性を高めたり、デザイン性を増したりできる。 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」
+ざっと分類 モーショングラフィックス グラフィックデザイン Webデザイン 📝タイポグラフィー ポスターデザイン レイアウトデザイン スポーツグラフィックデザイン コラージュ UI UXデザイン デザインの構成要素 Line（線） Color（色） Shape（形状） Texture（質感） Space（空間） Form（外形、三次元の形） Typography（タイポグラフィー） ref: 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」
 線、色、シェイプは当然のように使うけど他はあまり意識したことないかも。
 refs:
 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」 📝初心者でも分かりやすい、グラフィックデザインの理論と原則 Backlinks
@@ -184,18 +173,17 @@ CSSはこのサイトからざっくりコピペ。自作の流れもこれを�
 ファイルパスでソートする方法
 📝Explicitly order pages by file path - tips &amp;amp;amp; tricks - HUGO</description></item><item><title>🐜What is AntHead?</title><link>https://alinco2020.github.io/AntHead/posts/202301061720-anthead/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301061720-anthead/</guid><description>ルート記事。全てここから辿れる。
 AntHeadとは アリの第二の脳を目指す、つまり外部記憶装置。知識の整理と格納、知見化が目的。
-これを参考に
-📝Wiki and Zettelkastenによる実験的な知的生産基盤.
-このサイトのいい所
-・各投稿が短い
-・リンクで各投稿が結びついてる（脳のシナプスのよう）
-・引用で知識は完全に他者に任せてる
-・頭の絵文字で分類してる
-・サイトの構造がいい
-このサイトで扱いたいテーマ 🎬映像 技術Tips デザイン研究 テーマの深掘り 他の人の作品研究 よかった映像まとめ できない映像表現 ⌨️プログラミング AEスクリプト Webプログラミング ネットワーク 💹投資 株 為替 仮想通貨 🐜個人的な内容 好きな歌詞 フレーズ 最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。一つの目的を達成するために調べた他の知識もメモにしていけば知見になる。自分のためだけのサイトでいい。
+このサイトで扱いたいテーマ 🎬映像 技術Tips デザイン研究 テーマの深掘り 他の人の作品研究 よかった映像まとめ できない映像表現 ⌨️プログラミング AEスクリプト Webプログラミング ネットワーク 💹投資 株 為替 仮想通貨 🐜個人的な内容 最初はひたすら書いて、記事数が増えてきてからタイトルとかタグ付けとか整理していくスタイルでいいと思う。
 絵文字の使い分け 絵文字も含まれたリンクは内部リンク。絵文字が外に出てるのは外部リンク。
 🐜 個人的な内容
 🎬 映像関連
 ⌨️ プログラム関連
 💹 投資関連
-📝 知識</description></item></channel></rss>
+📝 知識
+ref: 📝Wiki and Zettelkastenによる実験的な知的生産基盤.
+このサイトのいい所
+・各投稿が短い
+・リンクで各投稿が結びついてる（脳のシナプスのよう）
+・引用で知識は完全に他者に任せてる
+・頭の絵文字で分類してる
+・サイトの構造がいい</description></item></channel></rss>
