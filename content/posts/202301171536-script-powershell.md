@@ -8,7 +8,7 @@ tags:
 
 - up: [⌨️Script]({{<ref "posts/202301071000-script.md">}})
 
-直接 powershell.exe は実行できないから cmd.exe から起動する。  
+直接 powershell.exe は実行できないから cmd.exe から起動する。インストール済みフォント一覧を取得するときに使った。  
 
 ```javascript
 system.callSystem("cmd.exe /c powershell.exe -c \" your code \";");
