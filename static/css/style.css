@@ -104,3 +104,7 @@ ul {
     height: auto;
     max-height: 400px;
 }
+
+li::marker {
+    color: white;
+}

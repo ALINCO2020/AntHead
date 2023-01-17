@@ -1,3 +1,12 @@
-<footer class="py:24">
-    <div class="f:fade-30 f:14 mb:8">{{ .Site.Params.copyright }}</div>
+<footer>
+    {{- $numberOfTags := len (.GetTerms "tags") }}
+    {{- if eq $numberOfTags 0 }}
+    {{ else }}
+    <p><strong>Tags</strong></p>
+    {{ end }}
+    <ul>
+        {{ range (.GetTerms "tags") }}
+        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+    </ul>
 </footer>
