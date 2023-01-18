@@ -5,8 +5,9 @@
 <title>📝CEP作る - AntHead</title>
 <meta name=description content="up: ⌨️Script  CEP作るぞ～～～ ↓公式チュートリアル 📝Getting Started with CEP Extensions
 フォルダ構成 manifest.xml 以外はわりと自由にしていいらしい。CSInterface.js が jsx と js の橋渡し役。
-ファイル読み込み js 内だと上手くいかないから jsx の方で読み込んでる。勉強不足。（動けばいいんだよ）
-今のところエクセル読み込んで table で表示するだけしか作ってないから書くこと無いや。CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。MultiEaseのCEP版作りたいけどなぁ俺もなぁ。">
+ファイル読み込み js 内だと上手くいかないから jsx の方で読み込んでる。勉強不足。
+これでいける。ファイルパスは絶対パスじゃないとだめ。
+function readFile(filename) { const json = cep.fs.readFile(filename, 'UTF-8') return JSON.parse(json.data); } 今のところエクセル読み込んで table で表示するだけしか作ってないから書くこと無いや。CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。MultiEaseのCEP版作りたいけどなぁ俺もなぁ。">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
 <link rel=stylesheet href=/AntHead/css/syntax.css>
@@ -79,8 +80,13 @@ _:where(a,mark){text-underline-offset:3}"><ul>
 <p><img src=https://raw.githubusercontent.com/Adobe-CEP/Getting-Started-guides/master/.meta/readme-assets/extension-structure.png alt></p>
 <p>manifest.xml 以外はわりと自由にしていいらしい。CSInterface.js が jsx と js の橋渡し役。</p>
 <h1 id=ファイル読み込み>ファイル読み込み</h1>
-<p>js 内だと上手くいかないから jsx の方で読み込んでる。勉強不足。<del>（動けばいいんだよ）</del></p>
-<p>今のところエクセル読み込んで table で表示するだけしか作ってないから書くこと無いや。CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。MultiEaseのCEP版作りたいけどなぁ俺もなぁ。</p>
+<p><del>js 内だと上手くいかないから jsx の方で読み込んでる。勉強不足。</del><br>
+これでいける。ファイルパスは絶対パスじゃないとだめ。</p>
+<div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#0087ff>function</span> readFile(filename) {
+  <span style=color:#0087ff>const</span> json = cep.fs.readFile(filename, <span style=color:#00afaf>&#39;UTF-8&#39;</span>)
+  <span style=color:#5f8700>return</span> JSON.parse(json.data);
+}
+</code></pre></div><p>今のところエクセル読み込んで table で表示するだけしか作ってないから書くこと無いや。CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。MultiEaseのCEP版作りたいけどなぁ俺もなぁ。</p>
 </div></article>
 <footer>
 <p><strong>Tags</strong></p>
