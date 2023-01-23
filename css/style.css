@@ -113,3 +113,7 @@ ol {
 li::marker {
     color: white;
 }
+
+h2 {
+    font-size: 1.4em;
+}
