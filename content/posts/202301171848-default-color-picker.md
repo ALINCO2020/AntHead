@@ -12,3 +12,7 @@ tags:
 📝[AEColorPicker](https://github.com/Belonit/AEColorPicker)  
 
 cppだぁ～……。何やってるか全然わからん。
+
+
+**Backlinks**
+- [📝ExternalObject is 何]({{<ref "posts/202301171900-external-object.md">}})
