@@ -8,4 +8,4 @@ tags:
 「セキュリティを考えるならiPhoneとMacを使わないと行けない。Windowsは秒でパスワードハックされてデーターを守りきれなかった。」という元漫画村管理人のツイートに対してのDM  
 ![](https://pbs.twimg.com/media/FmzFL06aUAAcKwV?format=png&name=large)  
 
-Bitlocker は windows pro に搭載されてるHDD暗号化するものらしい。HomeだしMac嫌いだしなぁ……。  
+Bitlocker は windows pro に搭載されてるHDDを暗号化するものらしい。HomeだしMac嫌いだしなぁ……。  
