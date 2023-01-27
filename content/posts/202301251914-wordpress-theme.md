@@ -15,6 +15,7 @@ tags:
 # 自作
 📝[XAMPPを使ってWordPressローカル環境を構築する全手順](https://lucy.ne.jp/bazubu/xampp-wordpress-23795.html)  
 WordPress触るの久々すぎてローカル環境が動かなかったから一からやり直した（）  
+[ローカル環境](http://localhost/wordpress/)
   
 最低限必要なファイルは index.php と style.css だけらしい。流石に一から作るのは面倒なので Underscores というテンプレートを使う。  
 
