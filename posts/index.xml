@@ -2,6 +2,7 @@
 どんなテーマにする？ いっぱいカスタマイズできるやつ
 自作 📝XAMPPを使ってWordPressローカル環境を構築する全手順
 WordPress触るの久々すぎてローカル環境が動かなかったから一からやり直した（）
+ローカル環境
 最低限必要なファイルは index.php と style.css だけらしい。流石に一から作るのは面倒なので Underscores というテンプレートを使う。
 refs:
 📝有料テーマ販売を行う人が知っておくべきこと</description></item><item><title>🐜え！名取って身長152cmしかないの！？</title><link>https://alinco2020.github.io/AntHead/posts/202301250538-natori-chiisai/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301250538-natori-chiisai/</guid><description>ちっさ！！！！！！！！！！</description></item><item><title>📝GPLライセンス</title><link>https://alinco2020.github.io/AntHead/posts/202301251919-gpl/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301251919-gpl/</guid><description>GPLとは GNU General Public License の略 WordPressのコードに付与される 内容 自己責任で使え 著作権の表示は消すな 複製・改変・再配布・販売等は自由にやれ 再配布する物もGPLライセンスにしろ</description></item><item><title>🎬ブランクスペースのMADで目指すこと</title><link>https://alinco2020.github.io/AntHead/posts/202301231739-blank-space-mad/</link><pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301231739-blank-space-mad/</guid><description>これを目指す ブラマンさんみたいにソースに沿って作る 情報量を多く詰め込む 漫画の余白を使った面白い表現を映像でもやる 犬と彼氏が対峙するところ 余白がなくなるところ 漫画でやってた伏線回収的なことをやる ブラマンさんみたいにソースに沿って作る いままでずっと自分が避けてきた道。難しい。。。作り始める前からすでに難しい。
@@ -151,6 +152,8 @@ UIがぶち壊れるの反射的にいいね押してしまう
 道路が回転して斜めの赤になるところが良い</description></item><item><title>🎬よかった映像まとめ</title><link>https://alinco2020.github.io/AntHead/posts/202301071605-good-movies/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071605-good-movies/</guid><description>MAD研究フォルダー行きになった動画をリストアップ。基本YouTubeとTwitter。
 2023 01 Backlinks
 🐜What is AntHead?</description></item><item><title>🐜好きな歌詞 フレーズ</title><link>https://alinco2020.github.io/AntHead/posts/202301072320-favorite-phrase/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301072320-favorite-phrase/</guid><description>動画にポエミーなタイトルを付けたいときに役立つかもしれない。上に新しく追加していく。
+怪獣の熱光線みたいな夕焼け
+ラブソング / 時速36km
 何かに憧れてしまう時がきっと来る
 チャンピオンベルトマン / 時速36km
 今この僕があの日の答えだ
@@ -169,9 +172,7 @@ UIがぶち壊れるの反射的にいいね押してしまう
 スーパースター / 時速36km
 最後は憎み合うぼくらも同じ朝焼けを見ただろう
 どれほど愛し合っていても違う夕焼けを見るだろう
-stars / 時速36km
-Backlinks
-🐜What is AntHead?</description></item><item><title>⌨️サイト制作</title><link>https://alinco2020.github.io/AntHead/posts/202301062241-hugo/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241-hugo/</guid><description>Hogoを使用してmarkdownで記事を書き、github pagesで公開する。
+stars / 時速36km</description></item><item><title>⌨️サイト制作</title><link>https://alinco2020.github.io/AntHead/posts/202301062241-hugo/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241-hugo/</guid><description>Hogoを使用してmarkdownで記事を書き、github pagesで公開する。
 Hugoとは markdownから静的サイトを作れるやつ。テーマも用意されてる。
 📝Hugo と Github Pages でブログを作る
 バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
