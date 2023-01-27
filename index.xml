@@ -4,6 +4,8 @@
 WordPress触るの久々すぎてローカル環境が動かなかったから一からやり直した（）
 ローカル環境
 最低限必要なファイルは index.php と style.css だけらしい。流石に一から作るのは面倒なので Underscores というテンプレートを使う。
+投稿をエクスポートしてインポート。デフォルトの機能だとメディアが引き継がれないのでプラグインで対応。
+あとはひたすらスタイルを適用していくだけかな？
 refs:
 📝有料テーマ販売を行う人が知っておくべきこと</description></item><item><title>🐜え！名取って身長152cmしかないの！？</title><link>https://alinco2020.github.io/AntHead/posts/202301250538-natori-chiisai/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301250538-natori-chiisai/</guid><description>ちっさ！！！！！！！！！！</description></item><item><title>📝GPLライセンス</title><link>https://alinco2020.github.io/AntHead/posts/202301251919-gpl/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301251919-gpl/</guid><description>GPLとは GNU General Public License の略 WordPressのコードに付与される 内容 自己責任で使え 著作権の表示は消すな 複製・改変・再配布・販売等は自由にやれ 再配布する物もGPLライセンスにしろ</description></item><item><title>🎬ブランクスペースのMADで目指すこと</title><link>https://alinco2020.github.io/AntHead/posts/202301231739-blank-space-mad/</link><pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301231739-blank-space-mad/</guid><description>これを目指す ブラマンさんみたいにソースに沿って作る 情報量を多く詰め込む 漫画の余白を使った面白い表現を映像でもやる 犬と彼氏が対峙するところ 余白がなくなるところ 漫画でやってた伏線回収的なことをやる ブラマンさんみたいにソースに沿って作る いままでずっと自分が避けてきた道。難しい。。。作り始める前からすでに難しい。
 情報量を多く詰め込む Nanatsukiさんみたいな情報をそぎ落として作る感じではなく、てへさん的な感じかもしれない。一発で理解させる気が無いとなると画面の強さが求められる。「話もわからんしぱっと見の映像の良さもないし、、、」ってなるのが一番避けたい。映像的な面白さが必要。普段あまり見ないような絵作りで。（なんかよふかしのときと同じこと考えてるな。。。）
