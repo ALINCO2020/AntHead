@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>design on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/design/</link><description>Recent content in design on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>📝タイポグラフィー</title><link>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</link><pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</guid><description>タイポグラフィーとは 文字組みのこと。デザインの構成要素の一つだけどジャンルの一つでもあると思う。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>design on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/design/</link><description>Recent content in design on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sun, 29 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>🎬デザイン研究2023-01-29</title><link>https://alinco2020.github.io/AntHead/posts/202301291632-design-study-2023-01-29/</link><pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301291632-design-study-2023-01-29/</guid><description>テキスト 渋谷自在 SHIBUYA JIZAI
+無限、あるいは自己の領域 INFINITY OR SELF-TERRITORY
+トーキョーワンダーサイト渋谷 Tokyo Wonder Site Shibuya
+大野茉莉 Mari Ohno 西原　尚 Nao Nishihara 潘　逸舟 Ishu Han
+オープニング・トーク 2017年7月29日(土) 16:00－18:00 Opening Talk:July 29 (Sat.),2017
+TWS渋谷クロージング・イベント 2017年9月17日(日) 19:00－20:30 TWS Shibuya Closing Event: September 17 (Sun.),2017
+11:00－19:00 最終入場は30分前まで Last Entry: 30 min before closing
+月曜日休館 Closed Mondays
+入場無料 Admission Free
+2017 7.29(SAT) 9.17(SUN)
+配色 背景の写真以外は全て白黒。
+レイアウト 中央に特徴的なロゴを配置して、画面端に白の枠を設けてる。
+キャッチコピーや登壇者の名前、イベントの情報などをボックス付きのテキストで枠に隣接するように配置してる。
+タイポグラフィー 英語訳を入れて情報量を増やしてる。
+基本横書きで右上だけ一部縦書き。縦書き部分は左上に横書きの英語訳を入れてる。
+日本語フォントはキャッチコピーだけゴシックで他は明朝。
+英語フォントはイベント情報の部分だけ serif で他の登壇者名やキャッチコピーの英語訳などは sans serif。</description></item><item><title>📝タイポグラフィー</title><link>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</link><pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</guid><description>タイポグラフィーとは 文字組みのこと。デザインの構成要素の一つだけどジャンルの一つでもあると思う。
 ジャンル分け タイポグラフィーをさらにジャンル分けしていく。極力タイポグラフィーonlyのデザインをピックアップ。
 斜めに傾けて伸ばすやつ フォント名がでっかく配置されてることが多いから「フォントを一つ選んでタイポグラフィー作りましょう」みたいな美大のお決まりの課題だったりする？驚異のFutura率。どんだけ好きやねん。
 クソデカアルファベットの一部が新聞紙みたいになるやつ 誰が最初に始めたんだろう。キャッチーでパクりやすいからアホほど擦られてすぐ飽きられた感じ。
@@ -14,7 +30,10 @@
 線いっぱい引くやつ 細ければ細かいほど良い。
 Backlinks
 🎬デザイン研究</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911-design/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911-design/</guid><description>デザインに関する投稿はここにまとめる。
-ざっと分類 モーショングラフィックス グラフィックデザイン Webデザイン 📝タイポグラフィー ポスターデザイン レイアウトデザイン スポーツグラフィックデザイン コラージュ UI UXデザイン デザインの構成要素 Line（線） Color（色） Shape（形状） Texture（質感） Space（空間） Form（外形、三次元の形） Typography（タイポグラフィー） ref: 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」
+いいなと思ったデザインはとにかく分解して考える。形、色、書体、レイアウト(余白)、どこに惹かれるのか。それを繰り返すと自分がどこに惹かれることが多いのか分かる。
+そしてそれは自分が苦手としていることと一致するんじゃないかと思っている。
+坂東進亮氏のツイートから引用
+デザインの種類 ロゴデザイン グラフィックデザイン 広告デザイン チラシデザイン Webデザイン ポスターデザイン UI UXデザイン デザインの手法 モーショングラフィックス 📝タイポグラフィー コラージュ デザインの構成要素 Line（線） Color（色） Shape（形状） Texture（質感） Space（空間） Form（外形、三次元の形） Typography（タイポグラフィー） ref: 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」
 線、色、シェイプは当然のように使うけど他はあまり意識したことないかも。
 refs:
 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」 📝初心者でも分かりやすい、グラフィックデザインの理論と原則 Backlinks
