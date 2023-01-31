@@ -19,7 +19,10 @@ F50729
 セクションごとにフォントのサイズを変えてる。
 配色 白黒と黄色。全部原色。
 どこに惹かれたか シンプルさ。カッコよさ。
-模写</description></item><item><title>🎬デザイン研究2023-01-30</title><link>https://alinco2020.github.io/AntHead/posts/202301301200-design-study-2023-01-30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301301200-design-study-2023-01-30/</guid><description> up: 🎬デザイン研究 【MV】Caffe Latte / 天月-あまつき-から
+模写</description></item><item><title>💹もうリッチマン先生モデルだけで良いんじゃないかな……</title><link>https://alinco2020.github.io/AntHead/posts/202301311940-richman-is-god/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301311940-richman-is-god/</guid><description>長らく止めてたけどバックテストしてみたら停止後も普通に勝ててたっぽいので再開。月利3%の記録を見せる。
+もう高頻度とかやらなくて良いんじゃないかな……わからんし……勝てんし……。
+Backlinks
+💹仮想通貨</description></item><item><title>🎬デザイン研究2023-01-30</title><link>https://alinco2020.github.io/AntHead/posts/202301301200-design-study-2023-01-30/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301301200-design-study-2023-01-30/</guid><description> up: 🎬デザイン研究 【MV】Caffe Latte / 天月-あまつき-から
 全カット上手いから適当に選んだカット。全部すき。
 テキスト Caffe Latte
 MILK COFFEE CAFFE LATTE
@@ -113,7 +116,7 @@ function readFile(filename) { const json = cep.fs.readFile(filename, &amp;#39;UT
 線いっぱい引くやつ 細ければ細かいほど良い。
 Backlinks
 🎬デザイン研究</description></item><item><title>💹仮想通貨</title><link>https://alinco2020.github.io/AntHead/posts/202301112137-crypto/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301112137-crypto/</guid><description>仮想通貨の投稿はここから辿れるようにする。
-📝MMbot Backlinks
+📝MMbot 💹もうリッチマン先生モデルだけで良いんじゃないかな…… Backlinks
 🐜What is AntHead?</description></item><item><title>📝MMbot</title><link>https://alinco2020.github.io/AntHead/posts/202301112140-mmbot/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301112140-mmbot/</guid><description>MMbotとは 📝mmbot
 これ見れば大体わかるけど自分もまとめる。
 📝Python3 MarketMaker(MM)BOTのサンプルロジックとソースコード
