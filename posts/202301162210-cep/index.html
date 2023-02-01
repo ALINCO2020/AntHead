@@ -3,11 +3,16 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <title>📝CEP作る - AntHead</title>
-<meta name=description content="up: ⌨️Script  CEP作るぞ～～～ ↓公式チュートリアル 📝Getting Started with CEP Extensions
+<meta name=description content="up: ⌨️Script  http://localhost:8080/
+CEP作るぞ～～～ ↓公式チュートリアル 📝Getting Started with CEP Extensions
 フォルダ構成 manifest.xml 以外はわりと自由にしていいらしい。CSInterface.js が jsx と js の橋渡し役。
+これらを C:\Program Files (x86)\Common Files\Adobe\CEP\extensions に作る。
 ファイル読み込み js 内だと上手くいかないから jsx の方で読み込んでる。勉強不足。
 これでいける。ファイルパスは絶対パスじゃないとだめ。
-function readFile(filename) { const json = cep.fs.readFile(filename, 'UTF-8') return JSON.parse(json.data); } 今のところエクセル読み込んで table で表示するだけしか作ってないから書くこと無いや。CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。MultiEaseのCEP版作りたいけどなぁ俺もなぁ。">
+function readFile(filename) { const json = cep.fs.readFile(filename, 'UTF-8') return JSON.parse(json.data); } CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。
+Reactやるぞ やる 📝React
+📝Reactの環境構築をAdobeCEP上で行う
+📝CEP向けのwebpack構築-Sass babel-">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
 <link rel=stylesheet href=/AntHead/css/syntax.css>
@@ -74,11 +79,13 @@ _:where(video,img){max-width:full}
 _:where(a,mark){text-underline-offset:3}"><ul>
 <li>up: <a href=https://alinco2020.github.io/AntHead/posts/202301071000-script/>⌨️Script</a></li>
 </ul>
+<p><a href=http://localhost:8080/ target=_blank>http://localhost:8080/</a></p>
 <p>CEP作るぞ～～～ ↓公式チュートリアル <br>
 📝<a href=https://github.com/Adobe-CEP/Getting-Started-guides target=_blank>Getting Started with CEP Extensions</a></p>
 <h1 id=フォルダ構成>フォルダ構成</h1>
 <p><img src=https://raw.githubusercontent.com/Adobe-CEP/Getting-Started-guides/master/.meta/readme-assets/extension-structure.png alt></p>
 <p>manifest.xml 以外はわりと自由にしていいらしい。CSInterface.js が jsx と js の橋渡し役。</p>
+<p>これらを C:\Program Files (x86)\Common Files\Adobe\CEP\extensions に作る。</p>
 <h1 id=ファイル読み込み>ファイル読み込み</h1>
 <p><del>js 内だと上手くいかないから jsx の方で読み込んでる。勉強不足。</del><br>
 これでいける。ファイルパスは絶対パスじゃないとだめ。</p>
@@ -86,7 +93,11 @@ _:where(a,mark){text-underline-offset:3}"><ul>
   <span style=color:#0087ff>const</span> json = cep.fs.readFile(filename, <span style=color:#00afaf>&#39;UTF-8&#39;</span>)
   <span style=color:#5f8700>return</span> JSON.parse(json.data);
 }
-</code></pre></div><p>今のところエクセル読み込んで table で表示するだけしか作ってないから書くこと無いや。CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。MultiEaseのCEP版作りたいけどなぁ俺もなぁ。</p>
+</code></pre></div><p>CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。</p>
+<h1 id=reactやるぞ>Reactやるぞ</h1>
+<p>やる <a href=https://alinco2020.github.io/AntHead/posts/202302012251-react/>📝React</a></p>
+<p>📝<a href=https://kawano-shuji.com/justdiary/2020/01/20/react%E3%81%AE%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%82%92adobecep%E4%B8%8A%E3%81%A7%E8%A1%8C%E3%81%86/ target=_blank>Reactの環境構築をAdobeCEP上で行う</a><br>
+📝<a href=https://kawano-shuji.com/justdiary/2020/09/30/cep%E5%90%91%E3%81%91%E3%81%AEwebpack%E6%A7%8B%E7%AF%89-sass-babel/ target=_blank>CEP向けのwebpack構築-Sass babel-</a></p>
 </div></article>
 <footer>
 <p><strong>Tags</strong></p>
