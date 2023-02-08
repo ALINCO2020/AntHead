@@ -123,7 +123,9 @@ CEP作るぞ～～～ ↓公式チュートリアル 📝Getting Started with CE
 function readFile(filename) { const json = cep.fs.readFile(filename, &amp;#39;UTF-8&amp;#39;) return JSON.parse(json.data); } CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。
 Reactやるぞ やる 📝React
 📝Reactの環境構築をAdobeCEP上で行う
-📝CEP向けのwebpack構築-Sass babel-</description></item><item><title>📝タイポグラフィー</title><link>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</link><pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</guid><description>タイポグラフィーとは 文字組みのこと。デザインの構成要素の一つだけどジャンルの一つでもあると思う。
+📝CEP向けのwebpack構築-Sass babel-
+evalScriptのreturnほしいんだけど…… 非　同　期　処　理　（地獄）
+📝Using ES6 promises to write async “evalScript()” calls in Photoshop</description></item><item><title>📝タイポグラフィー</title><link>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</link><pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</guid><description>タイポグラフィーとは 文字組みのこと。デザインの構成要素の一つだけどジャンルの一つでもあると思う。
 ジャンル分け タイポグラフィーをさらにジャンル分けしていく。極力タイポグラフィーonlyのデザインをピックアップ。
 斜めに傾けて伸ばすやつ フォント名がでっかく配置されてることが多いから「フォントを一つ選んでタイポグラフィー作りましょう」みたいな美大のお決まりの課題だったりする？驚異のFutura率。どんだけ好きやねん。
 クソデカアルファベットの一部が新聞紙みたいになるやつ 誰が最初に始めたんだろう。キャッチーでパクりやすいからアホほど擦られてすぐ飽きられた感じ。

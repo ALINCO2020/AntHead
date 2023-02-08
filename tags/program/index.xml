@@ -37,7 +37,9 @@ CEP作るぞ～～～ ↓公式チュートリアル 📝Getting Started with CE
 function readFile(filename) { const json = cep.fs.readFile(filename, &amp;#39;UTF-8&amp;#39;) return JSON.parse(json.data); } CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。
 Reactやるぞ やる 📝React
 📝Reactの環境構築をAdobeCEP上で行う
-📝CEP向けのwebpack構築-Sass babel-</description></item><item><title>📝WebSocket</title><link>https://alinco2020.github.io/AntHead/posts/202301112156-websocket/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301112156-websocket/</guid><description>WebSocketとは 双方向に通信する通信プロトコル。速い。
+📝CEP向けのwebpack構築-Sass babel-
+evalScriptのreturnほしいんだけど…… 非　同　期　処　理　（地獄）
+📝Using ES6 promises to write async “evalScript()” calls in Photoshop</description></item><item><title>📝WebSocket</title><link>https://alinco2020.github.io/AntHead/posts/202301112156-websocket/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301112156-websocket/</guid><description>WebSocketとは 双方向に通信する通信プロトコル。速い。
 keywords
 非同期処理 async wait Backlinks
 ⌨️Webプログラミング 📝MMbot</description></item><item><title>📝CDM(Content Decryption Module)</title><link>https://alinco2020.github.io/AntHead/posts/202301101608-cdm/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301101608-cdm/</guid><description>CDMとは コンテンツを復号化するモジュール（そのまんま）
