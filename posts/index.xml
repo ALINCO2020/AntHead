@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/AntHead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>🎬2023年02月よかった映像</title><link>https://alinco2020.github.io/AntHead/posts/202302151653-good-movies-2023-02/</link><pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302151653-good-movies-2023-02/</guid><description>Twitter APIが有料になったせいでせっかく書いた自動保存プログラムが無駄になった………。無料枠で使えないかな。</description></item><item><title>🎬デザイン研究2023-02-04</title><link>https://alinco2020.github.io/AntHead/posts/202302041225-design-study-2023-02-04/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302041225-design-study-2023-02-04/</guid><description> up: 🎬デザイン研究 1 レイアウト 上下に枠
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on AntHead</title><link>https://alinco2020.github.io/AntHead/posts/</link><description>Recent content in Posts on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>🎬2023年02月よかった映像</title><link>https://alinco2020.github.io/AntHead/posts/202302151653-good-movies-2023-02/</link><pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302151653-good-movies-2023-02/</guid><description>Twitter APIが有料になったせいでせっかく書いた自動保存プログラムが無駄になった………。無料枠で使えないかな。</description></item><item><title>📝Macで署名してない開発中のCEPパネルが起動しない</title><link>https://alinco2020.github.io/AntHead/posts/202302152001-mac-not-open-cep/</link><pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302152001-mac-not-open-cep/</guid><description>ウィンドウ &amp;gt; エクステンション に名前は見えてるのにクリックしてもパネルが出てこない。
+やったこと デバッグモードをオンに Mac再起動 Mac10.9以降に搭載された環境設定をキャッシュするプログラムを強制終了(cfprefsd) Backlinks
+📝CEP作る ⌨️Script</description></item><item><title>🎬デザイン研究2023-02-04</title><link>https://alinco2020.github.io/AntHead/posts/202302041225-design-study-2023-02-04/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302041225-design-study-2023-02-04/</guid><description> up: 🎬デザイン研究 1 レイアウト 上下に枠
 中心に切り抜いた人物を重ねてる
 配色 上下の枠は白黒
 背景の黒は若干明るめ
@@ -14,7 +16,7 @@
 模写</description></item><item><title>📝React</title><link>https://alinco2020.github.io/AntHead/posts/202302012251-react/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302012251-react/</guid><description>📝今から始めるReact入門 〜 React の基本
 📝npx webpack serveで Cannot GET / になる
 結局やってることはDOM操作（なんか仮想DOMとかいうことやって高速化したりしてるらしいけど）
-webpack で変換する必要あり。
+webpack で変換する必要あり。useEffectが最初に1回呼ばれる。
 Backlinks
 ⌨️Webプログラミング 📝CEP作る</description></item><item><title>🎬デザイン研究2023-01-31</title><link>https://alinco2020.github.io/AntHead/posts/202301310915-design-study-2023-01-31/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301310915-design-study-2023-01-31/</guid><description> up: 🎬デザイン研究 1 配色 青は原色。黄緑は若干暗めにしてある。
 レイアウト ちょっと構造がわかりにくい。
@@ -118,14 +120,8 @@ var filepass = new File(new File($.fileName).parent);</description></item><item>
 CEP作るぞ～～～ ↓公式チュートリアル 📝Getting Started with CEP Extensions
 フォルダ構成 manifest.xml 以外はわりと自由にしていいらしい。CSInterface.js が jsx と js の橋渡し役。
 これらを C:\Program Files (x86)\Common Files\Adobe\CEP\extensions に作る。
-ファイル読み込み js 内だと上手くいかないから jsx の方で読み込んでる。勉強不足。
-これでいける。ファイルパスは絶対パスじゃないとだめ。
-function readFile(filename) { const json = cep.fs.readFile(filename, &amp;#39;UTF-8&amp;#39;) return JSON.parse(json.data); } CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。
-Reactやるぞ やる 📝React
-📝Reactの環境構築をAdobeCEP上で行う
-📝CEP向けのwebpack構築-Sass babel-
-evalScriptのreturnほしいんだけど…… 非　同　期　処　理　（地獄）
-📝Using ES6 promises to write async “evalScript()” calls in Photoshop</description></item><item><title>📝タイポグラフィー</title><link>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</link><pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</guid><description>タイポグラフィーとは 文字組みのこと。デザインの構成要素の一つだけどジャンルの一つでもあると思う。
+js側からファイル読み込み書き出し こんな感じで。ファイルパスは絶対パスじゃないとだめ。
+// 読み込み const readFile = (path) =&amp;gt; { let data let res = window.cep.fs.readFile(path, &amp;#39;UTF-8&amp;#39;) if (res.err == 0) { data = JSON.parse(res.data) } else { data = res.err } return data } // 書き出し const writeFile = (path, data) =&amp;gt; { window.</description></item><item><title>📝タイポグラフィー</title><link>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</link><pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</guid><description>タイポグラフィーとは 文字組みのこと。デザインの構成要素の一つだけどジャンルの一つでもあると思う。
 ジャンル分け タイポグラフィーをさらにジャンル分けしていく。極力タイポグラフィーonlyのデザインをピックアップ。
 斜めに傾けて伸ばすやつ フォント名がでっかく配置されてることが多いから「フォントを一つ選んでタイポグラフィー作りましょう」みたいな美大のお決まりの課題だったりする？驚異のFutura率。どんだけ好きやねん。
 クソデカアルファベットの一部が新聞紙みたいになるやつ 誰が最初に始めたんだろう。キャッチーでパクりやすいからアホほど擦られてすぐ飽きられた感じ。
@@ -220,7 +216,7 @@ refs:
 📝コマンドID一覧
 📝公式ドキュメント(AEエクスプレッション)
 📝公式ドキュメント(プレミアスクリプト)
-自作関数 ⌨️位置にSetValueする関数 ⌨️特定のプロパティを返す関数 ⌨️jsonを読み込む関数 メモ 📝Extendscriptでリストのsumとmaxを求める 📝CEP作る 📝スクリプトから powershell を実行 📝スクリプトからフォントを設定 📝そのレイヤー何レイヤー？ 📝設定ファイルの保存先 📝AEデフォルトのカラーピッカーを使う方法 📝ExternalObject is 何 自作スクリプト配布場所 🐜ALINCOLONY
+自作関数 ⌨️位置にSetValueする関数 ⌨️特定のプロパティを返す関数 ⌨️jsonを読み込む関数 メモ 📝Extendscriptでリストのsumとmaxを求める 📝CEP作る 📝スクリプトから powershell を実行 📝スクリプトからフォントを設定 📝そのレイヤー何レイヤー？ 📝設定ファイルの保存先 📝AEデフォルトのカラーピッカーを使う方法 📝ExternalObject is 何 📝Macで署名してない開発中のCEPパネルが起動しない 自作スクリプト配布場所 🐜ALINCOLONY
 Backlinks
 🐜What is AntHead?</description></item><item><title>⌨️位置にSetValueする関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071101-position-setvalue/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071101-position-setvalue/</guid><description>up: ⌨️Script 位置にSetValueするのがなかなか面倒くさいので関数を作った。けどあんまり使ってない。
 /** * ポジションを設定する関数 * @param {*} layer レイヤー * @param {*} XYarray 配列[x, y, z] * @param {boolean} isSetValueAtTime setValueAtTimeを使うかどうか * @param {*} time setValueAtTimeを使う場合の時間 */ function setPosition(layer, XYZarray, isSetValueAtTime, time) { try { var x = XYZarray[0] var y = XYZarray[1] var z = XYZarray[2] var position = layer.property(&amp;#39;ADBE Transform Group&amp;#39;).property(&amp;#39;ADBE Position&amp;#39;) // setValueを使う場合 if (!isSetValueAtTime) { // 次元分割されていない場合 if (!position.dimensionsSeparated) { position.</description></item><item><title>⌨️特定のプロパティを返す関数</title><link>https://alinco2020.github.io/AntHead/posts/202301071301-return-prop/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071301-return-prop/</guid><description> up: ⌨️Script matchNameが一致するプロパティを再帰で全部返す。何かと便利。

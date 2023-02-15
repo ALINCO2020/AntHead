@@ -7,14 +7,8 @@
 CEP作るぞ～～～ ↓公式チュートリアル 📝Getting Started with CEP Extensions
 フォルダ構成 manifest.xml 以外はわりと自由にしていいらしい。CSInterface.js が jsx と js の橋渡し役。
 これらを C:\Program Files (x86)\Common Files\Adobe\CEP\extensions に作る。
-ファイル読み込み js 内だと上手くいかないから jsx の方で読み込んでる。勉強不足。
-これでいける。ファイルパスは絶対パスじゃないとだめ。
-function readFile(filename) { const json = cep.fs.readFile(filename, 'UTF-8') return JSON.parse(json.data); } CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。
-Reactやるぞ やる 📝React
-📝Reactの環境構築をAdobeCEP上で行う
-📝CEP向けのwebpack構築-Sass babel-
-evalScriptのreturnほしいんだけど…… 非　同　期　処　理　（地獄）
-📝Using ES6 promises to write async “evalScript()” calls in Photoshop">
+js側からファイル読み込み書き出し こんな感じで。ファイルパスは絶対パスじゃないとだめ。
+// 読み込み const readFile = (path) => { let data let res = window.cep.fs.readFile(path, 'UTF-8') if (res.err == 0) { data = JSON.parse(res.data) } else { data = res.err } return data } // 書き出し const writeFile = (path, data) => { window.">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
 <link rel=stylesheet href=/AntHead/css/syntax.css>
@@ -88,12 +82,22 @@ _:where(a,mark){text-underline-offset:3}"><ul>
 <p><img src=https://raw.githubusercontent.com/Adobe-CEP/Getting-Started-guides/master/.meta/readme-assets/extension-structure.png alt></p>
 <p>manifest.xml 以外はわりと自由にしていいらしい。CSInterface.js が jsx と js の橋渡し役。</p>
 <p>これらを C:\Program Files (x86)\Common Files\Adobe\CEP\extensions に作る。</p>
-<h1 id=ファイル読み込み>ファイル読み込み</h1>
-<p><del>js 内だと上手くいかないから jsx の方で読み込んでる。勉強不足。</del><br>
-これでいける。ファイルパスは絶対パスじゃないとだめ。</p>
-<div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#0087ff>function</span> readFile(filename) {
-  <span style=color:#0087ff>const</span> json = cep.fs.readFile(filename, <span style=color:#00afaf>&#39;UTF-8&#39;</span>)
-  <span style=color:#5f8700>return</span> JSON.parse(json.data);
+<h1 id=js側からファイル読み込み書き出し>js側からファイル読み込み書き出し</h1>
+<p>こんな感じで。ファイルパスは絶対パスじゃないとだめ。</p>
+<div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#4e4e4e>// 読み込み
+</span><span style=color:#4e4e4e></span><span style=color:#0087ff>const</span> readFile = (path) =&gt; {
+  <span style=color:#0087ff>let</span> data
+  <span style=color:#0087ff>let</span> res = <span style=color:#0087ff>window</span>.cep.fs.readFile(path, <span style=color:#00afaf>&#39;UTF-8&#39;</span>)
+  <span style=color:#5f8700>if</span> (res.err == <span style=color:#00afaf>0</span>) {
+      data = JSON.parse(res.data)
+  } <span style=color:#5f8700>else</span> {
+      data = res.err
+  }
+  <span style=color:#5f8700>return</span> data
+}
+<span style=color:#4e4e4e>// 書き出し
+</span><span style=color:#4e4e4e></span><span style=color:#0087ff>const</span> writeFile = (path, data) =&gt; {
+  <span style=color:#0087ff>window</span>.cep.fs.writeFile(path, JSON.stringify(data))
 }
 </code></pre></div><p>CEP、何ができるのかと思えばUIをHTML5で綺麗に作れるだけで処理自体は普通のjsxスクリプトで出来ることしか出来ないのわりとガッカリ……。</p>
 <h1 id=reactやるぞ>Reactやるぞ</h1>
@@ -103,7 +107,18 @@ _:where(a,mark){text-underline-offset:3}"><ul>
 <h1 id=evalscriptのreturnほしいんだけど>evalScriptのreturnほしいんだけど……</h1>
 <p>非　同　期　処　理　（地獄）<br>
 📝<a href=https://blog.developer.adobe.com/using-es6-promises-to-write-async-evalscript-calls-in-photoshop-2ce40f93bd8b target=_blank>Using ES6 promises to write async “evalScript()” calls in Photoshop</a></p>
-</div></article>
+<h1 id=mac購入>Mac購入</h1>
+<p>地獄を見る<br>
+<a href=https://alinco2020.github.io/AntHead/posts/202302152001-mac-not-open-cep/>📝Macで署名してない開発中のCEPパネルが起動しない</a></p>
+<h1 id=userdataパス取得>userDataパス取得</h1>
+<p>設定とかを置くAescriptsフォルダがあるuserDataフォルダまでのフルパスを取得。これをjs側からevalScriptで呼び出して使う。</p>
+<div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#0087ff>function</span> getUserDataPath() {
+  <span style=color:#0087ff>var</span> dataPath = Folder.decode(Folder.userData) + <span style=color:#00afaf>&#39;/Aescripts/your-extension-name&#39;</span>;
+  <span style=color:#0087ff>var</span> f = <span style=color:#5f8700>new</span> Folder(dataPath);
+  <span style=color:#5f8700>if</span> (!f.exists) f.create();
+  <span style=color:#5f8700>return</span> Folder.decode(f.fsName)
+}
+</code></pre></div></div></article>
 <footer>
 <p><strong>Tags</strong></p>
 <ul>
