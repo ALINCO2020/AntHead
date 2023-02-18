@@ -12,6 +12,7 @@ tags:
 - デバッグモードをオンに
 - Mac再起動
 - Mac10.9以降に搭載された環境設定をキャッシュするプログラムを強制終了(cfprefsd)
+- ZXP Installerをインストール ←これで解決
 
 **Backlinks**
 - [📝CEP作る]({{<ref "posts/202301162210-cep.md">}})  
