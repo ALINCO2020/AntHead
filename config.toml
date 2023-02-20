@@ -16,6 +16,7 @@ enableGitInfo = true
 
 [taxonomies]
     tag = "tags"
+    lastmod = "lastmod"
 
 [markup.goldmark.parser.attribute]
     block = true

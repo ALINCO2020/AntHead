@@ -6,5 +6,18 @@
         <li><a href="{{ "tags/" | relURL }}{{ .Name | urlize }}">{{ .Name }}({{ .Count }})</a></li>
         {{ end }}
     </ul>
+{{ else if eq .Title "Lastmod" }}
+    <div style="display: flex; align-items:center;">
+        <h1 style="margin-right: 8px;">Lastmod</h1>
+        <p>最終更新日時</p>
+    </div>
+    <article>
+        {{ range .Site.RegularPages.ByLastmod.Reverse }}
+          <h3>
+            <time class="metadata">{{.Lastmod.Format "2006-01-02"}}</time>
+            <b><a href="{{.RelPermalink}}">{{.Title}}</a></b>
+          </h3>
+        {{ end }}
+    </article>
 {{ end }}
 {{ end }}

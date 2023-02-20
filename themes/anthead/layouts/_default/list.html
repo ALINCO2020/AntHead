@@ -1,12 +1,15 @@
 {{ define "main" }} {{- $title := .Title -}} {{- $pages := .Pages -}} {{- $summary := false -}} {{- if .IsHome -}} {{- $title = "Top" -}} {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections -}} {{- $summary = true -}} {{- end -}}
 
-<h1>Latest</h1>
+<div style="display: flex; align-items:center;">
+    <h1 style="margin-right: 8px;">Latest</h1>
+    <p>投稿日時</p>
+</div>
 
 {{ range sort .Site.RegularPages "File.Path" "desc"}}
 <article>
     <h3>
         <time class="metadata" datetime="{{ .Date }}">
-            {{- .Date | time.Format (default "2006/01/02" site.Params.DateFormat) -}}
+            {{- .Date | time.Format (default "2006-01-02" site.Params.DateFormat) -}}
         </time>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
     </h3>
