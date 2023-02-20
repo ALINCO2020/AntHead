@@ -9,3 +9,5 @@ tags:
 ![](https://pbs.twimg.com/media/FmzFL06aUAAcKwV?format=png&name=large)  
 
 Bitlocker は windows pro に搭載されてるHDDを暗号化するものらしい。HomeだしMac嫌いだしなぁ……。  
+
+追記：Mac買いました

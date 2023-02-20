@@ -7,6 +7,7 @@ customCSS= ["/css/style.css"]
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = false
 pygmentsstyle = "solarized-dark256"
+enableGitInfo = true
 
 [markup]
     [markup.goldmark]
@@ -18,3 +19,6 @@ pygmentsstyle = "solarized-dark256"
 
 [markup.goldmark.parser.attribute]
     block = true
+
+[frontmatter]
+    lastmod=":git"
