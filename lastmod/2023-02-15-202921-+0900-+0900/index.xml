@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2023-02-15 20:29:21 +0900 +0900 on AntHead</title><link>https://alinco2020.github.io/AntHead/lastmod/2023-02-15-202921-+0900-+0900/</link><description>Recent content in 2023-02-15 20:29:21 +0900 +0900 on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/lastmod/2023-02-15-202921-+0900-+0900/index.xml" rel="self" type="application/rss+xml"/><item><title>📝React</title><link>https://alinco2020.github.io/AntHead/posts/202302012251-react/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302012251-react/</guid><description>📝今から始めるReact入門 〜 React の基本
+📝npx webpack serveで Cannot GET / になる
+結局やってることはDOM操作（なんか仮想DOMとかいうことやって高速化したりしてるらしいけど）
+webpack で変換する必要あり。useEffectが最初に1回呼ばれる。
+Backlinks
+⌨️Webプログラミング 📝CEP作る</description></item><item><title>⌨️Script</title><link>https://alinco2020.github.io/AntHead/posts/202301071000-script/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071000-script/</guid><description>スクリプトに関する知見はここから全て辿れるようにする。
+よく使うサイト 📝公式ドキュメント(AEスクリプト)
+📝UIビルダー
+📝コマンドID一覧
+📝公式ドキュメント(AEエクスプレッション)
+📝公式ドキュメント(プレミアスクリプト)
+自作関数 ⌨️位置にSetValueする関数 ⌨️特定のプロパティを返す関数 ⌨️jsonを読み込む関数 メモ 📝Extendscriptでリストのsumとmaxを求める 📝CEP作る 📝スクリプトから powershell を実行 📝スクリプトからフォントを設定 📝そのレイヤー何レイヤー？ 📝設定ファイルの保存先 📝AEデフォルトのカラーピッカーを使う方法 📝ExternalObject is 何 📝Macで署名してない開発中のCEPパネルが起動しない 自作スクリプト配布場所 🐜ALINCOLONY
+Backlinks
+🐜What is AntHead?</description></item></channel></rss>
