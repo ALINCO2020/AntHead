@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>design on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/design/</link><description>Recent content in design on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>🎬デザイン研究2023-02-22</title><link>https://alinco2020.github.io/AntHead/posts/202302221632-design-study-2023-02-22/</link><pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302221632-design-study-2023-02-22/</guid><description>今日は出版物系のデザインで攻めたい。</description></item><item><title>📝余白</title><link>https://alinco2020.github.io/AntHead/posts/202302221718-space/</link><pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302221718-space/</guid><description>up: 🎬デザイン研究 余白の役割 見やすくする 視線誘導 情報に区切りを与える 洗練された印象を与える（端的に言うとカッコいい） 余白の作り方 関連性の高い要素をグループ化して、要素を配置する 大きさを調整する 場合によっては装飾を加える 余白の種類 字間 行間 パディング 要素間の隙間 四隅のマージン 余白レイアウトの例 背景の色付きの部分や写真、クソデカ文字など、余白を無視する要素もあるが、基本余白をうまく感じさせるレイアウトになってる。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>design on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/design/</link><description>Recent content in design on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>🎬デザイン研究2023-02-22</title><link>https://alinco2020.github.io/AntHead/posts/202302221632-design-study-2023-02-22/</link><pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302221632-design-study-2023-02-22/</guid><description>up: 🎬デザイン研究 レイアウト 枠
+枠の形に沿って文字並べて傾ける
+どこに惹かれたか なんか、動画にしたら映えそうだなぁ……って
+模写 なんだこれ</description></item><item><title>📝余白</title><link>https://alinco2020.github.io/AntHead/posts/202302221718-space/</link><pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302221718-space/</guid><description>up: 🎬デザイン研究 余白の役割 見やすくする 視線誘導 情報に区切りを与える 洗練された印象を与える（端的に言うとカッコいい） 余白の作り方 関連性の高い要素をグループ化して、要素を配置する 大きさを調整する 場合によっては装飾を加える 余白の種類 字間 行間 パディング 要素間の隙間 四隅のマージン 余白レイアウトの例 背景の色付きの部分や写真、クソデカ文字など、余白を無視する要素もあるが、基本余白をうまく感じさせるレイアウトになってる。
 要素を十字に寄せて余白を作ってる。ちょっと応用的。
 余白を無視する要素 余白を感じさせつつ、その余白を踏み越える要素があるとアクセントが効いていい感じになる。以下例
 左のX-Seriesと右下の写真が四隅のマージンを無視して配置されてる
@@ -141,6 +144,7 @@ TWS渋谷クロージング・イベント 2017年9月17日(日) 19:00－20:30 T
 🎬デザイン研究2023-02-04
 🎬デザイン研究2023-02-19
 🎬デザイン研究2023-02-21
+🎬デザイン研究2023-02-22
 メモ 📝デザイン模写による気づき
 デザインの種類 ロゴデザイン グラフィックデザイン 広告デザイン チラシデザイン Webデザイン ポスターデザイン UI UXデザイン パッケージデザイン 情報デザイン（インフォグラフィック） デザインの構成要素 Line（線） Color（色） Shape（形状） Texture（質感） Space（空間） Form（外形、三次元の形） Typography（タイポグラフィー） ref: 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」
 線、色、シェイプは当然のように使うけど他はあまり意識したことないかも。
