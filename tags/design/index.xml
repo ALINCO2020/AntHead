@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>design on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/design/</link><description>Recent content in design on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>🎬デザイン研究2023-02-22</title><link>https://alinco2020.github.io/AntHead/posts/202302221632-design-study-2023-02-22/</link><pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302221632-design-study-2023-02-22/</guid><description>今日は出版物系のデザインで攻めたい。</description></item><item><title>🎬デザイン研究2023-02-21</title><link>https://alinco2020.github.io/AntHead/posts/202302211755-design-study-2023-02-21/</link><pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302211755-design-study-2023-02-21/</guid><description> up: 🎬デザイン研究 1 レイアウト 写真を四角で切り抜いてる
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>design on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/design/</link><description>Recent content in design on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>🎬デザイン研究2023-02-22</title><link>https://alinco2020.github.io/AntHead/posts/202302221632-design-study-2023-02-22/</link><pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302221632-design-study-2023-02-22/</guid><description>今日は出版物系のデザインで攻めたい。</description></item><item><title>📝余白</title><link>https://alinco2020.github.io/AntHead/posts/202302221718-space/</link><pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302221718-space/</guid><description>up: 🎬デザイン研究 余白の役割 見やすくする 視線誘導 情報に区切りを与える 洗練された印象を与える（端的に言うとカッコいい） 余白の作り方 関連性の高い要素をグループ化して、要素を配置する 大きさを調整する 場合によっては装飾を加える 余白の種類 字間 行間 パディング 要素間の隙間 四隅のマージン 余白レイアウトの例 背景の色付きの部分や写真、クソデカ文字など、余白を無視する要素もあるが、基本余白をうまく感じさせるレイアウトになってる。
+要素を十字に寄せて余白を作ってる。ちょっと応用的。
+余白を無視する要素 余白を感じさせつつ、その余白を踏み越える要素があるとアクセントが効いていい感じになる。以下例
+左のX-Seriesと右下の写真が四隅のマージンを無視して配置されてる
+水色の水滴？みたいなのが余白ガン無視で散らばってる</description></item><item><title>🎬デザイン研究2023-02-21</title><link>https://alinco2020.github.io/AntHead/posts/202302211755-design-study-2023-02-21/</link><pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302211755-design-study-2023-02-21/</guid><description> up: 🎬デザイン研究 1 レイアウト 写真を四角で切り抜いてる
 右下に大きめのテキスト
 四角に合わせて小さなテキストの文章
 左右の端に「前のページ」「次のページ」的なやつ
@@ -113,7 +117,7 @@ TWS渋谷クロージング・イベント 2017年9月17日(日) 19:00－20:30 T
 レイアウト 中央に特徴的なロゴを配置して、画面端に白の枠を設けてる。
 キャッチコピーや登壇者の名前、イベントの情報などをボックス付きのテキストで枠に隣接するように配置してる。
 ロゴ ほぼ直線だけで構成されてる。カッコいい。スタイリッシュ。
-上の端から下の端まである。</description></item><item><title>📝タイポグラフィー</title><link>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</link><pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</guid><description>タイポグラフィーとは 文字組みのこと。デザインの構成要素の一つだけどジャンルの一つでもあると思う。
+上の端から下の端まである。</description></item><item><title>📝タイポグラフィー</title><link>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</link><pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</guid><description> up: 🎬デザイン研究 タイポグラフィーとは 文字組みのこと。デザインの構成要素の一つだけどジャンルの一つでもあると思う。
 ジャンル分け タイポグラフィーをさらにジャンル分けしていく。極力タイポグラフィーonlyのデザインをピックアップ。
 斜めに傾けて伸ばすやつ フォント名がでっかく配置されてることが多いから「フォントを一つ選んでタイポグラフィー作りましょう」みたいな美大のお決まりの課題だったりする？驚異のFutura率。どんだけ好きやねん。
 クソデカアルファベットの一部が新聞紙みたいになるやつ 誰が最初に始めたんだろう。キャッチーでパクりやすいからアホほど擦られてすぐ飽きられた感じ。
@@ -126,9 +130,7 @@ TWS渋谷クロージング・イベント 2017年9月17日(日) 19:00－20:30 T
 漢字 いいかんじ。
 文字はともだち 絶対に本来の使い方をしてやらないぞという意思を感じる。
 エヴァンゲリオン 文字がギチギチに詰まってたらそれはもうエヴァンゲリオンなのよ。
-線いっぱい引くやつ 細ければ細かいほど良い。
-Backlinks
-🎬デザイン研究</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911-design/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911-design/</guid><description>デザインに関する投稿はここにまとめる。
+線いっぱい引くやつ 細ければ細かいほど良い。</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911-design/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911-design/</guid><description>デザインに関する投稿はここにまとめる。
 いいなと思ったデザインはとにかく分解して考える。形、色、書体、レイアウト(余白)、どこに惹かれるのか。それを繰り返すと自分がどこに惹かれることが多いのか分かる。
 そしてそれは自分が苦手としていることと一致するんじゃないかと思っている。
 坂東進亮氏のツイートから引用
@@ -140,7 +142,7 @@ Backlinks
 🎬デザイン研究2023-02-19
 🎬デザイン研究2023-02-21
 メモ 📝デザイン模写による気づき
-デザインの種類 ロゴデザイン グラフィックデザイン 広告デザイン チラシデザイン Webデザイン ポスターデザイン UI UXデザイン デザインの構成要素 Line（線） Color（色） Shape（形状） Texture（質感） Space（空間） Form（外形、三次元の形） Typography（タイポグラフィー） ref: 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」
+デザインの種類 ロゴデザイン グラフィックデザイン 広告デザイン チラシデザイン Webデザイン ポスターデザイン UI UXデザイン パッケージデザイン 情報デザイン（インフォグラフィック） デザインの構成要素 Line（線） Color（色） Shape（形状） Texture（質感） Space（空間） Form（外形、三次元の形） Typography（タイポグラフィー） ref: 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」
 線、色、シェイプは当然のように使うけど他はあまり意識したことないかも。
 refs:
 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」 📝初心者でも分かりやすい、グラフィックデザインの理論と原則 Backlinks

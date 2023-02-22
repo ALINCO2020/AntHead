@@ -3,19 +3,4 @@ CEP作るぞ～～～ ↓公式チュートリアル 📝Getting Started with CE
 フォルダ構成 manifest.xml 以外はわりと自由にしていいらしい。CSInterface.js が jsx と js の橋渡し役。
 これらを C:\Program Files (x86)\Common Files\Adobe\CEP\extensions に作る。
 js側からファイル読み込み書き出し こんな感じで。ファイルパスは絶対パスじゃないとだめ。
-// 読み込み const readFile = (path) =&amp;gt; { let data let res = window.cep.fs.readFile(path, &amp;#39;UTF-8&amp;#39;) if (res.err == 0) { data = JSON.parse(res.data) } else { data = res.err } return data } // 書き出し const writeFile = (path, data) =&amp;gt; { window.</description></item><item><title>📝タイポグラフィー</title><link>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</link><pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301131528-typography/</guid><description>タイポグラフィーとは 文字組みのこと。デザインの構成要素の一つだけどジャンルの一つでもあると思う。
-ジャンル分け タイポグラフィーをさらにジャンル分けしていく。極力タイポグラフィーonlyのデザインをピックアップ。
-斜めに傾けて伸ばすやつ フォント名がでっかく配置されてることが多いから「フォントを一つ選んでタイポグラフィー作りましょう」みたいな美大のお決まりの課題だったりする？驚異のFutura率。どんだけ好きやねん。
-クソデカアルファベットの一部が新聞紙みたいになるやつ 誰が最初に始めたんだろう。キャッチーでパクりやすいからアホほど擦られてすぐ飽きられた感じ。
-バラバラに散らばってるのに綺麗なやつ いいよねこれ。すき。角度が90度ごとに統一されてるからスッキリして見える。
-放射状に配置するやつ コラージュタイポグラフィー 暴れ散らかしてたら全部コラージュ扱いするのは乱暴か？ザラッとした質感とバラバラな種類のフォントが混在してるのが特徴。
-余白 ～空白を感じろ～ 余白レイアウト、素人が手を出すと痛い目を見る。クソ難しい。
-白黒で文字がお互いを食い合うやつ あたまおかしなるで。動画でやると映えなさそう。というか動画にできなさそう。
-文字だけでオブジェクトを形作るやつ 1枚目有名な気がする。よく見る。スクリプトで再現できる、、、かも。
-本 ほ～ん。
-漢字 いいかんじ。
-文字はともだち 絶対に本来の使い方をしてやらないぞという意思を感じる。
-エヴァンゲリオン 文字がギチギチに詰まってたらそれはもうエヴァンゲリオンなのよ。
-線いっぱい引くやつ 細ければ細かいほど良い。
-Backlinks
-🎬デザイン研究</description></item></channel></rss>
+// 読み込み const readFile = (path) =&amp;gt; { let data let res = window.cep.fs.readFile(path, &amp;#39;UTF-8&amp;#39;) if (res.err == 0) { data = JSON.parse(res.data) } else { data = res.err } return data } // 書き出し const writeFile = (path, data) =&amp;gt; { window.</description></item></channel></rss>
