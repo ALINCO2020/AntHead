@@ -3,7 +3,8 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <title>⌨️javascriptでstyleの色を取得したらrgb(XX, XX, XX)になるので16進数に変換する関数 - AntHead</title>
-<meta name=description content="const getHexColor = (tenColor) => { tenColor = tenColor.replace(&#34;rgb(&#34;,&#34;&#34;); tenColor = tenColor.replace(&#34;)&#34;,&#34;&#34;); tenColor = tenColor.split(&#34;,&#34;); let hexColor = &#34;#&#34;+parseInt(tenColor[0]).toString(16)+parseInt(tenColor[1]).toString(16)+parseInt(tenColor[2]).toString(16); return hexColor } ">
+<meta name=description content="これで #FFFFFF みたいに取得できる。
+const getHexColor = (tenColor) => { tenColor = tenColor.replace(&#34;rgb(&#34;,&#34;&#34;); tenColor = tenColor.replace(&#34;)&#34;,&#34;&#34;); tenColor = tenColor.split(&#34;,&#34;); let hexColor = &#34;#&#34;+parseInt(tenColor[0]).toString(16)+parseInt(tenColor[1]).toString(16)+parseInt(tenColor[2]).toString(16); return hexColor } ">
 <meta name=author content> <link rel=icon href=/AntHead/favicon.ico>
 <link rel=stylesheet href=/AntHead/css/style.css>
 <link rel=stylesheet href=/AntHead/css/syntax.css>
@@ -69,7 +70,8 @@ _:where(th,p_code,li_code,a,mark){font:semibold;_font:medium@dark}
 _:where(ul){list-style-type:disc}
 _:where(ul,ol,blockquote){pl:1.5em}
 _:where(video,img){max-width:full}
-_:where(a,mark){text-underline-offset:3}"><div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#0087ff>const</span> getHexColor = (tenColor) =&gt; {
+_:where(a,mark){text-underline-offset:3}"><p>これで #FFFFFF みたいに取得できる。</p>
+<div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#0087ff>const</span> getHexColor = (tenColor) =&gt; {
     tenColor = tenColor.replace(<span style=color:#00afaf>&#34;rgb(&#34;</span>,<span style=color:#00afaf>&#34;&#34;</span>);
     tenColor = tenColor.replace(<span style=color:#00afaf>&#34;)&#34;</span>,<span style=color:#00afaf>&#34;&#34;</span>);
     tenColor = tenColor.split(<span style=color:#00afaf>&#34;,&#34;</span>);
