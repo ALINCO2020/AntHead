@@ -1,5 +1,5 @@
 ---
-title: 📝Python の例外処理で何行目がエラーを吐いたか出力させる
+title: ⌨️Python の例外処理で何行目がエラーを吐いたか出力させる
 date: 2023-01-17
 tags:
   - program

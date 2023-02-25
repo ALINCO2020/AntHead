@@ -25,10 +25,17 @@ body {
     }
 }
 
+pre {
+    overflow:auto;
+}
+
 code {
     background-color: var(--hljs-background-color);
     color: var(--hljs-color);
     padding: 0 5px;
+    /* white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word; */
 }
 
 figure {
@@ -74,10 +81,6 @@ blockquote cite{
     font-size:0.8rem;
     color:#F8C8B2;
     text-align:right;
-}
-
-code {
-    white-space: pre-wrap;
 }
 
 .menu a {
