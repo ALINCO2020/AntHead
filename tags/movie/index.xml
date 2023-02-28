@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>movie on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/movie/</link><description>Recent content in movie on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/movie/index.xml" rel="self" type="application/rss+xml"/><item><title>📝コラージュアイデア</title><link>https://alinco2020.github.io/AntHead/posts/202302281639-collage/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302281639-collage/</guid><description> up: 🎬デザイン研究 基本 テキスト フォントの種類をバラバラに テキストの後ろに枠をつける 色 黒を若干明るめに 全体を若干くすんだ色にしがち 色を絞りがち 画像 画像は紙を切り取ったみたいに雑な白い縁をつける 灰色にしがち 実写画像が映える 質感 全体にノイズを乗せる ドロップシャドウで重ねてる感を増す 紙のようなテクスチャを使ったりする アイデア（応用） 同じ画像を重ねて並べる 手書きの落書きみたいな</description></item><item><title>📝Adobe Illustrator備忘録</title><link>https://alinco2020.github.io/AntHead/posts/202302271859-adobe-ai-notes/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302271859-adobe-ai-notes/</guid><description>up: 📝技術Tips 平行投影みたいに傾ける シアーツールでn度傾けて普通の回転もn度傾ける</description></item><item><title>📝C4D備忘録</title><link>https://alinco2020.github.io/AntHead/posts/202302270845-c4d-notes/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302270845-c4d-notes/</guid><description>up: 📝技術Tips テキスト追加方法 テキストスプラインのところを長押ししたら出てくる。昔のバージョンではMoTextとかいう名前だったっぽい。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>movie on AntHead</title><link>https://alinco2020.github.io/AntHead/tags/movie/</link><description>Recent content in movie on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/movie/index.xml" rel="self" type="application/rss+xml"/><item><title>📝コラージュ</title><link>https://alinco2020.github.io/AntHead/posts/202302281639-collage/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302281639-collage/</guid><description> up: 🎬デザイン研究 基本 テキスト フォントの種類をバラバラに テキストの後ろに枠をつける 色 黒を若干明るめに 全体を若干くすんだ色にしがち 色を絞りがち 画像 画像は紙を切り取ったみたいに雑な白い縁をつける 灰色にしがち 実写画像が映える 質感 全体にノイズを乗せる ドロップシャドウで重ねてる感を増す 紙のようなテクスチャを使ったりする アイデア（応用） 同じ画像を重ねて並べる 手書きの落書きみたいな 発想をぶっ飛ばす そうはならんやろ&amp;hellip;&amp;hellip;
+動きの参考 Creepy Nuts / 堕天【MV】
+Kvi Baba / TOMBI (Animation Music Video) ※TV アニメ『TRIGUN STAMPEDE』OP主題歌
+Backlinks
+🎬デザイン研究 📝タイポグラフィー</description></item><item><title>📝Adobe Illustrator備忘録</title><link>https://alinco2020.github.io/AntHead/posts/202302271859-adobe-ai-notes/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302271859-adobe-ai-notes/</guid><description>up: 📝技術Tips 平行投影みたいに傾ける シアーツールでn度傾けて普通の回転もn度傾ける</description></item><item><title>📝C4D備忘録</title><link>https://alinco2020.github.io/AntHead/posts/202302270845-c4d-notes/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302270845-c4d-notes/</guid><description>up: 📝技術Tips テキスト追加方法 テキストスプラインのところを長押ししたら出てくる。昔のバージョンではMoTextとかいう名前だったっぽい。
 テキストを縁取りしたい AEだと塗りをオフにして線をオンにするだけだが、C4Dだとひと手間必要。
 テキストを押し出し0にしてオブジェクト化する エッジモードで選択して右クリックし、「エッジをスプラインに」をクリック 出来たスプラインを使ってスイープ パネル上部で右クリック &amp;gt; マネージャーを閉じる でモード切り替えるボタンが消えた C4D再起動したら復活した。</description></item><item><title>🎬技術Tips</title><link>https://alinco2020.github.io/AntHead/posts/202302262356-tips/</link><pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302262356-tips/</guid><description>Tipsや備忘録をここにまとめる。
 📝C4D備忘録
@@ -168,6 +172,7 @@ Xガン（済） Xガン ショットガンタイプ（済） Yガン Zガン �
 クソデカアルファベットの一部が新聞紙みたいになるやつ 誰が最初に始めたんだろう。キャッチーでパクりやすいからアホほど擦られてすぐ飽きられた感じ。
 バラバラに散らばってるのに綺麗なやつ いいよねこれ。すき。角度が90度ごとに統一されてるからスッキリして見える。
 放射状に配置するやつ コラージュタイポグラフィー 暴れ散らかしてたら全部コラージュ扱いするのは乱暴か？ザラッとした質感とバラバラな種類のフォントが混在してるのが特徴。
+関連 : 📝コラージュ
 余白 ～空白を感じろ～ 余白レイアウト、素人が手を出すと痛い目を見る。クソ難しい。
 白黒で文字がお互いを食い合うやつ あたまおかしなるで。動画でやると映えなさそう。というか動画にできなさそう。
 文字だけでオブジェクトを形作るやつ 1枚目有名な気がする。よく見る。スクリプトで再現できる、、、かも。
@@ -188,7 +193,7 @@ Xガン（済） Xガン ショットガンタイプ（済） Yガン Zガン �
 🎬デザイン研究2023-02-21
 🎬デザイン研究2023-02-22
 メモ 📝デザイン模写による気づき
-📝コラージュアイデア
+📝コラージュ
 デザインの種類 ロゴデザイン グラフィックデザイン 広告デザイン チラシデザイン Webデザイン ポスターデザイン UI UXデザイン パッケージデザイン 情報デザイン（インフォグラフィック） デザインの構成要素 Line（線） Color（色） Shape（形状） Texture（質感） Space（空間） Form（外形、三次元の形） Typography（タイポグラフィー） ref: 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」
 線、色、シェイプは当然のように使うけど他はあまり意識したことないかも。
 refs:
