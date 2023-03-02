@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on AntHead</title>
+    <link>https://alinco2020.github.io/AntHead/tags/wordpress/</link>
+    <description>Recent content in wordpress on AntHead</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 25 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>⌨️WordPressテーマ自作</title>
+      <link>https://alinco2020.github.io/AntHead/posts/202301251914-wordpress-theme/</link>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alinco2020.github.io/AntHead/posts/202301251914-wordpress-theme/</guid>
+      <description>映像マン向けのテーマで痒い所に手が届くやつがない！作るぞ！！売るぞ！！！
+どんなテーマにする？ いっぱいカスタマイズできるやつ
+自作 📝XAMPPを使ってWordPressローカル環境を構築する全手順
+WordPress触るの久々すぎてローカル環境が動かなかったから一からやり直した（）
+ローカル環境
+最低限必要なファイルは index.php と style.css だけらしい。流石に一から作るのは面倒なので Underscores というテンプレートを使う。
+投稿をエクスポートしてインポート。デフォルトの機能だとメディアが引き継がれないのでプラグインで対応。
+あとはひたすらスタイルを適用していくだけかな？
+refs:
+📝有料テーマ販売を行う人が知っておくべきこと Backlinks
+⌨️Webプログラミング </description>
+    </item>
+    
+    <item>
+      <title>📝GPLライセンス</title>
+      <link>https://alinco2020.github.io/AntHead/posts/202301251919-gpl/</link>
+      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alinco2020.github.io/AntHead/posts/202301251919-gpl/</guid>
+      <description>GPLとは GNU General Public License の略 WordPressのコードに付与される 内容 自己責任で使え 著作権の表示は消すな 複製・改変・再配布・販売等は自由にやれ 再配布する物もGPLライセンスにしろ </description>
+    </item>
+    
+  </channel>
+</rss>

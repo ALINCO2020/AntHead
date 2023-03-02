@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023-01-11 22:20:29 &#43;0900 JST on AntHead</title>
+    <link>https://alinco2020.github.io/AntHead/lastmod/2023-01-11-222029-&#43;0900-jst/</link>
+    <description>Recent content in 2023-01-11 22:20:29 &#43;0900 JST on AntHead</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 11 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/lastmod/2023-01-11-222029-+0900-jst/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📝MMbot</title>
+      <link>https://alinco2020.github.io/AntHead/posts/202301112140-mmbot/</link>
+      <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alinco2020.github.io/AntHead/posts/202301112140-mmbot/</guid>
+      <description>MMbotとは 📝mmbot
+これ見れば大体わかるけど自分もまとめる。
+📝Python3 MarketMaker(MM)BOTのサンプルロジックとソースコード
+とりあえず聖典。
+売り指値と買い指値をbest付近に両方出して両方約定させて小さな差額を得る。スプレッドを取るとか言ったりする。
+magito氏の記事ではより正しいスプレッドを計算する工夫がされてる。
+📝仮想通貨高頻度botを大解説！新作botを実況してみた！【高頻度bot実況#1】
+どうやら上下予測もして上がると予想したら売り指値を遠くに出したり、そもそも指値を出さないようにしたりするらしい。かしこい。
+📝高頻度しかやらない話
+高頻度＝mmbotではないらしい。超短期のほうが予測が楽みたいな話はわりとみんな言ってる。注文系の処理以外はwebsocketを使うらしい。（注文系はREST API）1時間300回約定とか無理じゃね……。
+📝mmbot神教材まとめ
+pybottersがwebsocket使うのに便利らしい。
+refs:
+📝mmbot 📝Python3 MarketMaker(MM)BOTのサンプルロジックとソースコード 📝高頻度しかやらない話 📝仮想通貨高頻度botを大解説！新作botを実況してみた！【高頻度bot実況#1】 📝mmbot神教材まとめ Backlinks
+💹仮想通貨 </description>
+    </item>
+    
+  </channel>
+</rss>

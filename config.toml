@@ -8,6 +8,7 @@ pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = false
 pygmentsstyle = "solarized-dark256"
 enableGitInfo = true
+buildFuture = true
 
 [markup]
     [markup.goldmark]

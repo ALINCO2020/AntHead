@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>📝MMbot - AntHead</title>
+
+    
+    
+    <meta name="description" content="MMbotとは 📝mmbot
+これ見れば大体わかるけど自分もまとめる。
+📝Python3 MarketMaker(MM)BOTのサンプルロジックとソースコード
+とりあえず聖典。
+売り指値と買い指値をbest付近に両方出して両方約定させて小さな差額を得る。スプレッドを取るとか言ったりする。
+magito氏の記事ではより正しいスプレッドを計算する工夫がされてる。
+📝仮想通貨高頻度botを大解説！新作botを実況してみた！【高頻度bot実況#1】
+どうやら上下予測もして上がると予想したら売り指値を遠くに出したり、そもそも指値を出さないようにしたりするらしい。かしこい。
+📝高頻度しかやらない話
+高頻度＝mmbotではないらしい。超短期のほうが予測が楽みたいな話はわりとみんな言ってる。注文系の処理以外はwebsocketを使うらしい。（注文系はREST API）1時間300回約定とか無理じゃね……。
+📝mmbot神教材まとめ
+pybottersがwebsocket使うのに便利らしい。
+refs:
+📝mmbot 📝Python3 MarketMaker(MM)BOTのサンプルロジックとソースコード 📝高頻度しかやらない話 📝仮想通貨高頻度botを大解説！新作botを実況してみた！【高頻度bot実況#1】 📝mmbot神教材まとめ Backlinks
+💹仮想通貨 " />
+    <meta name="author" content="" /> <link rel="icon" href="/AntHead/favicon.ico" />
+    <link rel="stylesheet" href="/AntHead/css/style.css">
+    <link rel="stylesheet" href="/AntHead/css/syntax.css">
+
+</head><body class="bg:fade-84@dark font:fade-16@dark">
+    <nav class="w:full h:90 fixed bg:fade-84/.95@dark bg:white z:1000">
+    <div class="
+        h:full
+        w:full
+        max-w:1200
+        mx:auto
+        px:32
+        d:flex
+        align-items:center
+    ">
+        <div class="menu">
+            <a href="/AntHead/posts/202301061720-anthead/" class="mr-3">
+              
+              AntHead
+              
+            </a>
+            <a href="/AntHead/" class="mr-3">Latest</a>
+            <a href="/AntHead/lastmod/" class="mr-3">Lastmod</a>
+            <a href="/AntHead/tags/" class="mr-3">Tags</a>
+        </div>
+
+        <div class="ml:auto">
+              
+        </div>
+    </div>
+</nav><div class="d:flex flex:column@<=sm pt:90 px:24 jc:center gap:44 word-break:break-word">
+        <div class="max-w:700 w:full box:content-box">
+<article class="box:border-box pt:32">
+    <header class="mb:32">
+        <h2 class="font:40 font:extrabold">📝MMbot</h2>
+        <div class="mt:16 f:fade-60">
+            <time>2023/01/11</time>
+        </div>
+    </header><div class="
+    _:where(a):hover{text-decoration-color:fade}
+    _:where(a){text-decoration:2;underline;fade-10;_text-decoration-color:fade-70@dark}
+    _:where(blockquote){bl:5;solid;fade-76/.1;_bl:5;solid;fade-34/.1@dark}
+    _:where(code){font:90%;_v:middle}
+    _:where(code:not(.highlight_*,pre_*)){p:2;6;_r:4}
+    _:where(del){text-decoration:1;line-through;fade-68;_text-decoration-color:red-64@dark}
+    _:where(figcaption){text:14;_p:10;20;0;_width:fit;_mx:auto;_font:fade-56;_font:fade-57@dark}
+    _:where(h1){font:40;_font:extrabold}
+    _:where(h1,h2,h3)+:where(h1,h2,h3){mt:.5em}
+    _:where(h1,h2,h3,h4,h5,h6){mt:2em}
+    _:where(h2){mb:1em;_font:32}
+    _:where(h3){font:24}
+    _:where(h4){font:20}
+    _:where(h5){font:16}
+    _:where(h6){font:14}
+    _:where(li)::marker{font:fade-44;_font:fade-68@dark}
+    _:where(li){pl:.375em}
+    _:where(mark){text-decoration:1;underline;#fce016;_bg:transparent;_text-decoration-color:rgb(252;224;22/.5)@dark}
+    _:where(p,li){font:fade-76;_font:16;_line-height:1.65;_font:fade-34@dark}
+    _:where(p,pre,blockquote,figure,ul,ol,table){my:1.125em}
+    >:first-child{mt:0!}
+    _:where(pre){p:20;_r:8;_overflow:auto}
+    _:where(pre,code:not(.highlight_*)){bg:fade-2;_bg:fade-92!@dark}
+    _:where(strong,b,a,code:not(.highlight_*),mark,del){font:fade-92;_font:fade-12@dark}
+    _:where(table){width:full;_border-spacing:0}
+    _:where(td){v:baseline}
+    _:where(td,th):first-child{pl:0}
+    _:where(td,th):last-child{pr:0}
+    _:where(td,th){bb:1;solid;fade-92/.06;_p:6;_b:fade-4/.04@dark}
+    _:where(th){font:fade-78;_font:14;_text:left;_font:fade-12@dark}
+    _:where(th,p_code,li_code,a,mark){font:semibold;_font:medium@dark}
+    _:where(ul){list-style-type:disc}
+    _:where(ul,ol,blockquote){pl:1.5em}
+    _:where(video,img){max-width:full}
+    _:where(a,mark){text-underline-offset:3}
+"><h1 id="mmbotとは">MMbotとは</h1>
+<p>📝<a href="https://keido.site/notes/20220716164647/"  target="_blank" >mmbot</a><br>
+これ見れば大体わかるけど自分もまとめる。</p>
+<p>📝<a href="https://note.com/magimagi1223/n/n5fba7501dcfd"  target="_blank" >Python3 MarketMaker(MM)BOTのサンプルロジックとソースコード</a><br>
+とりあえず聖典。<br>
+売り指値と買い指値をbest付近に両方出して両方約定させて小さな差額を得る。スプレッドを取るとか言ったりする。<br>
+magito氏の記事ではより正しいスプレッドを計算する工夫がされてる。</p>
+<p>📝<a href="https://youtu.be/aaSAtX5r4Mg"  target="_blank" >仮想通貨高頻度botを大解説！新作botを実況してみた！【高頻度bot実況#1】</a><br>
+どうやら上下予測もして上がると予想したら売り指値を遠くに出したり、そもそも指値を出さないようにしたりするらしい。かしこい。</p>
+<p>📝<a href="http://bufujini.blog.jp/archives/39079539b.html"  target="_blank" >高頻度しかやらない話</a><br>
+高頻度＝mmbotではないらしい。超短期のほうが予測が楽みたいな話はわりとみんな言ってる。注文系の処理以外は<a href="https://alinco2020.github.io/AntHead/posts/202301112156-websocket/" >websocket</a>を使うらしい。（注文系はREST API）1時間300回約定とか無理じゃね……。</p>
+<p>📝<a href="https://yameteeeee.com/mmbot_textbook/"  target="_blank" >mmbot神教材まとめ</a><br>
+pybottersがwebsocket使うのに便利らしい。</p>
+<p><strong>refs:</strong></p>
+<ul>
+<li>📝<a href="https://keido.site/notes/20220716164647/"  target="_blank" >mmbot</a></li>
+<li>📝<a href="https://note.com/magimagi1223/n/n5fba7501dcfd"  target="_blank" >Python3 MarketMaker(MM)BOTのサンプルロジックとソースコード</a></li>
+<li>📝<a href="http://bufujini.blog.jp/archives/39079539b.html"  target="_blank" >高頻度しかやらない話</a></li>
+<li>📝<a href="https://youtu.be/aaSAtX5r4Mg"  target="_blank" >仮想通貨高頻度botを大解説！新作botを実況してみた！【高頻度bot実況#1】</a></li>
+<li>📝<a href="https://yameteeeee.com/mmbot_textbook/"  target="_blank" >mmbot神教材まとめ</a></li>
+</ul>
+<p><strong>Backlinks</strong></p>
+<ul>
+<li><a href="https://alinco2020.github.io/AntHead/posts/202301112137-crypto/" >💹仮想通貨</a></li>
+</ul>
+</div></article>
+<footer>
+    <p><strong>Tags</strong></p>
+    
+    <ul>
+        
+        <li><a href="https://alinco2020.github.io/AntHead/tags/invest/">invest</a></li>
+    
+        <li><a href="https://alinco2020.github.io/AntHead/tags/crypto/">crypto</a></li>
+    
+    </ul>
+</footer></div>
+    </div>
+</body>
+
+</html>

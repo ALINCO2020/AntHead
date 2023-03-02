@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023-01-17 19:18:02 &#43;0900 JST on AntHead</title>
+    <link>https://alinco2020.github.io/AntHead/lastmod/2023-01-17-191802-&#43;0900-jst/</link>
+    <description>Recent content in 2023-01-17 19:18:02 &#43;0900 JST on AntHead</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 17 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/lastmod/2023-01-17-191802-+0900-jst/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📝DLL</title>
+      <link>https://alinco2020.github.io/AntHead/posts/202301171909-dll/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alinco2020.github.io/AntHead/posts/202301171909-dll/</guid>
+      <description>DLLとは DLL：Dynamic Link Library（ダイナミック・リンク・ライブラリ）の略 中身はバイナリ windows で使う C++で作る Backlinks
+📝ExternalObject is 何 </description>
+    </item>
+    
+    <item>
+      <title>📝WebSocket</title>
+      <link>https://alinco2020.github.io/AntHead/posts/202301112156-websocket/</link>
+      <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alinco2020.github.io/AntHead/posts/202301112156-websocket/</guid>
+      <description>WebSocketとは 双方向に通信する通信プロトコル。速い。
+keywords
+非同期処理 async wait Backlinks
+⌨️Webプログラミング 📝MMbot </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023-01-13 06:48:07 &#43;0900 JST on AntHead</title>
+    <link>https://alinco2020.github.io/AntHead/lastmod/2023-01-13-064807-&#43;0900-jst/</link>
+    <description>Recent content in 2023-01-13 06:48:07 &#43;0900 JST on AntHead</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/lastmod/2023-01-13-064807-+0900-jst/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📝Extendscriptでリストのsumとmaxを求める</title>
+      <link>https://alinco2020.github.io/AntHead/posts/202301092218-sum-max/</link>
+      <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alinco2020.github.io/AntHead/posts/202301092218-sum-max/</guid>
+      <description>up: ⌨️Script reduceは使えないから愚直にfor文回せ。以上。</description>
+    </item>
+    
+  </channel>
+</rss>

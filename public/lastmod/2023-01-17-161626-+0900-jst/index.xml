@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023-01-17 16:16:26 &#43;0900 JST on AntHead</title>
+    <link>https://alinco2020.github.io/AntHead/lastmod/2023-01-17-161626-&#43;0900-jst/</link>
+    <description>Recent content in 2023-01-17 16:16:26 &#43;0900 JST on AntHead</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 17 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/lastmod/2023-01-17-161626-+0900-jst/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>⌨️jsonを読み込む関数</title>
+      <link>https://alinco2020.github.io/AntHead/posts/202301171531-read-json/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alinco2020.github.io/AntHead/posts/202301171531-read-json/</guid>
+      <description> up: ⌨️Script 頻繁に使う。
+function readJson(fileName) { var file = new File(dataPath + &amp;#34;/&amp;#34; + fileName + &amp;#34;.txt&amp;#34;); var currentLine; var jsonStuff = []; file.open(&amp;#34;r&amp;#34;); while (!file.eof) { currentLine = file.readln(); jsonStuff.push(currentLine); } file.close(); jsonStuff = jsonStuff.join(&amp;#34;&amp;#34;); var parsedJson = JSON.parse(jsonStuff); return parsedJson; } </description>
+    </item>
+    
+    <item>
+      <title>📝スクリプトから powershell を実行</title>
+      <link>https://alinco2020.github.io/AntHead/posts/202301171536-script-powershell/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alinco2020.github.io/AntHead/posts/202301171536-script-powershell/</guid>
+      <description> up: ⌨️Script 直接 powershell.exe は実行できないから cmd.exe から起動する。インストール済みフォント一覧を取得するときに使った。
+system.callSystem(&amp;#34;cmd.exe /c powershell.exe -c \&amp;#34; your code \&amp;#34;;&amp;#34;); </description>
+    </item>
+    
+    <item>
+      <title>📝スクリプトからフォントを設定</title>
+      <link>https://alinco2020.github.io/AntHead/posts/202301171545-set-font-style/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alinco2020.github.io/AntHead/posts/202301171545-set-font-style/</guid>
+      <description>up: ⌨️Script 一見奇妙な処理。
+var sourceText = selectedLayer.text.sourceText // 一旦 sourcceText の値を別の変数に格納 var textDocument = sourceText.value // フォントを変更して textDocument.font = &amp;#39;Arial&amp;#39; // 再び setValue sourceText.setValue(textDocument) フォントが対応してない場合は書き変わらないっぽい。英字フォントで日本語とか。</description>
+    </item>
+    
+    <item>
+      <title>📝そのレイヤー何レイヤー？</title>
+      <link>https://alinco2020.github.io/AntHead/posts/202301171555-what-layer/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alinco2020.github.io/AntHead/posts/202301171555-what-layer/</guid>
+      <description>up: ⌨️Script layer.matchName で判断。テキストレイヤーだったら&amp;quot;ADBE Text Layer&amp;quot;
+matchName一覧はここから</description>
+    </item>
+    
+    <item>
+      <title>📝設定ファイルの保存先</title>
+      <link>https://alinco2020.github.io/AntHead/posts/202301171602-setting-file/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alinco2020.github.io/AntHead/posts/202301171602-setting-file/</guid>
+      <description> up: ⌨️Script C:\Users\XXX\AppData\Roaming\Aescripts に保存されてることが多い。下記は設定ファイルの保存先のフォルダが無かったら作成するコード。
+var dataPath = Folder.decode(Folder.userData) + &amp;#39;/Aescripts/scriptname&amp;#39;; var f = new Folder(dataPath); if (!f.exists) f.create(); スクリプト実行ファイルのパスもついでに。(ScriptUI Panelsのパス)
+var filepass = new File(new File($.fileName).parent); </description>
+    </item>
+    
+    <item>
+      <title>⌨️位置にSetValueする関数</title>
+      <link>https://alinco2020.github.io/AntHead/posts/202301071101-position-setvalue/</link>
+      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://alinco2020.github.io/AntHead/posts/202301071101-position-setvalue/</guid>
+      <description>up: ⌨️Script 位置にSetValueするのがなかなか面倒くさいので関数を作った。けどあんまり使ってない。
+/** * ポジションを設定する関数 * @param {*} layer レイヤー * @param {*} XYarray 配列[x, y, z] * @param {boolean} isSetValueAtTime setValueAtTimeを使うかどうか * @param {*} time setValueAtTimeを使う場合の時間 */ function setPosition(layer, XYZarray, isSetValueAtTime, time) { try { var x = XYZarray[0] var y = XYZarray[1] var z = XYZarray[2] var position = layer.property(&amp;#39;ADBE Transform Group&amp;#39;).property(&amp;#39;ADBE Position&amp;#39;) // setValueを使う場合 if (!isSetValueAtTime) { // 次元分割されていない場合 if (!position.dimensionsSeparated) { position.setValue([x, y, z]) } else {// 次元分割されている場合 layer.</description>
+    </item>
+    
+  </channel>
+</rss>
