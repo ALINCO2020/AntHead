@@ -1,27 +1,3 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2023-02-21 15:32:53 +0900 +0900 on AntHead</title><link>https://alinco2020.github.io/AntHead/lastmod/2023-02-21-153253-+0900-+0900/</link><description>Recent content in 2023-02-21 15:32:53 +0900 +0900 on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/lastmod/2023-02-21-153253-+0900-+0900/index.xml" rel="self" type="application/rss+xml"/><item><title>⌨️Webプログラミング</title><link>https://alinco2020.github.io/AntHead/posts/202301091331-web/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301091331-web/</guid><description>Web系の投稿はここから辿れるようにする。
 ⌨️サイト制作(Hugo) 📝動画配信技術 📝HLS(HTTPライブストリーム) 📝DASH(Dynamic Adaptive Streaming over HTTP) 📝DRM(Digital Rights Management) 📝CDM(Content Decryption Module) 📝CDN(Content Delivery Network) 📝Websocket ⌨️WordPressテーマ自作 📝React Backlinks
-🐜What is AntHead?</description></item><item><title>⌨️サイト制作(Hugo)</title><link>https://alinco2020.github.io/AntHead/posts/202301062241-hugo/</link><pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301062241-hugo/</guid><description>Hogoを使用してmarkdownで記事を書き、github pagesで公開する。
-Hugoとは markdownから静的サイトを作れるやつ。テーマも用意されてる。
-📝Hugo と Github Pages でブログを作る
-バイナリーでインストールしたが、armとamdを間違えた。両者の違いを理解してなかった。amdが正解。
-📝CPUアーキテクチャの種類(x86, x64, arm)
-Markdownの書き方 そのうち慣れると思うけど一応メモ.
-📝Markdown記法 チートシート
-VSNotesで記事を書いてgithub pagesでサイト化 markdownでメモ帳を書けるVScodeの拡張機能。Hugo用に設定すればそのまま便利に使えそう。
-📝VSCode(Visual Studio Code)をメモ帳として使える拡張機能「VSNotes」が便利そう
-スニペットの編集。
-📝VS Codeでメモを取る(VSNotes)
-📝VSCode &amp;#43; VSNote &amp;#43; Hugoでより快適にmarkdownを書くためのテンプレート設定
-画像サーバー プログラムだけでなく映像のことも書いていくとなると画像用の別のサーバーが必要になってくる。
-📝ブログの画像配信サーバーとして Cloudflare R2 を使う
-📝Cloudflare R2の画像をCache APIでキャッシュして返すメモ
-テーマ自作 無料で公開されてるHolyを改造していく。WordPressのテーマのカスタマイズと似てる。
-検索欄とか目次とかあるだけでいい。極力シンプルに。
-📝Hugo のテーマを自作した
-カスタムCSSが上手くいかない。 上手く行った。
-TODO　カスタムcssまとめ 📝Hugo でカスタム CSS を適用して画像の配置をイジる
-CSSはこのサイトからざっくりコピペ。自作の流れもこれを主に参考にindex.html消したりlist.htmlいじったりした。
-📝Hugo のテーマを自作した
-リストが記事のdateをもとにソートされ、同じ日の記事は名前でソートされてしまっていたので、ファイル名でソートするようにlist.htmlを書き換えた。ファイル名はHHMMまで書いてるからこれで書き始めた順番通りに並ぶ。
-ファイルパスでソートする方法
-📝Explicitly order pages by file path - tips &amp;amp;amp; tricks - HUGO</description></item></channel></rss>
+🐜What is AntHead?</description></item></channel></rss>

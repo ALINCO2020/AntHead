@@ -136,6 +136,10 @@ TODO　カスタムcssまとめ
 <h1 id=最終更新日時順のページをヘッダーに追加>最終更新日時順のページをヘッダーに追加</h1>
 <p>config.toml の taxonomies に lastmod = &ldquo;lastmod&rdquo; を追加<br>
 [frontmatter] lastmod=":git" を追加して Git から更新日時を取得させる</p>
+<h1 id=新規追加した記事が何故か消える>新規追加した記事が何故か消える</h1>
+<p>作られた時間が未来の時間になってるっぽい。なぜかはよくわからん。
+config.toml に buildFuture = true を追加して解決<br>
+📝<a href=https://jdhao.github.io/2020/01/11/hugo_post_missing/ target=_blank>Hugo Post Missing (Hugo 博客文章缺失问题)</a></p>
 <p><strong>refs:</strong></p>
 <ul>
 <li>📝<a href=https://k-kaz-git.github.io/post/hugo-alink/ target=_blank>Hugo で外部サイトを新しいタブで開きたい。</a></li>
