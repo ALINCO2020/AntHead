@@ -7,6 +7,8 @@ tags:
   - wordpress
 ---
 
+- up: [⌨️Webプログラミング]({{<ref "posts/202301091331-web.md">}})  
+
 映像マン向けのテーマで痒い所に手が届くやつがない！作るぞ！！売るぞ！！！  
 
 # どんなテーマにする？
@@ -25,6 +27,3 @@ WordPress触るの久々すぎてローカル環境が動かなかったから�
 
 **refs:**
 - 📝[有料テーマ販売を行う人が知っておくべきこと](https://capitalp.jp/2017/04/18/for-premium-theme-and-plugin-authors/)  
-
-**Backlinks**
-- [⌨️Webプログラミング]({{<ref "posts/202301091331-web.md">}})  

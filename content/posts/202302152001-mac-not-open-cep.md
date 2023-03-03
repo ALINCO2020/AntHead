@@ -6,6 +6,8 @@ tags:
   - script
 ---
 
+- up: [⌨️Script]({{<ref "posts/202301071000-script.md">}})  
+
 ウィンドウ > エクステンション に名前は見えてるのにクリックしてもパネルが出てこない。
 
 # やったこと
@@ -16,4 +18,3 @@ tags:
 
 **Backlinks**
 - [📝CEP作る]({{<ref "posts/202301162210-cep.md">}})  
-- [⌨️Script]({{<ref "posts/202301071000-script.md">}})  
