@@ -35,14 +35,4 @@ TWS渋谷クロージング・イベント 2017年9月17日(日) 19:00－20:30 T
 レイアウト 中央に特徴的なロゴを配置して、画面端に白の枠を設けてる。
 キャッチコピーや登壇者の名前、イベントの情報などをボックス付きのテキストで枠に隣接するように配置してる。
 ロゴ ほぼ直線だけで構成されてる。カッコいい。スタイリッシュ。
-上の端から下の端まである。</description></item><item><title>⌨️WordPressテーマ自作</title><link>https://alinco2020.github.io/AntHead/posts/202301251914-wordpress-theme/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301251914-wordpress-theme/</guid><description>映像マン向けのテーマで痒い所に手が届くやつがない！作るぞ！！売るぞ！！！
-どんなテーマにする？ いっぱいカスタマイズできるやつ
-自作 📝XAMPPを使ってWordPressローカル環境を構築する全手順
-WordPress触るの久々すぎてローカル環境が動かなかったから一からやり直した（）
-ローカル環境
-最低限必要なファイルは index.php と style.css だけらしい。流石に一から作るのは面倒なので Underscores というテンプレートを使う。
-投稿をエクスポートしてインポート。デフォルトの機能だとメディアが引き継がれないのでプラグインで対応。
-あとはひたすらスタイルを適用していくだけかな？
-refs:
-📝有料テーマ販売を行う人が知っておくべきこと Backlinks
-⌨️Webプログラミング</description></item></channel></rss>
+上の端から下の端まである。</description></item></channel></rss>

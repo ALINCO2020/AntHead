@@ -16,14 +16,11 @@ Sufjan Stevens, Bryce Dessner, Nico Muhly, James McAlister - Venus (Official Vid
 U&amp;#43; / にしな【Music Video】
 BRAHMAN feat. ILL-BOSSTINO (THA BLUE HERB)「CLUSTER BLASTER 」MV</description></item><item><title>📝Adobe Illustrator備忘録</title><link>https://alinco2020.github.io/AntHead/posts/202302271859-adobe-ai-notes/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302271859-adobe-ai-notes/</guid><description>up: 📝技術Tips 平行投影みたいに傾ける シアーツールでn度傾けて普通の回転もn度傾ける</description></item><item><title>📝C4D備忘録</title><link>https://alinco2020.github.io/AntHead/posts/202302270845-c4d-notes/</link><pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302270845-c4d-notes/</guid><description>up: 📝技術Tips テキスト追加方法 テキストスプラインのところを長押ししたら出てくる。昔のバージョンではMoTextとかいう名前だったっぽい。
 テキストを縁取りしたい AEだと塗りをオフにして線をオンにするだけだが、C4Dだとひと手間必要。
-テキストを押し出し0にしてオブジェクト化する エッジモードで選択して右クリックし、「エッジをスプラインに」をクリック 出来たスプラインを使ってスイープ パネル上部で右クリック &amp;gt; マネージャーを閉じる でモード切り替えるボタンが消えた C4D再起動したら復活した。</description></item><item><title>🎬技術Tips</title><link>https://alinco2020.github.io/AntHead/posts/202302262356-tips/</link><pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302262356-tips/</guid><description>Tipsや備忘録をここにまとめる。
+テキストを押し出し0にしてオブジェクト化する エッジモードで選択して右クリックし、「エッジをスプラインに」をクリック 出来たスプラインを使ってスイープ パネル上部で右クリック &amp;gt; マネージャーを閉じる でモード切り替えるボタンが消えた C4D再起動したら復活した。</description></item><item><title>🎬技術Tips</title><link>https://alinco2020.github.io/AntHead/posts/202302262356-tips/</link><pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302262356-tips/</guid><description>up: 🐜What is AntHead? Tipsや備忘録をここにまとめる。
 📝C4D備忘録
 📝C4DでGG分解（手動）
-📝Adobe Illustrator備忘録
-Backlinks
-🐜What is AntHead?</description></item><item><title>🎬映像表現課題</title><link>https://alinco2020.github.io/AntHead/posts/202302262133-visual-expression-issues/</link><pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302262133-visual-expression-issues/</guid><description>課題は多い。全部倒す。
-モーショングラフィックス グラデーションのかかったシェイプ 視線誘導（一つの円を目で追わせるような） 長く連続させるカット シームレストランジション デザイン 3DCG キャラクターモデリング キャラクターアニメーション カメラワーク クロスシミュレーション ライティング セルルック 漫画キャラモーション 手描き 3次元的な動き アニメーション エフェクト作画 Backlinks
-🐜What is AntHead?</description></item><item><title>📝C4DでGG分解（手動）</title><link>https://alinco2020.github.io/AntHead/posts/202302262350-c4d-gg-bunkai/</link><pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302262350-c4d-gg-bunkai/</guid><description>up: 📝技術Tips まずテキストを追加して押し出しを0にする。
+📝Adobe Illustrator備忘録</description></item><item><title>🎬映像表現課題</title><link>https://alinco2020.github.io/AntHead/posts/202302262133-visual-expression-issues/</link><pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302262133-visual-expression-issues/</guid><description> up: 🐜What is AntHead? 課題は多い。全部倒す。
+モーショングラフィックス グラデーションのかかったシェイプ 視線誘導（一つの円を目で追わせるような） 長く連続させるカット シームレストランジション デザイン 3DCG キャラクターモデリング キャラクターアニメーション カメラワーク クロスシミュレーション ライティング セルルック 漫画キャラモーション 手描き 3次元的な動き アニメーション エフェクト作画</description></item><item><title>📝C4DでGG分解（手動）</title><link>https://alinco2020.github.io/AntHead/posts/202302262350-c4d-gg-bunkai/</link><pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302262350-c4d-gg-bunkai/</guid><description>up: 📝技術Tips まずテキストを追加して押し出しを0にする。
 テキストを選択して右クリックし、「オブジェクトを一体化」をクリック。
 ポリゴンモードに変更し、各パーツをライブ選択で選択して右クリック。「選択部分を別オブジェクトに」をクリックすればそのパーツが別のオブジェクトに分解される。これをチマチマ繰り返す。</description></item><item><title>🎬デザイン研究2023-02-22</title><link>https://alinco2020.github.io/AntHead/posts/202302221632-design-study-2023-02-22/</link><pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302221632-design-study-2023-02-22/</guid><description>up: 🎬デザイン研究 レイアウト 枠
 枠の形に沿って文字並べて傾ける
@@ -49,10 +46,8 @@ Backlinks
 白黒写真
 質感 タイトルにグランジ
 どこに惹かれたか 文字のインパクトと赤
-模写</description></item><item><title>📝グラフィックデザイン</title><link>https://alinco2020.github.io/AntHead/posts/202302211705-graphic-design/</link><pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302211705-graphic-design/</guid><description> グラフィックデザインは「型」が大切。色々な型を知って、真似して、創って、そこで自分の得意な型や好きな型を見つける。そして自分なりの色やアレンジを加える。 これを続けるといつか自分だけの型が出来上がる。そしてその型を求めてお客さんやファンが増える。
-引用元
-Backlinks
-🎬デザイン研究</description></item><item><title>📝デザイン模写による気づき</title><link>https://alinco2020.github.io/AntHead/posts/202302212111-design-study-knowledge/</link><pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302212111-design-study-knowledge/</guid><description>up: 🎬デザイン研究 原色は使わない カラーピッカーの一番右上とか一番左上とか、端っこにつけることはまずない。白黒も基本ダメ。
+模写</description></item><item><title>📝グラフィックデザイン</title><link>https://alinco2020.github.io/AntHead/posts/202302211705-graphic-design/</link><pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302211705-graphic-design/</guid><description>up: 🎬デザイン研究 グラフィックデザインは「型」が大切。色々な型を知って、真似して、創って、そこで自分の得意な型や好きな型を見つける。そして自分なりの色やアレンジを加える。 これを続けるといつか自分だけの型が出来上がる。そしてその型を求めてお客さんやファンが増える。
+引用元</description></item><item><title>📝デザイン模写による気づき</title><link>https://alinco2020.github.io/AntHead/posts/202302212111-design-study-knowledge/</link><pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302212111-design-study-knowledge/</guid><description>up: 🎬デザイン研究 原色は使わない カラーピッカーの一番右上とか一番左上とか、端っこにつけることはまずない。白黒も基本ダメ。
 質感を足す グランジだったりノイズだったり
 テキストの文字サイズはセクションごとに変える フォントの種類はあまり変えない。weightは変えても良い。
 装飾用のテキストのサイズは10px以下とかでも全然いい ほとんど読めなくても構わない。
@@ -193,7 +188,7 @@ Xガン（済） Xガン ショットガンタイプ（済） Yガン Zガン �
 漢字 いいかんじ。
 文字はともだち 絶対に本来の使い方をしてやらないぞという意思を感じる。
 エヴァンゲリオン 文字がギチギチに詰まってたらそれはもうエヴァンゲリオンなのよ。
-線いっぱい引くやつ 細ければ細かいほど良い。</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911-design/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911-design/</guid><description>デザインに関する投稿はここにまとめる。
+線いっぱい引くやつ 細ければ細かいほど良い。</description></item><item><title>🎬デザイン研究</title><link>https://alinco2020.github.io/AntHead/posts/202301080911-design/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301080911-design/</guid><description> up: 🐜What is AntHead? デザインに関する投稿はここにまとめる。
 いいなと思ったデザインはとにかく分解して考える。形、色、書体、レイアウト(余白)、どこに惹かれるのか。それを繰り返すと自分がどこに惹かれることが多いのか分かる。
 そしてそれは自分が苦手としていることと一致するんじゃないかと思っている。
 坂東進亮氏のツイートから引用
@@ -212,8 +207,7 @@ Xガン（済） Xガン ショットガンタイプ（済） Yガン Zガン �
 デザインの種類 ロゴデザイン グラフィックデザイン 広告デザイン チラシデザイン Webデザイン ポスターデザイン UI UXデザイン パッケージデザイン 情報デザイン（インフォグラフィック） デザインの構成要素 Line（線） Color（色） Shape（形状） Texture（質感） Space（空間） Form（外形、三次元の形） Typography（タイポグラフィー） ref: 📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」
 線、色、シェイプは当然のように使うけど他はあまり意識したことないかも。
 refs:
-📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」 📝初心者でも分かりやすい、グラフィックデザインの理論と原則 Backlinks
-🐜What is AntHead?</description></item><item><title>🎬2023年01月よかった映像</title><link>https://alinco2020.github.io/AntHead/posts/202301071651-good-movies-2023-01/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071651-good-movies-2023-01/</guid><description>up: 🎬よかった映像まとめ 💗2022 sakuga 備忘録
+📝感覚派デザイナーも知っておいて損はない「デザインの要素と原則」 📝初心者でも分かりやすい、グラフィックデザインの理論と原則</description></item><item><title>🎬2023年01月よかった映像</title><link>https://alinco2020.github.io/AntHead/posts/202301071651-good-movies-2023-01/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071651-good-movies-2023-01/</guid><description>up: 🎬よかった映像まとめ 💗2022 sakuga 備忘録
 複合MAD的なシーン選びが良い
 💙2022 works by @chiu_hans (2btwq8RCjIMpS9t2)
 冒頭のVScodeの画面が浮いてるところ好き。透明感ある3DCGにUIが乗るとMicrosoftのPVを連想する。
@@ -234,6 +228,5 @@ UIがぶち壊れるの反射的にいいね押してしまう
 💙REEL 2022 by @Lazy_Mori (D3mOB4UN6anjcXA-)
 0:07辺りのワイヤーフレームと下絵のカットでいいね押した気がする。たぶん。
 💗Moodmaker
-道路が回転して斜めの赤になるところが良い</description></item><item><title>🎬よかった映像まとめ</title><link>https://alinco2020.github.io/AntHead/posts/202301071605-good-movies/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071605-good-movies/</guid><description>MAD研究フォルダー行きになった動画をリストアップ。基本YouTubeとTwitter。
-2023 01 02 03 Backlinks
-🐜What is AntHead?</description></item></channel></rss>
+道路が回転して斜めの赤になるところが良い</description></item><item><title>🎬よかった映像まとめ</title><link>https://alinco2020.github.io/AntHead/posts/202301071605-good-movies/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301071605-good-movies/</guid><description> up: 🐜What is AntHead? MAD研究フォルダー行きになった動画をリストアップ。基本YouTubeとTwitter。
+2023 01 02 03</description></item></channel></rss>
