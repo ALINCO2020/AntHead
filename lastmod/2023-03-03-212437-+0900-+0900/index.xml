@@ -22,11 +22,6 @@ ROEの分母に借りてきた金足しただけ。それだけ。
 ROEよりROAの方が低かったら「お前いっぱい借金してるだけやん&amp;hellip;」となる。</description></item><item><title>📝グラフィックデザイン</title><link>https://alinco2020.github.io/AntHead/posts/202302211705-graphic-design/</link><pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302211705-graphic-design/</guid><description>up: 🎬デザイン研究 グラフィックデザインは「型」が大切。色々な型を知って、真似して、創って、そこで自分の得意な型や好きな型を見つける。そして自分なりの色やアレンジを加える。 これを続けるといつか自分だけの型が出来上がる。そしてその型を求めてお客さんやファンが増える。
 引用元</description></item><item><title>📝Macで署名してない開発中のCEPパネルが起動しない</title><link>https://alinco2020.github.io/AntHead/posts/202302152001-mac-not-open-cep/</link><pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302152001-mac-not-open-cep/</guid><description> up: ⌨️Script ウィンドウ &amp;gt; エクステンション に名前は見えてるのにクリックしてもパネルが出てこない。
 やったこと デバッグモードをオンに Mac再起動 Mac10.9以降に搭載された環境設定をキャッシュするプログラムを強制終了(cfprefsd) ZXP Installerをインストール ←これで解決 Backlinks
-📝CEP作る</description></item><item><title>📝React</title><link>https://alinco2020.github.io/AntHead/posts/202302012251-react/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302012251-react/</guid><description> up: ⌨️Webプログラミング 📝今から始めるReact入門 〜 React の基本
-📝npx webpack serveで Cannot GET / になる
-結局やってることはDOM操作（なんか仮想DOMとかいうことやって高速化したりしてるらしいけど）
-webpack で変換する必要あり。useEffectが最初に1回呼ばれる。
-Backlinks
 📝CEP作る</description></item><item><title>💹もうリッチマン先生モデルだけで良いんじゃないかな……</title><link>https://alinco2020.github.io/AntHead/posts/202301311940-richman-is-god/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301311940-richman-is-god/</guid><description>up: 💹仮想通貨 長らく止めてたけどバックテストしてみたら停止後も普通に勝ててたっぽいので再開。月利3%の記録を見せる。
 もう高頻度とかやらなくて良いんじゃないかな……わからんし……勝てんし……。</description></item><item><title>⌨️WordPressテーマ自作</title><link>https://alinco2020.github.io/AntHead/posts/202301251914-wordpress-theme/</link><pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202301251914-wordpress-theme/</guid><description> up: ⌨️Webプログラミング 映像マン向けのテーマで痒い所に手が届くやつがない！作るぞ！！売るぞ！！！
 どんなテーマにする？ いっぱいカスタマイズできるやつ

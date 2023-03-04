@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2023-03-04 12:14:09 +0900 +0900 on AntHead</title><link>https://alinco2020.github.io/AntHead/lastmod/2023-03-04-121409-+0900-+0900/</link><description>Recent content in 2023-03-04 12:14:09 +0900 +0900 on AntHead</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://alinco2020.github.io/AntHead/lastmod/2023-03-04-121409-+0900-+0900/index.xml" rel="self" type="application/rss+xml"/><item><title>📝React</title><link>https://alinco2020.github.io/AntHead/posts/202302012251-react/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://alinco2020.github.io/AntHead/posts/202302012251-react/</guid><description> up: ⌨️Webプログラミング 📝今から始めるReact入門 〜 React の基本
+📝npx webpack serveで Cannot GET / になる
+結局やってることはDOM操作（なんか仮想DOMとかいうことやって高速化したりしてるらしいけど）
+webpack で変換する必要あり。useEffectが最初に1回呼ばれる。
+Backlinks
+📝CEP作る</description></item></channel></rss>
