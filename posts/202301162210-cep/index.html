@@ -126,6 +126,11 @@ _:where(a,mark){text-underline-offset:3}"><ul>
 Macだとdocumentにkeydownは無理そう。諦めてmousemoveとevent.ctrlKeyで対応。</p>
 <h1 id=右クリックで出てくるメニューを変更する方法>右クリックで出てくるメニューを変更する方法</h1>
 <p>context menuと呼ばれる。todo</p>
+<h1 id=ファイル保存ダイアログ-ファイル読み込みダイアログ>ファイル保存ダイアログ ファイル読み込みダイアログ</h1>
+<div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#0087ff>const</span> fp = cep.fs.showSaveDialogEx(<span style=color:#00afaf>&#39;Export Presets&#39;</span>, desktopPath, [<span style=color:#00afaf>&#39;txt&#39;</span>])
+<span style=color:#0087ff>const</span> fp = cep.fs.showOpenDialog(<span style=color:#d75f00>false</span>, <span style=color:#d75f00>false</span>, <span style=color:#00afaf>&#39;Import Presets&#39;</span>, desktopPath, [<span style=color:#00afaf>&#39;txt&#39;</span>])
+</code></pre></div><p>📝<a href=https://kawano-shuji.com/justdiary/2019/04/28/photoshop-extension%E3%81%AE%E9%96%8B%E7%99%BA13-%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC%E3%81%A8%E3%81%AE%E3%82%84%E3%82%8A%E3%81%A8/ target=_blank>Photoshop Extensionの開発13 ローカルディレクトリーとのやりとり</a><br>
+📝<a href=https://kawano-shuji.com/justdiary/2020/09/08/cep-fs-showopendialog%E3%81%AE%E4%BD%BF%E7%94%A8%E5%A4%89%E6%9B%B4/ target=_blank>cep.fs.showOpenDialogの仕様変更?</a></p>
 <h1 id=require-is-not-defined>require is not defined.</h1>
 <p>manifest.xml に</p>
 <div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml><span style=color:#0087ff>&lt;CEFCommandLine&gt;</span>
