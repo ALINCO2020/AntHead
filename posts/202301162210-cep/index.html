@@ -126,6 +126,13 @@ _:where(a,mark){text-underline-offset:3}"><ul>
 Macだとdocumentにkeydownは無理そう。諦めてmousemoveとevent.ctrlKeyで対応。</p>
 <h1 id=右クリックで出てくるメニューを変更する方法>右クリックで出てくるメニューを変更する方法</h1>
 <p>context menuと呼ばれる。todo</p>
+<h1 id=require-is-not-defined>require is not defined.</h1>
+<p>manifest.xml に</p>
+<div class=highlight><pre tabindex=0 style=color:#8a8a8a;background-color:#1c1c1c;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml><span style=color:#0087ff>&lt;CEFCommandLine&gt;</span>
+  <span style=color:#0087ff>&lt;Parameter&gt;</span>--enable-nodejs<span style=color:#0087ff>&lt;/Parameter&gt;</span>
+  <span style=color:#0087ff>&lt;Parameter&gt;</span>--mixed-context<span style=color:#0087ff>&lt;/Parameter&gt;</span>
+<span style=color:#0087ff>&lt;/CEFCommandLine&gt;</span>
+</code></pre></div><p>を追加。manifest.xml は更新したらAE再起動しなきゃダメ。</p>
 </div></article>
 <footer>
 <p><strong>Tags</strong></p>
